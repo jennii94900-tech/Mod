@@ -1,0 +1,60 @@
+type: LiquidTurret
+name: "cold"
+description: "Надшвидка рідинна турель. Заливає ворогів концентрованою Рідуною, миттєво заморожуючи їх."
+size: 1
+health: 380
+range: 147
+
+// --- ШВИДКІСТЬ ТА РОЗКИД ---
+reload: 2.8          // Стріляє майже миттєво (дуже швидко!)
+inaccuracy: 6        // Розкид 3, як ти просив (ефект розбризкування)
+recoil: 2
+
+shootSound: splash
+
+ammoTypes: {
+  // Твоя унікальна рідина
+  "ochpoch-mob-riduna": {
+    type: LiquidBulletType
+    liquid: "ochpoch-mob-riduna"
+    damage: 18       // Трохи збалансував шкоду під таку шалену швидкість
+    speed: 7         // Прискорив політ струменя
+    lifetime: 22
+    status: freezing
+    statusDuration: 300 
+    orbSize: 3
+    puddleSize: 8
+    drag: 0.01
+  }
+  
+  "water": {
+    type: LiquidBulletType
+    liquid: water
+    damage: 4
+    speed: 6
+    lifetime: 25
+    status: wet
+    ammoMultiplier: 1.5
+  }
+}
+
+requirements: [
+  "ochpoch-mob-cristal/45"
+  "silicon/12"
+]
+
+category: turret
+
+research: {
+  // Звернув увагу на твій parent: "v1-turre" (можливо, ти так і хотів без 't'?)
+  parent: "ochpoch-mob-v1-turre" 
+  planet: hooligan
+  
+  objectives: [
+    {
+      type: "SectorComplete"
+      preset: "ochpoch-mob-19"
+    }
+  ]
+}
+

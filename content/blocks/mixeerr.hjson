@@ -1,0 +1,52 @@
+type: GenericCrafter
+name: "Кріо-Міксер"
+description: "Синтезує Фрост-паливо з Рідуни та Кристалів під високим тиском."
+size: 2
+health: 320
+
+// Час виготовлення (в кадрах)
+craftTime: 60
+
+// --- СПОЖИВАННЯ ---
+consumes: {
+  power: 1.5
+  items: [
+    "ochpoch-mob-cristal/1"
+  ]
+  liquid: {
+    liquid: "ochpoch-mob-riduna"
+    amount: 0.2
+  }
+}
+
+// --- РЕЗУЛЬТАТ ---
+outputLiquid: {
+  liquid: "ochpoch-mob-syblinozen"
+  amount: 0.2
+}
+
+requirements: [
+  "ochpoch-mob-aluminum/50",
+  "ochpoch-mob-cristal/20"
+]
+
+category: crafting
+
+// --- ТВОЇ СПРАЙТИ ---
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault // Малює основу (frost-mixer.png)
+    }
+    {
+      type: DrawLiquidRegion // Малює колір рідини всередині
+      drawLiquid: "ochpoch-mob-syblinozen"
+    }
+  ]
+}
+
+research: {
+  parent: "ochpoch-mob-diamond-press" // Або твій попередній завод
+  planet: "hooligan"
+}

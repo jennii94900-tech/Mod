@@ -1,0 +1,19 @@
+type: CoreBlock
+name: "Ядро: Надія"
+size: 3
+health: 4000
+itemCapacity: 5000
+unitCapModifier: 14
+unitType: "ochpoch-mob-twinkle"
+
+// Порожні дужки, щоб гра не підставляла Атом через брак ресурсів
+requirements: [ ]
+
+category: effect
+alwaysUnlocked: true
+research: {
+  root: true
+  name: "Hooligan"
+  planet: hooligan
+}
+

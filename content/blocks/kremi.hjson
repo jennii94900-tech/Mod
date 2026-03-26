@@ -1,0 +1,40 @@
+type: GenericCrafter
+name: "Алюмінієвий синтезатор кремнію"
+description: "Спеціалізований завод для планети Алюмінія. Перетворює алюміній та кристали на кремній."
+size: 1
+health: 320
+hasPower: true
+hasItems: true
+itemCapacity: 20
+
+craftTime: 45 
+
+consumes: {
+  power: 1.2
+  items: {
+    items: [
+      ochpoch-mob-aluminum/2
+      ochpoch-mob-refined-aluminum/1
+    ]
+  }
+}
+
+outputItem: silicon/2
+
+requirements: [
+  ochpoch-mob-aluminum/40
+]
+
+category: crafting
+research: ochpoch-mob-mixer
+
+// --- ВІЗУАЛ ПОВНІСТЮ ОЧИЩЕНО ---
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+  ]
+}
+

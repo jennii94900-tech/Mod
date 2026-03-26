@@ -1,0 +1,44 @@
+type: MassDriver
+name: "Алюмінієва катапульта"
+description: "Використовує магнітне прискорення для перекидання великих партій ресурсів на величезні відстані."
+size: 1
+health: 640
+
+// --- ХАРАКТЕРИСТИКИ ---
+range: 492             // Дальність (далі за стандартну)
+reload: 90            // Час перезарядки між пострілами
+itemCapacity: 60       // Скільки ресурсів збирає в один "снаряд"
+
+consumes: {
+  power: 0.3           // Споживає енергію для пострілу
+}
+
+requirements: [
+  ochpoch-mob-aluminum/12
+]
+
+category: distribution
+research: ochpoch-mob-core
+
+// --- ВІЗУАЛ (DRAWERS) ---
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    // Малює "дуло" катапульти, яке обертається до цілі
+    {
+      type: DrawRegion
+      suffix: "-shooter"
+      // Використовуємо прогрес перезарядки для анімації віддачі
+      recoil: 4
+    }
+    // Підсвітка при пострілі
+    {
+      type: DrawGlowRegion
+      suffix: "-glow"
+      color: 00f2ff
+    }
+  ]
+}

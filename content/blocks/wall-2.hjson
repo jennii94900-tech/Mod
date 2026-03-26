@@ -1,0 +1,14 @@
+type: Wall
+name: "Large Aluminum Wall"
+description: "Надміцна броньована стіна. Витримує колосальний урон, перевершуючи торієві аналоги."
+size: 1
+// Твоє замовлення: 6000 здоров'я
+health: 3100 
+armor: 16 // Додав трохи більше броні, щоб відповідати такому високому HP
+
+requirements: [
+  ochpoch-mob-aluminum/14
+]
+
+category: defense
+research: wall

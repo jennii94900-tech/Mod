@@ -1,0 +1,22 @@
+type: PowerNode
+name: "aluminum crystal node"
+description: "Транслює енергію краще за обичний посилений корпус із алюмінію."
+size: 1
+health: 120
+
+// --- ХАРАКТЕРИСТИКИ ---
+maxNodes: 12
+laserRange: 15
+
+// Колір лазера (блакитний неон)
+laserColor1: 00f2ff
+laserColor2: ffffff
+
+requirements: [
+  ochpoch-mob-aluminum/10
+  ochpoch-mob-cristal/6
+]
+
+category: power
+research: ochpoch-mob-vyso-2
+

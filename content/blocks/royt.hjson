@@ -1,0 +1,12 @@
+type: Router
+name: "aluminum router"
+description: "Розподіляє вхідні ресурси на три сусідні сторони. Виготовлений із легкого алюмінію."
+size: 1
+health: 60
+
+requirements: [
+  "ochpoch-mob-aluminum/3"
+]
+
+category: distribution
+research: "ochpoch-mob-surge-alloy-conveyor"

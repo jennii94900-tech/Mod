@@ -1,0 +1,48 @@
+type: GenericCrafter
+name: "Aluminum Ammo Factory"
+description: "Високопродуктивна лінія виробництва. Спеціалізується на масовому створенні алюмінієвих боєприпасів."
+size: 3
+health: 550
+hasPower: true
+hasItems: true
+// РІДИНУ ПРИБРАНО
+hasLiquids: false
+
+craftTime: 80 
+
+consumes: {
+  power: 2.5
+  items: {
+    items: [
+      ochpoch-mob-aluminum/3         
+      ochpoch-mob-refined-aluminum/1 
+      ochpoch-mob-krista/6                    
+    ]
+  }
+}
+
+// ВИХІД: ТЕПЕР 4 ПАЧКИ ПАТРОНІВ
+outputItem: ochpoch-mob-patron/4
+
+requirements: [
+  ochpoch-mob-aluminum/120
+  silicon/80
+]
+
+category: crafting
+research: mixer
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    // Рідкий візуал прибрано, залишено лише верхню кришку
+    {
+      type: DrawRegion
+      suffix: "-top"
+    }
+  ]
+}
+

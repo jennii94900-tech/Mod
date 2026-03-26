@@ -1,0 +1,14 @@
+type: Junction
+name: "Алюмінієве перехрестя"
+description: "Дозволяє двом конвеєрним стрічкам перетинатися. Використовує алюмінієві напрямні."
+size: 1
+health: 50
+speed: 30
+capacity: 12
+
+requirements: [
+  "ochpoch-mob-aluminum/5"
+]
+
+category: distribution
+research: "ochpoch-mob-royt"

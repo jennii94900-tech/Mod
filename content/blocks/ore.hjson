@@ -1,0 +1,6 @@
+type: OreBlock
+// Назва має збігатися зі спрайтом без цифр у кінці
+name: "ore-aluminum" 
+itemDrop: aluminum
+variants: 2 // Вказуємо, що у нас 3 варіанти спрайту
+

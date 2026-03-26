@@ -1,0 +1,53 @@
+type: LaserTurret
+name: "Frost-Ray"
+description: "Випускає потужний кріогенний промінь. Потребує постійного охолодження Фрост-паливом для підтримки фокусу."
+size: 2
+health: 1200
+category: turret
+
+range: 220
+shootDuration: 197 // Тривалість пострілу (3 секунди променя)
+shootSound: beam
+
+// --- СПОЖИВАННЯ ---
+consumes: {
+  power: 6.7
+  liquid: {
+    liquid: "ochpoch-mob-syblinozen" // Твоя нова синя рідина!
+    amount: 0.3
+    booster: false 
+  }
+}
+
+shootType: {
+  type: ContinuousLaserBulletType
+  damage: 45
+  length: 220
+  width: 6
+  
+  // Колір променя (сніжно-синій)
+  colors: [7da4ff, 8aa3f4, ffffff]
+  
+  // Ефект замороження
+  status: freezing
+  statusDuration: 120
+  
+  // Частинки снігу при влучанні
+  hitEffect: hitLancer
+  drawSize: 420
+}
+
+reload: 60
+recoil: 0
+rotateSpeed: 3.5
+
+requirements: [
+  "ochpoch-mob-aluminum/250",
+  "ochpoch-mob-refined-aluminum/120",
+  "ochpoch-mob-cristal/80"
+]
+
+research: {
+  parent: "ochpoch-mob-turret"
+  planet: "hooligan"
+}

@@ -1,0 +1,20 @@
+type: Drill
+name: "Aluminum Drill"
+description: "A powerful mechanical drill that operates without power. Efficient for early resource extraction."
+size: 2
+health: 350
+// Tier 3 дозволяє видобувати титан
+tier: 3
+// Швидкість буріння (чим менше число, тим швидше)
+drillTime: 243
+
+requirements: [
+  // Зробимо її доступною за мідь, як ти і хотів
+  aluminum/50
+]
+
+category: production
+
+// Додаємо в дерево технологій після звичайного бура
+research: mal-dionite-drill  
+

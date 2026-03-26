@@ -1,0 +1,25 @@
+type: Pump
+name: "aluminum pump"
+description: "Проста механічна помпа для викачування Рідуни з озер. Не потребує енергії."
+size: 1
+health: 140
+
+// --- ХАРАКТЕРИСТИКИ ---
+// Швидкість викачування (чим більше, тим швидше)
+pumpAmount: 0.11
+// Чи є в неї внутрішній бак
+hasLiquids: true
+liquidCapacity: 40
+
+// Вимоги для побудови (твій алюміній)
+requirements: [
+  "ochpoch-mob-aluminum/26",
+  "ochpoch-mob-cristal/4"
+]
+
+category: liquid
+
+research: {
+  parent: "ochpoch-mob-aluminum"
+  planet: "hooligan"
+}
