@@ -1,0 +1,48 @@
+type: tank
+name: "Aluminum Bastion"
+description: "Спеціалізована мобільна пускова установка. Стріляє потужними ракетами 'Rage' на великі відстані."
+
+speed: 0.35
+health: 1256
+armor: 13
+hitSize: 19
+rotateSpeed: 2.2
+faceTarget: false
+omniMovement: true
+
+treadRects: [
+  {
+    x: 18
+    y: -30
+    width: 20
+    height: 60
+  }
+]
+
+weapons: [
+  {
+    name: "bastion-cannon"
+    x: 0
+    y: -2.8
+    rotate: true
+    rotateSpeed: 3 
+    mirror: false
+    reload: 240 
+    
+    // ЗАЛИШИВ ТВОЮ НАЗВУ ЗВУКУ
+    shootSound: rokket 
+    
+    bullet: {
+      type: BulletType
+      spawnUnit: ochpoch-mob-rage-nickel-missle 
+      damage: 0
+      speed: 0
+      lifetime: 1
+      shootEffect: shootBig
+      smokeEffect: shootBigSmoke
+    }
+  }
+]
+
+research: rec
+

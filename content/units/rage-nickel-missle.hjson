@@ -1,0 +1,114 @@
+type: missile
+name: "Rage Nickel Missile"
+description: "Швидка розривна ракета. Оснащена вбудованою системою підриву 'Rage'."
+template: MissileUnitType
+flying: true
+lowAltitude: true
+playerControllable: true
+logicControllable: false
+speed: 7
+physics: false
+lifetime: 50
+hitSize: 2.4
+trailLength: 3
+useUnitCap: false
+health: 390
+trailColor: 6f939a
+
+range: 3
+loopSound: missileTrail
+loopSoundVolume: 0.3
+
+abilities: [
+  {
+    type: MoveEffectAbility
+    y: -4
+    effect: missileTrailShort
+    interval: 0.4
+    color: 6f939a
+    teamColor: false
+  }
+]
+
+missileAccelTime: 20
+targetAir: true
+targetUnderBlocks: false
+
+engineColor: 6f939a
+engineLayer: 114
+
+hidden: true
+targetable: true
+
+weapons: [
+  {
+    // Назва зброї (гра шукатиме rage-launcher.png, якщо його немає - малюватиметься "чиста" ракета)
+    name: "rage-launcher" 
+    
+    // --- ПРИБРАНО ПАРАМЕТРИ, ЩО ВИКЛИКАЛИ ПОМИЛКИ ---
+    
+    mirror: false 
+    x: 0
+    y: 0
+    
+    reload: 1
+    shootOnDeath: true
+    shootCone: 360
+    shake: 2
+    
+    bullet: {
+      type: ExplosionBulletType
+      splashDamage: 590
+      splashDamageRadius: 38
+      buildingDamageMultiplier: 0.25
+      
+      despawnEffect: {
+        type: ExplosionEffect
+        lifetime: 75
+        waveStroke: 6
+        waveLife: 8.7
+        waveColor: ffffff
+        sparkColor: 9aafaa
+        waveRad: 50
+        smokeSize: 7
+        smokes: 7
+        smokeColor: 799ba1
+        sparks: 11
+        sparkRad: 45
+        sparkLen: 7
+        sparkStroke: 2.6
+      }
+      
+      fragBullets: 5
+      fragVelocityMin: 0.5
+      fragRandomSpread: 130
+      fragBullet: {
+        type: BasicBulletType
+        width: 16
+        height: 16
+        speed: 4
+        lifetime: 50
+        damage: 50
+        backColor: 3d5158
+        frontColor: 9aafaa
+        trailColor: 3d5158
+        trailWidth: 2
+        trailLength: 2.5
+        
+        fragBullets: 1
+        fragBullet: {
+          type: ExplosionBulletType
+          splashDamage: 100
+          splashDamageRadius: 18
+          despawnEffect: {
+             type: ExplosionEffect
+             waveColor: ffffff
+             sparkColor: 9aafaa
+             waveRad: 30
+          }
+        }
+      }
+    }
+  } 
+]
+
