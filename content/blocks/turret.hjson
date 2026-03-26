@@ -1,0 +1,101 @@
+type: ItemTurret
+name: "Salvation"
+description: "Вогняна установка 'Шукач'. Вистрілює 4 самонавідні магматичні стріли, що підпалюють ціль та розлітаються на осколки."
+size: 3
+health: 2100
+range: 480 
+reload: 50 
+ammoPerShot: 4
+maxAmmo: 100
+rotateSpeed: 10
+
+// ВИПРАВЛЕНО: Прибрано коментар після назви звуку
+shootSound: gun 
+inaccuracy: 12 
+
+shoot: {
+  type: ShootSpread
+  shots: 1
+  spread: 12
+}
+
+ammoTypes: {
+  ochpoch-mob-refined-aluminum: {
+    type: BasicBulletType
+    damage: 75 
+    speed: 8
+    lifetime: 60
+    
+    makeFire: true           
+    incendAmount: 3        
+    incendChance: 1        
+    status: burning       
+    statusDuration: 300    
+    
+    homingPower: 0.18
+    homingRange: 220
+    homingDelay: 10 
+    
+    width: 8
+    height: 40
+    frontColor: ffb855 
+    backColor: db401c  
+    trailColor: db401c
+    trailWidth: 3
+    trailLength: 30
+    
+    fragBullets: 8 
+    fragRandomSpread: 360 
+    fragBullet: {
+      type: BasicBulletType
+      damage: 14
+      speed: 5
+      lifetime: 40
+      makeFire: true
+      status: burning
+      homingPower: 0.2
+      homingRange: 120
+      width: 4
+      height: 15
+      frontColor: ffb855
+      backColor: db401c
+      trailColor: db401c
+      trailWidth: 1.5
+      trailLength: 12
+      hitEffect: fireHit
+    }
+    
+    hitEffect: fireHit
+    despawnEffect: fireSmoke
+    shootEffect: shootPyraFlame
+    pierce: true
+    pierceCap: 2
+  }
+}
+
+// ВИПРАВЛЕНО: Структура Drawer для чистого логу
+drawer: {
+  type: DrawTurret
+  basePrefix: "dark-"
+}
+
+requirements: [
+  ochpoch-mob-refined-aluminum/110
+  silicon/97
+]
+
+category: turret
+
+// --- ДОСЛІДЖЕННЯ ТІЛЬКИ ПІСЛЯ СЕКТОРА 19 ---
+research: {
+  parent: ochpoch-mob-colb-turrer
+  alwaysUnlocked: false
+  
+  objectives: [
+    {
+      type: SectorComplete
+      preset: ochpoch-mob-19
+    }
+  ]
+}
+
