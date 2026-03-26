@@ -1,0 +1,18 @@
+name: "marmyriym"
+description: "Високоенергетична кристалічна структура. Використовується в електроніці та лазерній зброї."
+
+// --- ВИПРАВЛЕНО: КОЛІР МАЄ БУТИ В ЛАПКАХ ---
+color: "00f2ff"
+
+flammability: 0
+explosiveness: 0.1
+radioactivity: 0
+charge: 10.10
+
+cost: 1.5
+
+// --- ВИПРАВЛЕНО: ТВОЇ ЛАПКИ ТА ПЛАНЕТА ---
+research: {
+  parent: "ochpoch-mob-refined-aluminum"
+  planet: "hooligan"
+}

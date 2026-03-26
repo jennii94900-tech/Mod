@@ -1,0 +1,17 @@
+name: "Aluminum Alloy"
+description: "Швидкісні боєприпаси, виготовлені з очищеного алюмінію та вугілля."
+
+// --- ВИПРАВЛЕНО: КОЛІР У ЛАПКАХ ---
+color: "dcdcdc"
+
+explosiveness: 2.8
+flammability: 1.8
+radioactivity: 0.2
+charge: 4.8
+
+// --- ВИПРАВЛЕНО: ТВОЇ ЛАПКИ ТА ПЛАНЕТА ---
+research: {
+  parent: "ochpoch-mob-refined-aluminum"
+  planet: "hooligan"
+}
+
