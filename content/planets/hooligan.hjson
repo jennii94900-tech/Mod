@@ -1,0 +1,59 @@
+generator: PlanetGenerator
+parent: sun
+localizedName: "Hooligan"
+description: "Світ величних крижаних хребтів та просторих сніжних долин."
+
+defaultCore: "ochpoch-mob-core"
+
+startSector: 10
+sectorSize: 1
+accessible: true
+visible: true
+alwaysUnlocked: true
+
+orbitRadius: 67
+radius: 1.3
+
+hasAtmosphere: true
+atmosphereColor: 8aa3f4
+atmosphereRadIn: 0
+atmosphereRadOut: 0.4
+
+mesh: [
+  // --- ПЕРШИЙ ШАР: Основа (сніг) ---
+  {
+    type: NoiseMesh
+    planet: hooligan
+    divisions: 4
+    radius: 0.94
+    color1: 8aa3f4
+    color2: ffffff
+    octaves: 3
+    persistence: 0.8
+    scale: 1.2
+    mag: 0.7
+  }
+  // --- ДРУГИЙ ШАР: РІДКІ ТА ВЕЛИКІ ГОРНІ ЛАНЦЮГИ ---
+  {
+    type: NoiseMesh
+    planet: hooligan
+    divisions: 6       
+    radius: 0.95
+    color1: ffffff    
+    color2: 7da4ff    
+    octaves: 5         // Зменшив кількість октав для плавніших форм
+    persistence: 0.4   // Зменшив, щоб прибрати "шум" і дрібне сміття
+    // --- ОСЬ ТУТ МИ ЗМІНИЛИ МАСШТАБ ---
+    scale: 1.8         // Було 0.5. Тепер гори великі, довгі та рідкі
+    mag: 1.3           // Трохи зменшив висоту, щоб вони не перекривали все
+    seed: 42           
+  }
+]
+
+itemWhitelist: [
+  "silicon",
+  "ochpoch-mob-aluminum",
+  "ochpoch-mob-refined-aluminum",
+  "ochpoch-mob-cristal",
+  "ochpoch-mob-patron"
+]
