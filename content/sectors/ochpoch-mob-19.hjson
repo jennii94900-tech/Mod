@@ -1,0 +1,32 @@
+localizedName: "Aluminum Canyon"
+description: "Глибока ущелина, де вітер гуде між металевими скелями. Захопіть цей стратегічний прохід."
+
+planet: "hooligan"
+sector: 19
+
+// Рівень складності впливає на розмір іконки
+difficulty: 3      
+
+// Дозволяє відображати точку без попереднього розблокування
+alwaysUnlocked: true
+
+
+captureWave: 28
+
+research: {
+  planet: "hooligan"
+  parent: "ochpoch-mob-10"
+  
+  costs: [
+    "ochpoch-mob-aluminum/1000",
+    "ochpoch-mob-refined-aluminum/800"
+  ]
+
+  objectives: [
+    {
+      type: "SectorComplete"
+      preset: "ochpoch-mob-10"
+    }
+  ]
+}
+

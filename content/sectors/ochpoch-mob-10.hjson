@@ -1,0 +1,22 @@
+localizedName: "Crater"
+description: "Безпечна зона для старту. Тут ти знайдеш перші поклади алюмінію та кристалів."
+
+planet: "hooligan"
+sector: 10
+
+// СКЛАДНІСТЬ: Жовта іконка (3 - середня, 4 - висока)
+difficulty: 3
+
+
+alwaysUnlocked: true
+captureWave: 15
+
+// ВИДАЛЕНО БЛОК 'items', щоб не було помилки [W] у лозі 155.4.
+// Ресурси з'являться на мапі автоматично, бо вони прописані в дереві планети.
+
+research: {
+  // ПАМ'ЯТАЄМО ПРО ЛАПКИ
+  parent: "ochpoch-mob-core"
+  planet: "hooligan"
+}
+
