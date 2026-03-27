@@ -1,5 +1,5 @@
 type: Reconstructor
-name: "Алюмінієвий Реконструктор"
+name: "aluminum reconstructor"
 description: "Просунута лабораторія для покращення юнітів. Використовує Рідуну для молекулярної перебудови броні."
 size: 3
 health: 650
