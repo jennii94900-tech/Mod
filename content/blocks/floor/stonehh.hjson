@@ -1,7 +1,0 @@
-type: Floor
-name: "Holigan floor"
-variants: 3
-itemDrop: "ochpoch-mob-krista"
-playerUnmineable: false
-canBuild: true
-
