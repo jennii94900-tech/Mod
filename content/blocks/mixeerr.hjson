@@ -1,7 +1,7 @@
 type: GenericCrafter
-name: "Кріо-Міксер"
+name: "syblinozen mixer"
 description: "Синтезує Фрост-паливо з Рідуни та Кристалів під високим тиском."
-size: 2
+size: 1
 health: 320
 
 // Час виготовлення (в кадрах)

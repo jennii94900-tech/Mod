@@ -13,15 +13,15 @@ consumes: {
   power: 4.5 
   items: {
     items: [
-      ochpoch-mob-aluminum/20
+      ochpoch-mob-aluminum/6
     ]
   }
 }
 
-outputItem: ochpoch-mob-refined-aluminum/8
+outputItem: ochpoch-mob-refined-aluminum/5
 
 requirements: [
-  ochpoch-mob-aluminum/100
+  ochpoch-mob-aluminum/46
 ]
 
 category: crafting
@@ -36,12 +36,12 @@ drawer: {
     {
       type: DrawFlame
       // ВИПРАВЛЕНО: Для DrawFlame використовується 'flameColor', а не просто 'color'
-      flameColor: ff3333
+      flameColor: 76958EFF
     }
     {
       type: DrawGlowRegion
       suffix: "-glow"
-      color: ff0000
+      color: 8FADA6FF
     }
   ]
 }
