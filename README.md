@@ -1,30 +1,27 @@
-# Syblinozen Project: Hooligan Expedition ❄️
+# 🧊 Syblinozen: The Hooligan Frontier 🪐
 
-An industrial expansion mod for **Mindustry (v7+)** that introduces the frozen world of **Hooligan**. Explore icy ridges and harness the power of unique **Syblinozen** technology!
+Welcome to the **Syblinozen Project** — a massive industrial expansion for **Mindustry (v7)**. Venture beyond Serpulo and land on **Hooligan**, a frozen planet at the very edge of the solar system.
 
-### 🪐 New Planet: Hooligan
-A distant, frozen world characterized by sharp icy mountains and deep aluminum canyons.
-- **Environment**: Snow-covered terrain and blue-stone formations.
-- **Resources**: Extract materials like **Aluminum** and **Energy Crystals**.
+### 🌌 Planet: Hooligan (Sector 19)
+A world of eternal frost where aluminum ridges pierce the snowy clouds.
+- **Landscape**: Deep canyons, frozen lakes, and sharp blue mountain ranges.
+- **Atmosphere**: Thin and blue, optimized for advanced laser technologies.
+- **Orbit**: 60 units from the Sun (the furthest known point in the system).
 
-### 💎 Key Features:
-- **New Materials**: 
-  - `Aluminum`: Durable metal used for basic structures and pipes.
-  - `Energy Crystals`: Shards used for advanced tech and high-pressure systems.
-  - `Syblinozen`: A unique **blue-green** liquid synthesized in mixers for cooling and laser weaponry.
-  
-- **Defense**: 
-  - `Frost-Ray`: A heavy laser turret firing a continuous cryogenic beam. Requires **Syblinozen** to freeze enemies on contact.
-
-- **Units**: 
-  - `Sparkk`: A fast scout unit designed for high-speed reconnaissance on ice.
+### 🛠️ Exclusive Technologies:
+- ⛏️ **Resources**: Extract **Aluminum** for durable structures and rare **Energy Crystals** for advanced power grids.
+- 🧪 **Syblinozen Fluid**: Synthesize a unique blue-green liquid in mixers for high-tier cooling and heavy laser weaponry.
+- 🛡️ **Defense**: `Frost-Ray` — a heavy laser turret firing a continuous cryogenic beam.
+- 🤖 **Units**: `Sparkk` — a high-speed scout designed for reconnaissance on icy terrain.
 
 ### 🚀 How to Install:
-1. Open Mindustry.
+Join the expedition right now:
+1. Launch **Mindustry**.
 2. Go to **Mods** -> **Import Mod**.
 3. Select **Import from GitHub**.
-4. Enter: mob
-5. Restart the game and enjoy the expedition!
+4. Enter: `jennii94900-tech/Mod`
+5. Restart the game and conquer the frost!
 
 ---
-*Created by Hello*
+*Developed within the **Ochpoch-Mob** project ❄️🚀*
+
