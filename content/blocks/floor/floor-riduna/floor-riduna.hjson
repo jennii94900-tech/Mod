@@ -11,5 +11,3 @@ isLiquid: true
 cacheLayer: water
 
 variants: 2
-// Дозволяємо будівництво помп
-canBuild: true
