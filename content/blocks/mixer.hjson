@@ -1,7 +1,7 @@
 type: GenericCrafter
 name: "Aluminum Purifier"
 description: "Потужна лінія очищення. Переробляє великі партії алюмінію у високоякісний очищений метал за допомогою високих температур."
-size: 2 
+size: 1 
 health: 850
 hasPower: true
 hasItems: true
