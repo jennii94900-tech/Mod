@@ -9,8 +9,9 @@ drillTime: 140
 tier: 3             
 range: 6            
 
-// --- ВИПРАВЛЕНО ДЛЯ 155.4 (БЕЗ 'fill') ---
-color: "577277ff"
+// --- ВИПРАВЛЕНО ДЛЯ 156.1 ---
+// Замість color використовуємо laserColor або прописуємо через колір променя
+laserColor: "577277ff"
 laserWidth: 0.6
 
 consumes: {
@@ -24,7 +25,6 @@ requirements: [
 category: production
 
 research: {
-  // ПАМ'ЯТАЄМО ПРО ЛАПКИ
   parent: "ochpoch-mob-mal-dionite-drill"
   planet: "hooligan"
   
