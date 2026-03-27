@@ -32,21 +32,27 @@ requirements: [
 
 category: crafting
 
-// --- ТВОЇ СПРАЙТИ ---
+// --- ВІЗУАЛ (DRAWERS) ---
 drawer: {
   type: DrawMulti
   drawers: [
     {
-      type: DrawDefault // Малює основу (frost-mixer.png)
+      type: DrawDefault
     }
     {
-      type: DrawLiquidRegion // Малює колір рідини всередині
+      type: DrawLiquidRegion
       drawLiquid: "ochpoch-mob-syblinozen"
+      suffix: "-liquid"
+    }
+    {
+      type: DrawRegion
+      suffix: "-top"
     }
   ]
 }
 
+// --- ТЕХНОЛОГІЇ ---
 research: {
-  parent: "ochpoch-mob-diamond-press" // Або твій попередній завод
+  parent: "ochpoch-mob-aluminum-pipe"
   planet: "hooligan"
 }
