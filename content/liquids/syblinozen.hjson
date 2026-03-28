@@ -14,6 +14,6 @@ viscosity: 0.6       // Трохи густіша за воду
 effect: "freezing"
 
 research: {
-  parent: "ochpoch-mob-frost-fuel"
+  parent: "ochpoch-mob-riduna"
   planet: "hooligan"
 }
