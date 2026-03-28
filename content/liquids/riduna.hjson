@@ -9,7 +9,7 @@ explosiveness: 0      // Безпечна
 flammability: 0       // Не горить
 
 // ЦЕЙ ПАРАМЕТР КАЖЕ ГРІ, ЩО ЦЕ "БЛАГОРОДНА" РІДИНА
-temperature: 0.1      // Дуже холодна (як твій замерзлий світ Hooligan)
+temperature: 0.4      // Дуже холодна (як твій замерзлий світ Hooligan)
 
 research: {
   parent: "ochpoch-mob-cristal"
