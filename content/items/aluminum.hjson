@@ -1,7 +1,7 @@
 name: "Aluminum"
 description: "Легкий та міцний метал. Використовується для авіації та швидкісних систем."
 color: "e0e0e0"
-
+hiddenOnPlanets: [serpulo, erekir]
 flammability: 0.3      
 explosiveness: 0.8     
 radioactivity: 3.1    
