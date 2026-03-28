@@ -7,14 +7,14 @@ speed: 0.8            // Швидший за Interrupter
 drag: 0.4
 accel: 0.5
 rotateSpeed: 7
-health: 180           // Т1 рівень здоров'я
-armor: 2
+health: 195           // Т1 рівень здоров'я
+armor: 4
 hitSize: 7
 
 // --- ФІШКА: ІГНОРУВАННЯ БУДІВЕЛЬ (BOOST) ---
 canBoost: true
 boostMultiplier: 1.5
-engineSize: 1         
+engineSize: 2         
 lowAltitude: true
 
 // --- ЗБРОЯ (ОДНА БЛИСКАВКА) ---
