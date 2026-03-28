@@ -26,6 +26,6 @@ rules: {
 }
 
 research: {
-  parent: "ochpoch-mob-hope" // Назва твого ядра
+  parent: "ochpoch-mob-core" // Назва твого ядра
   planet: "hooligan"
 }
