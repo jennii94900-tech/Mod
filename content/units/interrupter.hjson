@@ -12,8 +12,8 @@ armor: 15
 
 // --- ФІШКА: ІГНОРУВАННЯ БЛОКОВ (BOOST) ---
 canBoost: true
-boostMultiplier: 1.5
-engineSize: 2         // Прибираємо вогонь, щоб він "переступав" через заводи
+boostMultiplier: 1.7
+engineSize: 3         // Прибираємо вогонь, щоб він "переступав" через заводи
 lowAltitude: true
 
 // --- ЗБРОЯ (ПОДВІЙНА БЛИСКАВКА) ---
