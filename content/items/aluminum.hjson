@@ -1,6 +1,6 @@
 name: "Aluminum"
 description: "Легкий та міцний метал. Використовується для авіації та швидкісних систем."
-color: "e0e0e0
+color: "e0e0e0"
 
 flammability: 0.3      
 explosiveness: 0.8     
