@@ -8,7 +8,7 @@ sector: 19
 difficulty: 3      
 
 // Дозволяє відображати точку без попереднього розблокування
-alwaysUnlocked: true
+alwaysUnlocked: false
 
 
 captureWave: 28
