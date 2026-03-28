@@ -47,22 +47,8 @@ mesh: [
   }
 ]
 
-// --- ЛОГІКА ДЛЯ v8 (ВИПРАВЛЕНО НА ОСНОВІ Rules.java) ---
-
-// У v8 список предметів тепер пишеться просто 'items' в основному блоці
-items: [
-  "silicon",
-  "ochpoch-mob-aluminum",
-  "ochpoch-mob-refined-aluminum",
-  "ochpoch-mob-cristal"
-]
-
-rules: {
-  // Цей рядок ТОЧНО є у файлі Rules.java, який ти скинув
-  clearDefaultItems: true
-  
-  // Додаємо круті фішки, які ми знайшли в коді:
-  onlyDepositCore: true   // Предмети тільки в ядро
-  fog: true               // Туман війни
-  staticFog: true         // Чорний туман (як на Ерекірі)
-}
+// --- ЛОГІКА ДЛЯ v8 (ВИПРАВЛЕНО ПІД v156.1) ---
+// Якщо 'rules' та 'items' видають помилку [W] - видали їх звідси.
+// У v8 вони автоматично беруться з налаштувань ТВОГО ЯДРА (Core).
+allowLaunchToNumbered: false
+allowLaunchSchematics: false
