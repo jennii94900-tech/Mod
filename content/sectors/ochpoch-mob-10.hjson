@@ -5,7 +5,7 @@ planet: "hooligan"
 sector: 10
 
 // СКЛАДНІСТЬ: Жовта іконка (3 - середня, 4 - висока)
-difficulty: 3
+difficulty: 1
 
 
 alwaysUnlocked: true
