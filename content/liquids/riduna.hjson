@@ -12,7 +12,7 @@ flammability: 0       // Не горить
 temperature: 0.1      // Дуже холодна (як твій замерзлий світ Hooligan)
 
 research: {
-  parent: "ochpoch-mob-patron"
+  parent: "ochpoch-mob-cristal"
   planet: "hooligan"
 }
 
