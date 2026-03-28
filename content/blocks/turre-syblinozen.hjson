@@ -1,7 +1,7 @@
 type: LaserTurret
 name: "Frost-Ray"
 description: "Випускає потужний кріогенний промінь. Потребує постійного охолодження Фрост-паливом для підтримки фокусу."
-size: 2
+size: 3
 health: 1200
 category: turret
 
