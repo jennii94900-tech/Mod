@@ -6,14 +6,18 @@ itemCapacity: 5000
 unitCapModifier: 14
 unitType: "ochpoch-mob-twinkle"
 
-// Порожні дужки, щоб гра не підставляла Атом через брак ресурсів
+// Залишаємо порожнім для безкоштовної висадки
 requirements: [ ]
 
 category: effect
 alwaysUnlocked: true
+
 research: {
   root: true
   name: "Hooligan"
   planet: hooligan
+  // Тепер тут тільки Алюміній. Кристал з'явиться пізніше в дереві.
+  children: [
+    "ochpoch-mob-aluminum"
+  ]
 }
-
