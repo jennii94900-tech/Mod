@@ -1,17 +1,27 @@
 {
-  "type" : "duct",
-  "name": "aluminum duct"
-  "size" : 1,
-  "health" : 100,
-  "speed" : 13,
-  "research" : {
-   "parent" : "katapy", 
-   "requirements" : [
-    {"item": "aluminum", "amount" : 2}
+  "type": "duct",
+  "name": "aluminum duct",
+  "size": 1,
+  "health": 100,
+  "speed": 13,
+  
+  "research": {
+    // 1. ПРИВ'ЯЗУЄМО ДО ТВОГО ЯДРА (АБО АЛЮМІНІЮ)
+    "parent": "ochpoch-mob-core", 
+    "planet": "hooligan",
+    "requirements": [
+      {"item": "ochpoch-mob-aluminum", "amount": 200}
     ]
-   },
-  "junctionReplacement" : "pere", 
-  "requirements" : [
-   {"item": "aluminum", "amount": 2}
-  ]
-} 
+  },
+
+  // ПРАВИЛЬНІ НАЗВИ ПЕРЕХРЕСТЬ (ID)
+  "junctionReplacement": "ochpoch-mob-pere", 
+
+  "requirements": [
+    {"item": "ochpoch-mob-aluminum", "amount": 2}
+  ],
+  
+  // Додай це, щоб він точно працював тільки на Hooligan
+  "category": "distribution",
+  "alwaysUnlocked": false
+}
