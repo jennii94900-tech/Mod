@@ -40,7 +40,6 @@ ammoTypes: {
 
 requirements: [
   "ochpoch-mob-cristal/45"
-  "silicon/12"
 ]
 
 category: turret
