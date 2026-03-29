@@ -4,8 +4,7 @@ rules: {
   // У v8 краще використовувати hiddenItems або просто whitelist
   itemWhitelist: [
     "ochpoch-mob-aluminum",
-    "ochpoch-mob-refined-aluminum",
-    "ochpoch-mob-cristal"
+    "ochpoch-mob-refined-aluminum"
   ]
   
   // Ці параметри з Rules.java, які ми знайшли:
