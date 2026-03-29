@@ -42,8 +42,7 @@ ammoTypes: {
 }
 
 requirements: [
-  "ochpoch-mob-aluminum/65",
-  "silicon/30"
+  "ochpoch-mob-aluminum/65"
 ]
 
 category: turret
