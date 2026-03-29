@@ -80,8 +80,7 @@ drawer: {
 }
 
 requirements: [
-  ochpoch-mob-refined-aluminum/110
-  silicon/97
+  ochpoch-mob-refined-aluminum/147
 ]
 
 category: turret
