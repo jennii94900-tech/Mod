@@ -1,20 +1,21 @@
-// ... твій початок файлу ...
+// Назва файлу має бути ochpoch-mob-19.hjson
+name: ochpoch-mob-19
+planet: hooligan
+sector: 19 // Номер сектора на меші планети
+difficulty: 5
 
 rules: {
-  // У v8 краще використовувати hiddenItems або просто whitelist
   itemWhitelist: [
     "ochpoch-mob-aluminum",
     "ochpoch-mob-refined-aluminum"
   ]
-  
-  // Ці параметри з Rules.java, які ми знайшли:
   clearDefaultItems: true
   onlyDepositCore: true
 }
 
 research: {
-  planet: "hooligan"
-  // Переконайся, що файл стартового сектора називається саме "10.hjson"
+  planet: hooligan
+  // Батьківський вузол у дереві технологій
   parent: "ochpoch-mob-10" 
 
   costs: [
@@ -24,7 +25,9 @@ research: {
 
   objectives: [
     {
-      type: "SectorComplete"
+      // Саме цей блок викликав помилку в іншому файлі, 
+      // бо цей файл (19) не зміг завантажитись через синтаксис
+      type: SectorComplete
       preset: "ochpoch-mob-10" 
     }
   ]
