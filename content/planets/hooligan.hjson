@@ -47,8 +47,21 @@ mesh: [
   }
 ]
 
-// --- ЛОГІКА ДЛЯ v8 (ВИПРАВЛЕНО ПІД v156.1) ---
-// Якщо 'rules' та 'items' видають помилку [W] - видали їх звідси.
-// У v8 вони автоматично беруться з налаштувань ТВОГО ЯДРА (Core).
+// --- ЛОГІКА ТА ОБМЕЖЕННЯ v8 ---
 allowLaunchToNumbered: false
 allowLaunchSchematics: false
+
+// Одне з найважливіших правил для "благання" ресурсів
+ruleSetter: {
+  onlyDepositCore: true
+  // Якщо хочеш туман як на Ерекірі, розкоментуй це:
+  // fog: true
+  // staticFog: true
+}
+
+// Повний бан ресурсів Серпуло, щоб вони не заважали твоїм
+hiddenItems: [
+  "copper", "lead", "scrap", "coal", "titanium", "thorium", "silicon", 
+  "plastanium", "phase-fabric", "surge-alloy", "spore-pod", "sand", 
+  "blast-compound", "pyratite", "metaglass"
+]
