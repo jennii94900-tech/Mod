@@ -4,15 +4,18 @@ description: "Синтезує Фрост-паливо з Рідуни та Кр
 size: 1
 health: 320
 
-// --- ОБЯЗАТЕЛЬНО ДЛЯ ЖИДКОСТЕЙ ---
 hasLiquids: true
+hasItems: true // Добавил, чтобы он точно видел кристаллы
 craftTime: 60
 
 consumes: {
   power: 1.5
-  items: [
-    "ochpoch-mob-cristal/1"
-  ]
+  // ИСПРАВЛЕНО: Правильная вложенность для v8
+  items: {
+    items: [
+      "ochpoch-mob-cristal/1"
+    ]
+  }
   liquid: {
     liquid: "ochpoch-mob-riduna"
     amount: 0.2
@@ -50,6 +53,7 @@ drawer: {
 }
 
 research: {
+  // ПРОВЕРЬ: Точно ли ID твоей трубы такой?
   parent: "ochpoch-mob-aluminum-pipe"
   planet: "hooligan"
 }
