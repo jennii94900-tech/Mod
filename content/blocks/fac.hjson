@@ -19,7 +19,6 @@ plans: [
     time: 650 
     requirements: [
       ochpoch-mob-refined-aluminum/45
-      silicon/60
     ]
   },
   {
@@ -27,14 +26,12 @@ plans: [
     time: 640 
     requirements: [
       ochpoch-mob-refined-aluminum/42
-      silicon/52
     ]
   }
 ]
 
 requirements: [
   ochpoch-mob-refined-aluminum/80
-  silicon/100
 ]
 
 category: units
