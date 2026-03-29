@@ -1,34 +1,22 @@
-localizedName: "Aluminum Canyon"
-description: "Глибока ущелина, де вітер гуде між металевими скелями. Захопіть цей стратегічний прохід."
+// ... твій початок файлу ...
 
-planet: "hooligan"
-sector: 19
-difficulty: 3      
-alwaysUnlocked: false
-captureWave: 28
-
-// --- ПРАВИЛА ДЛЯ v8 (Щоб сектор "благав" про алюміній) ---
 rules: {
-  // Забороняємо стандартні ресурси Серпуло
-  bannedItems: [
-    "copper", "lead", "metaglass", "graphite", "sand", "coal", "titanium", "thorium", "scrap"
-  ]
-  // Дозволяємо тільки твої (itemWhitelist тут працює ідеально!)
+  // У v8 краще використовувати hiddenItems або просто whitelist
   itemWhitelist: [
-    "ochpoch-mob-h-aluminum",
+    "ochpoch-mob-aluminum",
     "ochpoch-mob-refined-aluminum",
-    "ochpoch-mob-cristal",
-    "silicon"
+    "ochpoch-mob-cristal"
   ]
-  // Технічні фішки для v8 з Rules.java
+  
+  // Ці параметри з Rules.java, які ми знайшли:
   clearDefaultItems: true
   onlyDepositCore: true
 }
 
 research: {
   planet: "hooligan"
-  // Батько - твій 10-й сектор
-  parent: "ochpoch-mob-10" 
+  // Переконайся, що файл стартового сектора називається саме "10.hjson"
+  parent: "10" 
 
   costs: [
     "ochpoch-mob-aluminum/1000",
@@ -38,7 +26,7 @@ research: {
   objectives: [
     {
       type: "SectorComplete"
-      preset: "ochpoch-mob-10"
+      preset: "10" // ID твого стартового сектора
     }
   ]
 }
