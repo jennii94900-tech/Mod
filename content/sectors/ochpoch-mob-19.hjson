@@ -16,7 +16,7 @@ rules: {
 research: {
   planet: "hooligan"
   // Переконайся, що файл стартового сектора називається саме "10.hjson"
-  parent: "10" 
+  parent: "ochpoch-mob-10" 
 
   costs: [
     "ochpoch-mob-aluminum/1000",
