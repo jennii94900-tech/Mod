@@ -2,13 +2,17 @@ type: Wall
 name: "cristal Wall"
 description: "Надміцна броньована стіна. Витримує колосальний урон, перевершуючи торієві аналоги."
 size: 1
-// Твоє замовлення: 6000 здоров'я
 health: 6590 
-armor: 28 // Додав трохи більше броні, щоб відповідати такому високому HP
+armor: 28 
 
 requirements: [
-  ochpoch-mob-cristal/13
+  "ochpoch-mob-cristal/13"
 ]
 
 category: defense
-research: waal
+
+research: {
+  // ЗМІНИ НА ЦЕ:
+  parent: "ochpoch-mob-waal" 
+  planet: "hooligan"
+}
