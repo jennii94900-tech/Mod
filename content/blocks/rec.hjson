@@ -9,8 +9,7 @@ consumes: {
   power: 2.5
   items: {
     items: [
-      "ochpoch-mob-refined-aluminum/15",
-      "silicon/30"
+      "ochpoch-mob-refined-aluminum/15"
     ]
   }
   liquid: {
@@ -27,8 +26,7 @@ upgrades: [
 ]
 
 requirements: [
-  "ochpoch-mob-aluminum/80",
-  "silicon/60"
+  "ochpoch-mob-aluminum/80"
 ]
 
 category: units
