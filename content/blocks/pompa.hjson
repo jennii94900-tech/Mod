@@ -5,13 +5,11 @@ size: 1
 health: 140
 
 // --- ХАРАКТЕРИСТИКИ ---
-// Швидкість викачування (чим більше, тим швидше)
-pumpAmount: 0.11
-// Чи є в неї внутрішній бак
+// Збільшив трохи, щоб вона була ефективною для розміру 1x1
+pumpAmount: 0.15
 hasLiquids: true
 liquidCapacity: 40
 
-// Вимоги для побудови (твій алюміній)
 requirements: [
   "ochpoch-mob-aluminum/26",
   "ochpoch-mob-cristal/4"
@@ -20,6 +18,7 @@ requirements: [
 category: liquid
 
 research: {
+  // ПЕРЕВІР: Чи такий ID у твого алюмінію?
   parent: "ochpoch-mob-aluminum"
   planet: "hooligan"
 }
