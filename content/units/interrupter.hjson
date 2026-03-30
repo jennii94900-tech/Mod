@@ -43,7 +43,7 @@ weapons: [
 ]
 
 research: {
-  parent: "ochpoch-mob-rec"
+  parent: "ochpoch-mob-tank"
   planet: "hooligan"
 }
 
