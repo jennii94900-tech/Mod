@@ -1,15 +1,14 @@
 type: ConsumeGenerator
-name: generator
+name: Алюмінієвий генератор
 description: Компактний генератор 1х1. Виробляє чисту енергію, споживаючи звичайний алюміній.
 size: 1
 health: 160
 hasPower: true
 hasItems: true
 
-# Скільки енергії дає (0.8 - це непогано для 1х1)
-powerProduction: 0.8
+# Енергія (1.0 — це гарний старт для 1х1)
+powerProduction: 1.0
 
-# Налаштування споживання
 consumes: {
   items: {
     items: [
@@ -18,11 +17,10 @@ consumes: {
   }
 }
 
-# Час спалювання одного предмета (у кадрах, 60 = 1 секунда)
 itemDuration: 90
 
-# Візуальні ефекти (вогонь або світіння)
-generateEffect: smokeshower
+# ВИПРАВЛЕНО: замість smokeshower ставимо smokefree (ефект диму)
+generateEffect: smokefree
 ambientSound: hum
 ambientSoundVolume: 0.05
 
@@ -31,4 +29,6 @@ requirements: [
 ]
 
 category: power
+
+# ВИПРАВЛЕНО: додано прив'язку до твого ядра для дерева досліджень
 research: core
