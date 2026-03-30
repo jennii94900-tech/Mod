@@ -1,5 +1,5 @@
 type: CoreBlock
-name: "Ядро: hope"
+name: "Ядро: <<hope>>"
 size: 3
 health: 4000
 itemCapacity: 5000
