@@ -19,6 +19,6 @@ category: power
 
 research: {
   // ЗМІНИ НА ЦЕ (Прив'язка до Алюмінію або Ядра):
-  parent: "ochpoch-mob-aluminum" 
+  parent: "ochpoch-mob-aluminum-generator" 
   planet: "hooligan"
 }
