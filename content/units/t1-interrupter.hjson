@@ -39,6 +39,6 @@ weapons: [
 
 research: {
   // Він відкривається відразу після ядра або Sparkk
-  parent: "ochpoch-mob-fac"
+  parent: "ochpoch-mob-tank"
   planet: "hooligan"
 }
