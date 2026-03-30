@@ -1,7 +1,7 @@
 type: ConsumeGenerator
 name: Алюмінієвий генератор
 description: Компактний генератор 1х1. Виробляє енергію з алюмінію.
-size: 1
+size: 2
 health: 160
 hasPower: true
 hasItems: true
