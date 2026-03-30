@@ -8,8 +8,6 @@ unitType: "ochpoch-mob-twinkle"
 
 requirements: [ ]
 
-incinerateNonStandard: true
-canLaunch: true
 
 category: effect
 alwaysUnlocked: true
