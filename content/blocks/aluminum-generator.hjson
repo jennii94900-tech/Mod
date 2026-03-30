@@ -13,7 +13,7 @@ powerProduction: 0.8
 consumes: {
   items: {
     items: [
-      aluminum/1  # Жре 1 алюміній за цикл
+      aluminum/1   
     ]
   }
 }
