@@ -1,0 +1,20 @@
+type: CoreBlock
+name: Ядро Фортеця
+description: Високотехнологічне ядро з посиленим алюмінієвим корпусом. Пристосоване до суворих умов.
+size: 4
+health: 7560
+itemCapacity: 7040
+
+# Юніт, який вилітає з ядра (можеш замінити на свого кастомного)
+unitType: twinkle 
+
+# Тільки твої кастомні ресурси
+requirements: [
+  aluminum/2500
+  refined-aluminum/1200
+]
+
+# Якщо хочеш, щоб воно було як на Ерекірі — додаємо категорію
+category: effect
+research: core 
+buildVisibility: shown
