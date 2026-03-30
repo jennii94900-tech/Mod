@@ -58,5 +58,5 @@ weapons: [
 ]
 
 // Досліджується після Т1 заводу
-research: fac
+research: core
 
