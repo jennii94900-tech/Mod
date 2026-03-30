@@ -11,8 +11,7 @@ laserColor1: 00f2ff
 laserColor2: ffffff
 
 requirements: [
-  "ochpoch-mob-aluminum/10",
-  "ochpoch-mob-cristal/6"
+  "ochpoch-mob-aluminum/10"
 ]
 
 category: power
