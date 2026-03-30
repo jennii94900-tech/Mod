@@ -1,21 +1,23 @@
 type: flying
-name: "Twinkle"
-description: "Швидкий дрон підтримки. Допомагає в будівництві та ремонті союзників. Може видобувати руду під ручним керуванням."
+name: Twinkle
+description: "Спеціалізований дрон-привид. Повністю ігнорується ворогами. Призначений виключно для будівництва та видобутку."
 flying: true
 health: 220
 rotateSpeed: 11
 
-buildSpeed: 0.8  
-mineSpeed: 5.8   
+# --- ПАРАМЕТРИ НЕВИДИМОСТІ ---
+targetable: false
+hittable: false
+# -----------------------------
+
+buildSpeed: 1.2  # Трохи підняв, бо він беззахисний
+mineSpeed: 6.5   
 mineTier: 2      
 
-// --- АВТО-КОНТРОЛЕР ВИДАЛЕНО ---
-// Тепер він не літає за рудою сам по собі.
-
 mineItems: [
-  copper, 
-  lead, 
-  ochpoch-mob-aluminum,
+  copper
+  lead 
+  ochpoch-mob-aluminum
   ochpoch-mob-cristal
 ]
 
@@ -25,35 +27,11 @@ speed: 5.4
 accel: 0.03
 drag: 0.05
 hitSize: 10
-itemCapacity: 35 
+itemCapacity: 45 # Збільшив місткість для зручності
 
 lightRadius: 45
 lightColor: 8aa3f4
 engineColor: 8aa3f4
 
-weapons: [
-  {
-    name: "blue-laser-weapon-mount"
-    mirror: true
-    alternate: true
-    x: 3
-    y: 2
-    reload: 14
-    shootSound: lasershoot
-    
-    bullet: {
-      type: LaserBoltBulletType
-      damage: 19
-      healPercent: 6.5
-      collidesTeam: true
-      speed: 6
-      lifetime: 35
-      buildingDamageMultiplier: 0.84
-      frontColor: ffffff
-      backColor: 8aa3f4
-    }
-  }
-]
 
 research: ochpoch-mob-tank
-
