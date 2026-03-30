@@ -49,5 +49,5 @@ mesh: [
 
 // --- ЛОГІКА ---
 allowLaunchToNumbered: false
-allowLaunchSchematics: true
+allowLaunchSchematics: false
 
