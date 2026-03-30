@@ -49,14 +49,5 @@ mesh: [
 
 // --- ЛОГІКА ---
 allowLaunchToNumbered: false
-allowLaunchSchematics: false
+allowLaunchSchematics: true
 
-// ПРАВИЛА: ruleSetter видалено, бо він викликав помилку SerializationException.
-// Налаштування "onlyDepositCore: true" тепер треба прописати 
-// у файлах самих секторів (ochpoch-mob-10.hjson та 19.hjson) у блоці "rules: {}".
-
-hiddenItems: [
-  "copper", "lead", "scrap", "coal", "titanium", "thorium", "silicon", 
-  "plastanium", "phase-fabric", "surge-alloy", "spore-pod", "sand", 
-  "blast-compound", "pyratite", "metaglass"
-]
