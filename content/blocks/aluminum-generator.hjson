@@ -1,5 +1,5 @@
 type: ConsumeGenerator
-name: Алюмінієвий реактор
+name: generator
 description: Компактний генератор 1х1. Виробляє чисту енергію, споживаючи звичайний алюміній.
 size: 1
 health: 160
@@ -27,9 +27,8 @@ ambientSound: hum
 ambientSoundVolume: 0.05
 
 requirements: [
-  aluminum/35
-  ochpoch-mob-cristal/10
+  aluminum/24
 ]
 
 category: power
-research: core-bastion
+research: core
