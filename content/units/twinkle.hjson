@@ -1,6 +1,6 @@
 type: flying
 name: Twinkle
-description: "Спеціалізований дрон-привид. Повністю ігнорується ворогами. Призначений виключно для будівництва та видобутку."
+description: "Спеціалізований дрон-привид. Повністю ігнорується ворогами. Призначений для будівництва, видобутку та ремонту."
 flying: true
 health: 220
 rotateSpeed: 11
@@ -8,9 +8,8 @@ rotateSpeed: 11
 # --- ПАРАМЕТРИ НЕВИДИМОСТІ ---
 targetable: false
 hittable: false
-# -----------------------------
 
-buildSpeed: 1.2  # Трохи підняв, бо він беззахисний
+buildSpeed: 1.2
 mineSpeed: 6.5   
 mineTier: 2      
 
@@ -18,14 +17,16 @@ mineItems: [
   ochpoch-mob-aluminum
   ochpoch-mob-cristal
 ]
+
+# --- ЗБРОЯ ДЛЯ РЕМОНТУ ---
 weapons: [
   {
-  widthSinMag: 0.1
+    type: RepairBeamWeapon
+    widthSinMag: 0.1
     x: 0
     y: 5
     laserColor: d8f18c
     mirror: false
-    type: RepairBeamWeapon
     rotate: false
     targetBuildings: true
     targetUnits: false
@@ -38,16 +39,19 @@ weapons: [
     repairSpeed: 3.5
     fractionRepairSpeed: 0.06
     bullet: {
-      type: BulletType
       maxRange: 45
+    }
+  }
+]
 
+# --- ПАРАМЕТРИ ПЕРЕСУВАННЯ ---
 engineOffset: 4.5
 lowAltitude: true
 speed: 5.4
 accel: 0.03
 drag: 0.05
 hitSize: 10
-itemCapacity: 45 # Збільшив місткість для зручності
+itemCapacity: 45 
 
 lightRadius: 45
 lightColor: 8aa3f4
