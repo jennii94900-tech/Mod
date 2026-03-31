@@ -15,11 +15,31 @@ mineSpeed: 6.5
 mineTier: 2      
 
 mineItems: [
-  copper
-  lead 
   ochpoch-mob-aluminum
   ochpoch-mob-cristal
 ]
+weapons: [
+  {
+  widthSinMag: 0.1
+    x: 0
+    y: 5
+    laserColor: d8f18c
+    mirror: false
+    type: RepairBeamWeapon
+    rotate: false
+    targetBuildings: true
+    targetUnits: false
+    autoTarget: false
+    controllable: true
+    reload: 20
+    shootY: 0
+    shootCone: 15
+    beamWidth: 0.8
+    repairSpeed: 3.5
+    fractionRepairSpeed: 0.06
+    bullet: {
+      type: BulletType
+      maxRange: 45
 
 engineOffset: 4.5
 lowAltitude: true
