@@ -6,7 +6,9 @@ itemCapacity: 5000
 unitCapModifier: 14
 unitType: "ochpoch-mob-twinkle"
 
-requirements: [ ]
+requirements: [ 
+aluminum/1200
+]
 
 
 category: effect
