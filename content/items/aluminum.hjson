@@ -5,7 +5,9 @@ color: "e0e0e0"
 flammability: 0.3      
 explosiveness: 0.8     
 radioactivity: 3.1    
-charge: 0.7            
+charge: 0.7   
+       
+alwaysUnlocked: false
 
 // --- ВИПРАВЛЕНО: ТВОЇ ЛАПКИ ТА ПЛАНЕТА ---
 research: {
