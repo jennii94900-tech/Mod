@@ -1,6 +1,6 @@
 type: Planet
-name: sunium
-description: Мала та гаряча синя зірка.
+name: Sunium
+description: Мале синє сонце системи.
 accessible: false
 hasAtmosphere: false
 updateLighting: true
@@ -8,11 +8,12 @@ orbitRadius: 0
 solarRadius: 15
 drawOrbit: false
 bloom: true
-
 lightColor: 8aa3f4
 
+# Ось тут була помилка - я виправив структуру
 meshLoader: {
   type: SunMesh
+  planet: sunium
   color1: ffffff
   color2: 8aa3f4
   radius: 1.2
