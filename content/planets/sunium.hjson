@@ -1,5 +1,6 @@
 type: Planet
 name: Sunium
+parent: hooligan
 description: Мале синє сонце системи.
 accessible: false
 hasAtmosphere: false
