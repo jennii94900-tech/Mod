@@ -11,7 +11,7 @@ bloom: true
 lightColor: 8aa3f4
 
 # Ось тут була помилка - я виправив структуру
-meshLoader: {
+mesh: {
   type: SunMesh
   planet: sunium
   color1: ffffff
