@@ -10,7 +10,7 @@ drawOrbit: false
 bloom: true
 lightColor: 8aa3f4
 
-meshLoader: {
+mesh: {
   type: SunMesh
   planet: sunium
   divisions: 5
