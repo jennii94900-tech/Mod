@@ -1,4 +1,3 @@
-type: Planet
 name: Sunium
 parent: hooligan
 description: Мале синє сонце системи.
@@ -17,7 +16,6 @@ mesh: {
   divisions: 5
   radius: 1.2
   rayStep: 0.3
-  # Цвета берем из твоего синего стиля (от белого к синему)
   color1: ffffff
   color2: 8aa3f4
   color3: 7da4ff
