@@ -5,11 +5,11 @@ size: 1
 health: 312
 // Tier 2 - для алюмінію та кристалів
 tier: 2
-drillTime: 285
+drillTime: 253
 
 requirements: [
   // ВИПРАВЛЕНО: Повний ID твого алюмінію
-  "ochpoch-mob-aluminum/36"
+  "ochpoch-mob-aluminum/24"
 ]
 
 category: production
