@@ -49,7 +49,7 @@ category: turret
 // --- ДОСЛІДЖЕННЯ ---
 research: {
   // Прив'язка до твого Міксера в лапках
-  parent: "ochpoch-mob-aluminum"
+  parent: "ochpoch-mob-core"
   planet: hooligan
 }
 
