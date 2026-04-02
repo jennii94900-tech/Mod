@@ -5,7 +5,7 @@ iconColor: 8aa3f4
 localizedName: Hooligan
 description: Світ величних крижаних хребтів та просторих сніжних долин.
 
-meshLoader: {
+mesh: {
   type: NoiseMesh
   planet: hooligan
   seed: 42
