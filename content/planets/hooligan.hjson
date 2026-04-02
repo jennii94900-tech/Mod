@@ -1,48 +1,54 @@
-type: Planet
 generator: PlanetGenerator
-parent: sunium
-iconColor: 8aa3f4
-localizedName: Hooligan
-description: Світ величних крижаних хребтів та просторих сніжних долин.
+parent: sun
+localizedName: "Hooligan"
+description: "Світ величних крижаних хребтів та просторих сніжних долин."
 
-mesh: {
-  type: NoiseMesh
-  planet: hooligan
-  seed: 42
-  divisions: 6
-  radius: 1.3
-  color1: 8aa3f4
-  color2: ffffff
-  color3: 7da4ff
-  octaves: 5
-  persistence: 0.8
-  scale: 1.2
-  mag: 0.7
-}
+defaultCore: "ochpoch-mob-core"
 
-cloudMesh: {
-  type: CloudMesh
-  planet: hooligan
-  seed: 69
-  color: ffffff
-  layers: 2
-  speed: 0.5
-  radius: 0.1
-}
-
+// --- СІТКА СЕКТОРІВ (Щоб була впритул до планети) ---
 startSector: 10
 sectorSize: 1
 accessible: true
 visible: true
 alwaysUnlocked: true
-orbitRadius: 78
+
+orbitRadius: 67
+// Основний радіус планети
 radius: 1.3 
 
+// --- АТМОСФЕРА (Робимо її видимою) ---
 hasAtmosphere: true
 atmosphereColor: 8aa3f4
-atmosphereRadIn: 0.02
-atmosphereRadOut: 0.5 
+// Параметри для версії 156.1:
+atmosphereRadIn: 0.02   // Трохи заходить всередину для ефекту туману
+atmosphereRadOut: 0.35  // Висота сяйва навколо планети
 
-allowLaunchToNumbered: false
-allowLaunchSchematics: false
-defaultCore: ochpoch-mob-core
+// --- ПОВЕРХНЯ (MESH) ---
+mesh: [
+  // --- ПЕРШИЙ ШАР: Основа (сніг) ---
+  {
+    type: NoiseMesh
+    divisions: 4
+    radius: 1.295    // Майже дорівнює радіусу планети (1.3)
+    color1: 8aa3f4
+    color2: ffffff
+    octaves: 3
+    persistence: 0.8
+    scale: 1.2
+    mag: 0.7
+  }
+  // --- ДРУГИЙ ШАР: ГОРНІ ЛАНЦЮГИ ---
+  {
+    type: NoiseMesh
+    divisions: 6       
+    radius: 1.3      // Точний збіг із радіусом для ідеальної сітки
+    color1: ffffff    
+    color2: 7da4ff    
+    octaves: 5         
+    persistence: 0.4   
+    scale: 1.8         
+    mag: 0.9         // Зменшив висоту горбів, щоб вони не вилітали за сітку
+    seed: 42           
+  }
+]
+
