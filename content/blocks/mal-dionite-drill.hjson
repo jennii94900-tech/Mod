@@ -16,6 +16,6 @@ category: production
 
 research: {
   // ПРИВ'ЯЗУЄМО ДО ТВОГО ЯДРА (core) АБО АЛЮМІНІЮ
-  parent: "ochpoch-mob-aluminum"
+  parent: "ochpoch-mob-core"
   planet: "hooligan"
 }
