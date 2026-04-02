@@ -20,7 +20,7 @@ mesh: {
   mag: 0.7
 }
 
-mesh: {
+cloudMesh: {
   type: CloudMesh
   planet: hooligan
   seed: 69
