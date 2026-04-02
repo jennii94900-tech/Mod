@@ -1,5 +1,4 @@
 name: Sunium
-parent: sun
 description: Мале синє сонце системи.
 accessible: false
 hasAtmosphere: false
