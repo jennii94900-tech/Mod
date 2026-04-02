@@ -5,7 +5,6 @@ flying: true
 health: 220
 rotateSpeed: 11
 
-# --- ПАРАМЕТРИ НЕВИДИМОСТІ ---
 targetable: false
 hittable: false
 
@@ -18,13 +17,13 @@ mineItems: [
   ochpoch-mob-cristal
 ]
 
-# --- ЗБРОЯ ДЛЯ РЕМОНТУ ---
 weapons: [
   {
     type: RepairBeamWeapon
     widthSinMag: 0.1
     x: 0
-    y: 5
+    # ВИПРАВЛЕНО: було 5, поставив 2. Тепер не вилітатиме.
+    y: 2 
     laserColor: d8f18c
     mirror: false
     rotate: false
@@ -44,7 +43,6 @@ weapons: [
   }
 ]
 
-# --- ПАРАМЕТРИ ПЕРЕСУВАННЯ ---
 engineOffset: 4.5
 lowAltitude: true
 speed: 5.4
