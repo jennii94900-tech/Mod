@@ -8,7 +8,7 @@ solarRadius: 15
 drawOrbit: false
 bloom: true
 lightColor: 8aa3f4
-orbitRadius: 67
+orbitRadius: 130
 
 mesh: {
   type: SunMesh
