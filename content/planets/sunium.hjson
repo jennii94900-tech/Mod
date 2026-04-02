@@ -4,7 +4,6 @@ description: Мале синє сонце системи.
 accessible: false
 hasAtmosphere: false
 updateLighting: true
-orbitRadius: 0
 solarRadius: 15
 drawOrbit: false
 bloom: true
