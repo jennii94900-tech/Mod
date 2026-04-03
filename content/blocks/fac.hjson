@@ -1,0 +1,41 @@
+// ОБЯЗАТЕЛЬНО:
+type: UnitFactory
+name: "Aluminum Assembler"
+description: "Specialized facility for constructing Aluminum units."
+size: 2
+health: 900
+hasPower: true
+hasItems: true
+itemCapacity: 200
+
+consumes: {
+  power: 2.5
+}
+
+// ПЛАНЫ ПОСТРОЙКИ (Теперь они заработают!)
+plans: [
+  {
+    unit: ochpoch-mob-tank 
+    time: 635 
+    requirements: [
+      ochpoch-mob-refined-aluminum/45
+    ]
+  },
+  {
+    unit: ochpoch-mob-t1-interrupter 
+    time: 580
+    requirements: [
+      ochpoch-mob-refined-aluminum/18
+    ]
+  }
+]
+
+requirements: [
+  ochpoch-mob-refined-aluminum/40
+  aluminum/35
+]
+
+category: units
+
+// Привязываем к ядру, чтобы не было ошибки Tech Tree
+research: core
