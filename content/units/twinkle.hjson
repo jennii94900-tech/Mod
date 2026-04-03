@@ -23,7 +23,7 @@ weapons: [
     widthSinMag: 0.1
     x: 0
     # ВИПРАВЛЕНО: було 5, поставив 2. Тепер не вилітатиме.
-    y: 2 
+    y: 4 
     laserColor: d8f18c
     mirror: false
     rotate: false
