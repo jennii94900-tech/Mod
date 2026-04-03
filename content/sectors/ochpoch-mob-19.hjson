@@ -1,8 +1,8 @@
 // Назва файлу має бути ochpoch-mob-19.hjson
-name: кирстиличиское заблуждение 
+name: puddles 
 planet: hooligan
 sector: 19 // Номер сектора на меші планети
-difficulty: 5
+difficulty: 4
 
 rules: {
   itemWhitelist: [
