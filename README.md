@@ -1,6 +1,6 @@
 # 🧊 Syblinozen: The Hooligan Frontier 🪐
 
-Welcome to the **Syblinozen Project** — a massive industrial expansion for **Mindustry (v7)**. Venture beyond Serpulo and land on **Hooligan**, a frozen planet at the very edge of the solar system.
+Welcome to the **Syblinozen Project** — a massive industrial expansion for **Mindustry (v8)**. Venture beyond Serpulo and land on **Hooligan**, a frozen planet at the very edge of the solar system.
 
 ### 🌌 Planet: Hooligan (Sector 19)
 A world of eternal frost where aluminum ridges pierce the snowy clouds.
