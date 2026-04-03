@@ -28,7 +28,7 @@ weapons: [
     recoil: 2
     
     // Використовуємо стандартний звук, щоб не було помилок "Audio file not found"
-    shootSound: shoot 
+    shootSound: lsershoot 
     
     bullet: {
       type: MissileBulletType
