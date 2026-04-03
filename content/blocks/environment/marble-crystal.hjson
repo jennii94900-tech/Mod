@@ -1,3 +1,4 @@
 type: StaticWall
 name: "Holigan cristal"
 size: 1
+variants : 2
