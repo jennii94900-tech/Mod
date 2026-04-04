@@ -3,13 +3,6 @@ planet: hooligan
 sector: 19
 difficulty: 4
 
-// Помилка була тут: додано назву ключа 'captureWave' (або прибрано зайві дужки)
-// Якщо це параметри висадки, перевірте, чи не пропущено назву об'єкта
-config: {
-  clearDefaultItems: true
-  onlyDepositCore: true
-}
-
 research: {
   planet: hooligan
   parent: "ochpoch-mob-10"
