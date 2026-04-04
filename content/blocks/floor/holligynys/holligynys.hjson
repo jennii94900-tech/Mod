@@ -1,0 +1,4 @@
+type: Floor
+name: "floor"
+variants: 2
+playerUnmineable: false
