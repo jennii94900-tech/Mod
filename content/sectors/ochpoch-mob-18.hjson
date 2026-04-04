@@ -1,6 +1,6 @@
 sector: 18
 planet: hooligan
-name: fast 
+localizedName: "fast" 
 description: "Важлива точка на шляху до 19-го сектора. Будьте готові до несподіванок."
 
 # Складність
