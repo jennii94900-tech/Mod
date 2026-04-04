@@ -4,6 +4,7 @@ planet: hooligan
 sector: 19 // Номер сектора на меші планети
 difficulty: 4
 
+ {
   clearDefaultItems: true
   onlyDepositCore: true
 }
