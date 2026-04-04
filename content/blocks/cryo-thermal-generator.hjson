@@ -1,5 +1,5 @@
 type: ThermalGenerator
-name: Кріо-екстрактор
+name: cryo-generator  
 description: Виробляє безкоштовну енергію, поглинаючи холод прямо з кріогенної підлоги. Не потребує палива.
 size: 2
 health: 420
