@@ -7,8 +7,8 @@ speed: 0.8            // Швидший за Interrupter
 drag: 0.4
 accel: 0.5
 rotateSpeed: 7
-health: 195           // Т1 рівень здоров'я
-armor: 4
+health: 210           // Т1 рівень здоров'я
+armor: 6
 hitSize: 7
 
 // --- ФІШКА: ІГНОРУВАННЯ БУДІВЕЛЬ (BOOST) ---
@@ -26,11 +26,11 @@ weapons: [
     y: 0
     mirror: true      // Робимо дві для симетрії, але слабші
     reload: 15
-    shootSound: spark
+    shootSound: gun
 
     bullet: {
       type: LightningBulletType
-      damage: 12
+      damage: 14
       lightningLength: 12
       lightningColor: "00f2ff" // Твій фірмовий блакитний неон з іконки
     }
