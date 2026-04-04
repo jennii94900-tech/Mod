@@ -28,7 +28,7 @@ weapons: [
     recoil: 2
     
     // Використовуємо стандартний звук, щоб не було помилок "Audio file not found"
-    shootSound: lsershoot 
+    shootSound: artireri 
     
     bullet: {
       type: MissileBulletType
@@ -42,8 +42,8 @@ weapons: [
       weaveScale: 4
       weaveMag: 2
       
-      splashDamage: 58        
-      splashDamageRadius: 32  
+      splashDamage: 60        
+      splashDamageRadius: 38  
       
       frontColor: ffffff
       backColor: 00aaff
