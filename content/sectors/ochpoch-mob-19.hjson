@@ -1,13 +1,9 @@
 // Назва файлу має бути ochpoch-mob-19.hjson
-name: puddles 
+localizedName: "puddles" 
 planet: hooligan
 sector: 19 // Номер сектора на меші планети
 difficulty: 4
 
-rules: {
-  itemWhitelist: [
-    "ochpoch-mob-aluminum",
-    "ochpoch-mob-refined-aluminum"
   ]
   clearDefaultItems: true
   onlyDepositCore: true
@@ -16,12 +12,7 @@ rules: {
 research: {
   planet: hooligan
   // Батьківський вузол у дереві технологій
-  parent: "ochpoch-mob-10" 
-
-  costs: [
-    "ochpoch-mob-aluminum/1000",
-    "ochpoch-mob-refined-aluminum/800"
-  ]
+  parent: "ochpoch-mob-10"
 
   objectives: [
     {
