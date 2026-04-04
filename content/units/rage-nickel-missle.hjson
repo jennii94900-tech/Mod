@@ -16,7 +16,7 @@ health: 390
 trailColor: 6f939a
 
 range: 3
-loopSound: 
+loopSound: rokket
 loopSoundVolume: 0.3
 
 abilities: [
