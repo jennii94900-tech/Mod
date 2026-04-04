@@ -6,9 +6,9 @@ description: "Штурмовий мех, що використовує силу 
 speed: 0.5
 drag: 0.4
 accel: 0.5
-rotateSpeed: 3
-health: 1100
-armor: 15
+rotateSpeed: 4
+health: 1200
+armor: 17
 
 // --- ФІШКА: ІГНОРУВАННЯ БЛОКОВ (BOOST) ---
 canBoost: true
@@ -25,15 +25,15 @@ weapons: [
     x: 5              
     y: 0
     reload: 10        // Трохи повільніше за лазер, але б'є сильніше
-    shootSound: spark // Звук електричного розряду
+    shootSound: gun
 
     bullet: {
       type: LightningBulletType
-      damage: 25      // Шкода від самого попадання
+      damage: 26      // Шкода від самого попадання
       
       // Параметри блискавки:
-      lightningLength: 22     // Довжина блискавки (дальність)
-      lightningDamage: 15     // Шкода від розряду
+      lightningLength: 26     // Довжина блискавки (дальність)
+      lightningDamage: 17     // Шкода від розряду
       lightningColor: "00f2ff" // Твій фірмовий блакитний неон
       
       shootEffect: sparkShoot
