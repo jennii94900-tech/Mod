@@ -1,0 +1,23 @@
+type: ThermalGenerator
+name: Кріо-екстрактор
+description: Виробляє безкоштовну енергію, поглинаючи холод прямо з кріогенної підлоги. Не потребує палива.
+size: 2
+health: 420
+hasPower: true
+
+# Базова енергія (якщо підлога 100% кріогенна)
+powerProduction: 2.5
+
+# Вказуємо, яку підлогу він шукає
+attribute: cryofluid
+
+# Ефект інею навколо
+generateEffect: freezing
+
+requirements: [
+  ochpoch-mob-aluminum/30
+  ochpoch-mob-cristal/20
+]
+
+category: power
+research: aluminum-generator
