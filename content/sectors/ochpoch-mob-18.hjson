@@ -1,0 +1,21 @@
+sector: 18
+planet: hooligan
+name: fast 
+description: "Важлива точка на шляху до 19-го сектора. Будьте готові до несподіванок."
+
+# Складність
+difficulty: 4
+
+# Що потрібно вивчити, щоб відкрити цей сектор
+research: {
+  parent: ochpoch-mob-19
+  objectives: [
+    {
+      type: SectorComplete
+      preset: ochpoch-mob-19
+    }
+  ]
+}
+
+# Чи завжди він відкритий
+alwaysUnlocked: false
