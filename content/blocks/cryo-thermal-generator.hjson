@@ -9,7 +9,7 @@ hasPower: true
 powerProduction: 2.5
 
 # Вказуємо, яку підлогу він шукає
-attribute: pooled-cryofluid
+attribute: holligynys
 
 # Ефект інею навколо
 generateEffect: freezing
