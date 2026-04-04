@@ -3,7 +3,7 @@ name: "Aluminum Raider"
 description: "Швидкий розвідувальний ховер-танк. Оснащений одиночною пусковою установкою 'Sliver'."
 
 hitSize: 12
-health: 450
+health: 510
 speed: 0.6
 rotateSpeed: 3 
 
