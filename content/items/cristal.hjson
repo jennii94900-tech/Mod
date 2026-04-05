@@ -1,5 +1,5 @@
 name: "marmyriym"
-description: "Високоенергетична кристалічна структура. Використовується в електроніці та лазерній зброї."
+description: "very energetic material, used for turrets ."
 
 // --- ВИПРАВЛЕНО: КОЛІР МАЄ БУТИ В ЛАПКАХ ---
 color: "00f2ff"
