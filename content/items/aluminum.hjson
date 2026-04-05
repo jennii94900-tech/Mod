@@ -1,5 +1,5 @@
 name: "Aluminum"
-description: "Легкий та міцний метал. Використовується для авіації та швидкісних систем."
+description: "very light material for buildings."
 color: "e0e0e0"
 
 flammability: 0.3      
