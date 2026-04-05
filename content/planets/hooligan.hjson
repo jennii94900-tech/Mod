@@ -58,7 +58,7 @@ mesh: [
     //this radius value is based on the planet surface not the core of the planet unlike noise meshes
     radius: 0.2
     //cloud colour
-    color: 409BF7FF
+    color: B5C1FFFF
     //more explodey values they're even more sensitive here
     octaves: 3
     persistence: 0.3
