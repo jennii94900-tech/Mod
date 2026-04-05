@@ -1,6 +1,6 @@
 type: Wall
-name: "Large Aluminum Wall"
-description: "Надміцна броньована стіна. Витримує колосальний урон, перевершуючи торієві аналоги."
+name: "Aluminum Wall"
+description: "Wall."
 size: 1
 // Твоє замовлення: 6000 здоров'я
 health: 3100 
