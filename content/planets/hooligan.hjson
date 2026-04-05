@@ -7,7 +7,7 @@ defaultCore: "ochpoch-mob-core"
 
 // --- СІТКА СЕКТОРІВ (Щоб була впритул до планети) ---
 startSector: 10
-sectorSize: 1
+sectorSize: 2
 accessible: true
 visible: true
 alwaysUnlocked: true
@@ -49,6 +49,22 @@ mesh: [
     scale: 1.8         
     mag: 0.9         // Зменшив висоту горбів, щоб вони не вилітали за сітку
     seed: 42           
+  }
+ {
+    type: HexSkyMesh
+    //rotate speed 
+    speed: 4
+    divisions: 5
+    //this radius value is based on the planet surface not the core of the planet unlike noise meshes
+    radius: 0.11
+    //cloud colour
+    color: aee1ffaa
+    //more explodey values they're even more sensitive here
+    octaves: 3
+    persistence: 0.3
+    scl: 1
+    thresh: 0.42
+    seed: 5
   }
 ]
 
