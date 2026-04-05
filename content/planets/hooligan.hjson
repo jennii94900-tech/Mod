@@ -56,7 +56,7 @@ mesh: [
     speed: 3
     divisions: 5
     //this radius value is based on the planet surface not the core of the planet unlike noise meshes
-    radius: 0.11
+    radius: 0.5
     //cloud colour
     color: 409BF7FF
     //more explodey values they're even more sensitive here
