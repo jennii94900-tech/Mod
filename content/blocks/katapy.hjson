@@ -1,6 +1,6 @@
 type: MassDriver
-name: "Алюмінієва катапульта"
-description: "Використовує магнітне прискорення для перекидання великих партій ресурсів на величезні відстані."
+name: "catapult"
+description: "perfect catapult for planet hooligan."
 size: 1
 health: 640
 
