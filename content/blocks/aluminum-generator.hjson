@@ -2,10 +2,10 @@ type: ConsumeGenerator
 name: aluminum generator 
 description: gives energy for aluminum .
 size: 2
-health: 160
+health: 165
 hasPower: true
 hasItems: true
-powerProduction: 1.0
+powerProduction: 1.4
 
 consumes: {
   items: [
