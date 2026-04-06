@@ -2,8 +2,8 @@ type: CoreBlock
 name: Ядро: <<fortress>>
 description: Високотехнологічне ядро з посиленим алюмінієвим корпусом. Пристосоване до суворих умов.
 size: 4
-health: 7560
-itemCapacity: 7040
+health: 7600
+itemCapacity: 7500
 
 # Юніт, який вилітає з ядра (можеш замінити на свого кастомного)
 unitType: twinkle 
