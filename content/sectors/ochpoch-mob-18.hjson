@@ -1,10 +1,10 @@
-localizedName: "" 
+localizedName: "lining" 
 sector: 18
 planet: hooligan
 description: "Enemies are entrenched in this sector, destroy the core, explore more blocks for energy."
 
 # Складність
-difficulty: 4
+difficulty: 6
 
 # Що потрібно вивчити, щоб відкрити цей сектор
 research: {
