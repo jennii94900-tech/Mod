@@ -1,5 +1,5 @@
 type: Junction
-name: "Алюмінієве перехрестя"
+name: "aluminum crossbar"
 description: "Дозволяє двом конвеєрним стрічкам перетинатися. Використовує алюмінієві напрямні."
 size: 1
 health: 50
