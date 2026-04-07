@@ -1,23 +1,24 @@
-type: ThermalGenerator
-name: cryo-generator  
-description: Виробляє безкоштовну енергію, поглинаючи холод прямо з кріогенної підлоги. Не потребує палива.
+type: ConsumeGenerator
+name: cristal generator 
+description: gives energy for cristal.
 size: 2
-health: 420
+health: 170
 hasPower: true
+hasItems: true
+powerProduction: 2.3
 
-# Базова енергія (якщо підлога 100% кріогенна)
-powerProduction: 2.5
+consumes: {
+  items: [
+    cristal/2
+  ]
+}
 
-# Вказуємо, яку підлогу він шукає
-attribute: holligynys
-
-# Ефект інею навколо
-generateEffect: freezing
+itemDuration: 90
 
 requirements: [
-  ochpoch-mob-aluminum/30
-  ochpoch-mob-cristal/20
+  aluminum/25
+  cristal/15
 ]
 
 category: power
-research: aluminum-generator
+research: aluminum-generator 
