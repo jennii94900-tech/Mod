@@ -31,7 +31,7 @@ ammoTypes: {
     frontColor: 8aa3f4
     backColor: 4a69bd
     lifetime: 35
-    hitEffect: crystalExplosion
+    hitEffect: plasticExplosion
     despawnEffect: smokeCloud
   }
 }
