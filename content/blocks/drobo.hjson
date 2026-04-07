@@ -1,18 +1,12 @@
 type: ItemTurret
 name: Crystal Scatter
 description: A heavy close-range turret. Fires a spread of sharp blue crystal shards.
-size: 2
+size: 1
 health: 600
 range: 140
 reload: 45
 inaccuracy: 15
 shootCone: 30
-
-consumes: {
-  items: [
-    ochpoch-mob-cristal/2
-  ]
-}
 
 shoot: {
   type: ShootSpread
