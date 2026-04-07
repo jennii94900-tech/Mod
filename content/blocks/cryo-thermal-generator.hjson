@@ -5,7 +5,7 @@ size: 2
 health: 170
 hasPower: true
 hasItems: true
-powerProduction: 2.3
+powerProduction: 3.0
 
 consumes: {
   items: [
