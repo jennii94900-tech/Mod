@@ -1,0 +1,21 @@
+localizedName: "intersection center" 
+sector: 45
+planet: hooligan
+description: "research more turrets to protect the core."
+
+# Складність
+difficulty: 4
+
+# Що потрібно вивчити, щоб відкрити цей сектор
+research: {
+  parent: ochpoch-mob-18
+  objectives: [
+    {
+      type: SectorComplete
+      preset: ochpoch-mob-18
+    }
+  ]
+}
+
+# Чи завжди він відкритий
+alwaysUnlocked: false
