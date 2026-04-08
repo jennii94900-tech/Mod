@@ -1,55 +1,56 @@
 type: ItemTurret
-name: "incinerator"
-description: "turrret."
+name: "Incinerator"
+description: "A rapid-fire defensive turret designed to shred ground forces with high-velocity projectiles."
 size: 2
 health: 650
 range: 310
 
 // --- ШВИДКІСТЬ ТА РОЗКИД ---
-reload: 4            // Стріляє кожні 4 кадри (дуже швидко!)
-inaccuracy: 4        // Той самий розкид 1, як ти просив
+reload: 4            
+inaccuracy: 4        
+rotateSpeed: 15      
 
-rotateSpeed: 15      // Трохи прискорив поворот, щоб встигати за ціллю
-
+// --- ЦІЛІ (Тільки наземні) ---
 targetGround: true
-targetAir: true
+targetAir: false
 
 ammoTypes: {
   "ochpoch-mob-aluminum": {
     type: FlakBulletType
     speed: 8
-    damage: 18       // Трохи зменшив шкоду, бо тепер вилітає гора патронів
-    width: 7         // ВИПРАВЛЕНО ДЛЯ 155.4
-    height: 9        // ВИПРАВЛЕНО ДЛЯ 155.4
+    damage: 18       
+    width: 7         
+    height: 9        
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     ammoMultiplier: 4
     frontColor: "ffffff"
     backColor: "dcdcdc"
+    collidesAir: false // Додаткова перевірка, щоб кулі не чіпляли літаків
   }
   "ochpoch-mob-cristal": {
     type: FlakBulletType
     speed: 10
     damage: 42
-    width: 9         // ВИПРАВЛЕНО ДЛЯ 155.4
-    height: 12       // ВИПРАВЛЕНО ДЛЯ 155.4
+    width: 9         
+    height: 12       
     hitEffect: flakExplosion
     ammoMultiplier: 6
     frontColor: "ffffff"
     backColor: "00f2ff"
     explodeRange: 20
+    collidesAir: false
   }
 }
 
 requirements: [
-  "ochpoch-mob-aluminum/40",
+  "ochpoch-mob-aluminum/40"
   "cristal/35"
 ]
 
 category: turret
 
 research: {
-  // ПАМ'ЯТАЄМО ПРО ЛАПКИ ДЛЯ ДЕФІСІВ
   parent: "ochpoch-mob-v1-turre"
   planet: "hooligan"
 }
