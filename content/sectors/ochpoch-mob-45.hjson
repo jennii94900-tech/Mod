@@ -4,7 +4,7 @@ planet: hooligan
 description: "Enemies are entrenched in this sector, destroy the core, explore more blocks for energy."
 
 # Складність
-difficulty: 6
+difficulty: 10
 captureWave: 30
 
 # Що потрібно вивчити, щоб відкрити цей сектор
