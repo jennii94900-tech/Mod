@@ -1,10 +1,10 @@
 localizedName: "crash" 
 planet: hooligan
-sector: 19
+sector: 2
 description: "Here came the crash of a spaceship, here are very small deposits of aluminum." 
 
 
-difficulty: 4
+difficulty: 3
 
 research: {
   planet: hooligan
