@@ -9,9 +9,9 @@ Events.on(UnitDestroyEvent, event => {
         
         let item = Packages.mindustry.gen.ItemEntity.create();
         item.set(x + offX, y + offY);
-        item.item(Items.scrap);
+        item.item(Items.ore);
         item.add();
         
-        Fx.dropItem.at(x + offX, y + offY, 0, Items.scrap);
+        Fx.dropItem.at(x + offX, y + offY, 0, Items.ore);
     }
 });
