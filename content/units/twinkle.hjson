@@ -22,7 +22,6 @@ weapons: [
     type: RepairBeamWeapon
     widthSinMag: 0.1
     x: 0
-    # ВИПРАВЛЕНО: було 5, поставив 2. Тепер не вилітатиме.
     y: 4 
     laserColor: 617CFFFF
     mirror: false
@@ -38,10 +37,13 @@ weapons: [
     repairSpeed: 3.5
     fractionRepairSpeed: 0.06
     bullet: {
-      maxRange: 50
+      maxRange: 60
+      // Цей параметр робить "палицю" променя візуально довгою
+      length: 60
     }
   }
 ]
+
 
 engineOffset: 4.5
 lowAltitude: true
