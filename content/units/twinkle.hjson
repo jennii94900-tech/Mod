@@ -24,7 +24,7 @@ weapons: [
     x: 0
     # ВИПРАВЛЕНО: було 5, поставив 2. Тепер не вилітатиме.
     y: 4 
-    laserColor: d8f18c
+    laserColor: 617CFFFF
     mirror: false
     rotate: false
     targetBuildings: true
@@ -38,7 +38,7 @@ weapons: [
     repairSpeed: 3.5
     fractionRepairSpeed: 0.06
     bullet: {
-      maxRange: 45
+      maxRange: 50
     }
   }
 ]
@@ -49,9 +49,9 @@ speed: 5.4
 accel: 0.03
 drag: 0.05
 hitSize: 10
-itemCapacity: 45 
+itemCapacity: 50 
 
-lightRadius: 45
+lightRadius: 50
 lightColor: 8aa3f4
 engineColor: 8aa3f4
 
