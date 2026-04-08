@@ -19,7 +19,7 @@ shootType: {
 }
 
 // Споживання енергії (за один постріл або постійно)
-consumePower: 1.5
+Power: 1.5
 
 requirements: [
   "ochpoch-mob-aluminum/50"
