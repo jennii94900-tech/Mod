@@ -1,56 +1,54 @@
 type: ItemTurret
-name: "Incinerator"
-description: "A rapid-fire defensive turret designed to shred ground forces with high-velocity projectiles."
+name: "Spark"
+description: "t2-turret."
 size: 2
-health: 650
-range: 310
-
-// --- ШВИДКІСТЬ ТА РОЗКИД ---
-reload: 4            
-inaccuracy: 4        
-rotateSpeed: 15      
-
-// --- ЦІЛІ (Тільки наземні) ---
-targetGround: true
-targetAir: false
+health: 500
+range: 312
+reload: 21
+recoil: 1.7
+shootSound: artireri
 
 ammoTypes: {
+  // --- АЛЮМІНІЙ (ID В ЛАПКАХ) ---
   "ochpoch-mob-aluminum": {
-    type: FlakBulletType
+    type: BasicBulletType
     speed: 8
-    damage: 18       
-    width: 7         
-    height: 9        
+    damage: 18
+    lifetime: 40 // Розрахунок: 210 / 7 = 30
+    width: 6
+    height: 9
+    frontColor: 577277ff
+    backColor: 577277ff
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
-    ammoMultiplier: 4
-    frontColor: "ffffff"
-    backColor: "dcdcdc"
-    collidesAir: false // Додаткова перевірка, щоб кулі не чіпляли літаків
+    ammoMultiplier: 2
   }
+
+  // --- КРИСТАЛИ ---
   "ochpoch-mob-cristal": {
-    type: FlakBulletType
-    speed: 10
-    damage: 42
-    width: 9         
-    height: 12       
-    hitEffect: flakExplosion
-    ammoMultiplier: 6
-    frontColor: "ffffff"
-    backColor: "00f2ff"
-    explodeRange: 20
-    collidesAir: false
+    type: BasicBulletType
+    speed: 8
+    damage: 33
+    lifetime: 40 // Розрахунок: 210 / 8 = 26.25
+    width: 7
+    height: 12
+    frontColor: 00f2ff
+    backColor: 8aa3f4
+    status: shocked 
+    ammoMultiplier: 4
   }
 }
 
 requirements: [
+  // Ціна теж у лапках
   "ochpoch-mob-aluminum/40"
-  "cristal/35"
 ]
 
 category: turret
 
+// --- ДОСЛІДЖЕННЯ ---
 research: {
-  parent: "ochpoch-mob-v1-turre"
-  planet: "hooligan"
+  // Прив'язка до твого Міксера в лапках
+  parent: "ochpoch-mob-drobo"
+  planet: hooligan
 }
