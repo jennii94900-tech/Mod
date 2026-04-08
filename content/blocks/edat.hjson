@@ -23,7 +23,7 @@ Power: 1.2
 
 requirements: [
   "ochpoch-mob-aluminum/40"
-  "ochpoch-mob-cristal/20"
+  "ochpoch-mob-cristal/35"
 ]
 
 category: turret
