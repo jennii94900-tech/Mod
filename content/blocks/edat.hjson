@@ -1,10 +1,10 @@
 type: ItemTurret
-name: "Spark"
+name: "not missing"
 description: "t2-turret."
 size: 2
-health: 500
+health: 110
 range: 312
-reload: 21
+reload: 14
 recoil: 1.7
 shootSound: artireri
 
@@ -12,7 +12,7 @@ ammoTypes: {
   // --- АЛЮМІНІЙ (ID В ЛАПКАХ) ---
   "ochpoch-mob-aluminum": {
     type: BasicBulletType
-    speed: 8
+    speed: 6
     damage: 18
     lifetime: 40 // Розрахунок: 210 / 7 = 30
     width: 6
@@ -27,7 +27,7 @@ ammoTypes: {
   // --- КРИСТАЛИ ---
   "ochpoch-mob-cristal": {
     type: BasicBulletType
-    speed: 8
+    speed: 7
     damage: 33
     lifetime: 40 // Розрахунок: 210 / 8 = 26.25
     width: 7
