@@ -1,6 +1,6 @@
 type: ItemTurret
-name: "heavenly incinerator"
-description: "Швидкострільна зенітна установка. Створює щільну завісу вогню в небі."
+name: "incinerator"
+description: "turrret."
 size: 2
 health: 650
 range: 310
@@ -12,7 +12,7 @@ inaccuracy: 4        // Той самий розкид 1, як ти просив
 rotateSpeed: 15      // Трохи прискорив поворот, щоб встигати за ціллю
 
 targetGround: true
-targetAir: false
+targetAir: true
 
 ammoTypes: {
   "ochpoch-mob-aluminum": {
