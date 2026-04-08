@@ -7,7 +7,11 @@ Events.on(UnitDestroyEvent, event => {
         let offX = Mathf.range(12);
         let offY = Mathf.range(12);
         
-        ItemEntity.create().set(x + offX, y + offY).item(Items.scrap).add();
+        let item = Packages.mindustry.gen.ItemEntity.create();
+        item.set(x + offX, y + offY);
+        item.item(Items.scrap);
+        item.add();
+        
         Fx.dropItem.at(x + offX, y + offY, 0, Items.scrap);
     }
 });
