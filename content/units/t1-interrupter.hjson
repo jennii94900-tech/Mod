@@ -3,12 +3,12 @@ name: "static"
 description: "Легкий розвідувальний мех. Випускає короткі електричні розряди. Здатний переступати через перешкоди."
 
 
-speed: 0.8            // Швидший за Interrupter
+speed: 0.7            // Швидший за Interrupter
 drag: 0.4
 accel: 0.5
 rotateSpeed: 7
-health: 210           // Т1 рівень здоров'я
-armor: 6
+health: 230           // Т1 рівень здоров'я
+armor: 7
 hitSize: 7
 
 // --- ФІШКА: ІГНОРУВАННЯ БУДІВЕЛЬ (BOOST) ---
@@ -30,7 +30,7 @@ weapons: [
 
     bullet: {
       type: LightningBulletType
-      damage: 14
+      damage: 16
       lightningLength: 12
       lightningColor: "00f2ff" // Твій фірмовий блакитний неон з іконки
     }
