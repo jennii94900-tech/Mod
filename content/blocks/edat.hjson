@@ -1,54 +1,34 @@
-type: ItemTurret
-name: "not missing"
+type: PowerTurret
+name: "laser turret"
 description: "t2-turret."
 size: 2
 health: 110
-range: 312
-reload: 14
-recoil: 1.7
-shootSound: artireri
+range: 210
+reload: 60
+recoil: 2
+shootSound: laser
 
-ammoTypes: {
-  // --- АЛЮМІНІЙ (ID В ЛАПКАХ) ---
-  "ochpoch-mob-aluminum": {
-    type: BasicBulletType
-    speed: 6
-    damage: 18
-    lifetime: 40 // Розрахунок: 210 / 7 = 30
-    width: 6
-    height: 9
-    frontColor: 577277ff
-    backColor: 577277ff
-    shootEffect: shootSmall
-    smokeEffect: shootSmallSmoke
-    ammoMultiplier: 2
-  }
-
-  // --- КРИСТАЛИ ---
-  "ochpoch-mob-cristal": {
-    type: BasicBulletType
-    speed: 7
-    damage: 33
-    lifetime: 40 // Розрахунок: 210 / 8 = 26.25
-    width: 7
-    height: 12
-    frontColor: 00f2ff
-    backColor: 8aa3f4
-    status: shocked 
-    ammoMultiplier: 4
-  }
+// Налаштування лазера
+shootType: {
+  type: LaserBulletType
+  colors: [8aa3f4, 00f2ff, ffffff] // Кольори під твої кристали
+  damage: 45
+  hitEffect: hitLase
+  width: 25
+  length: 210
 }
 
+// Споживання енергії (за один постріл або постійно)
+consumePower: 1.5
+
 requirements: [
-  // Ціна теж у лапках
-  "ochpoch-mob-aluminum/40"
+  "ochpoch-mob-aluminum/50"
+  "ochpoch-mob-cristal/20"
 ]
 
 category: turret
 
-// --- ДОСЛІДЖЕННЯ ---
 research: {
-  // Прив'язка до твого Міксера в лапках
   parent: "ochpoch-mob-drobo"
   planet: hooligan
 }
