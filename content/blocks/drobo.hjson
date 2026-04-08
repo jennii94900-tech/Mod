@@ -10,7 +10,7 @@ shootCone: 30
 
 shoot: {
   type: ShootSpread
-  shots: 9
+  shots: 12
   spread: 7
 }
 
