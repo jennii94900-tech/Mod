@@ -1,0 +1,22 @@
+localizedName: "lining" 
+sector: 18
+planet: hooligan
+description: "Enemies are entrenched in this sector, destroy the core, explore more blocks for energy."
+
+# Складність
+difficulty: 6
+captureWave: 30
+
+# Що потрібно вивчити, щоб відкрити цей сектор
+research: {
+  parent: ochpoch-mob-19
+  objectives: [
+    {
+      type: SectorComplete
+      preset: ochpoch-mob-19
+    }
+  ]
+}
+
+# Чи завжди він відкритий
+alwaysUnlocked: false
