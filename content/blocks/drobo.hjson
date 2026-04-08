@@ -10,7 +10,7 @@ shootCone: 30
 
 shoot: {
   type: ShootSpread
-  shots: 5
+  shots: 9
   spread: 7
 }
 
@@ -31,7 +31,7 @@ ammoTypes: {
 }
 
 requirements: [
-  ochpoch-mob-aluminum/50
+  ochpoch-mob-aluminum/45
   ochpoch-mob-cristal/20
 ]
 
