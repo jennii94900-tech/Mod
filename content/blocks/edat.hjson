@@ -6,7 +6,7 @@ health: 110
 range: 210
 reload: 60
 recoil: 2
-shootSound: laser
+shootSound: lasershoot
 
 // Налаштування лазера
 shootType: {
