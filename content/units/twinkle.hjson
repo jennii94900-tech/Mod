@@ -1,6 +1,6 @@
 type: flying
 name: Twinkle
-description: "Спеціалізований дрон-привид. Повністю ігнорується ворогами. Призначений для будівництва, видобутку та ремонту."
+description: "Спеціалізований дрон-привид. Повністю ігнорується ворогами."
 flying: true
 health: 220
 rotateSpeed: 11
@@ -36,14 +36,13 @@ weapons: [
     beamWidth: 0.8
     repairSpeed: 3.5
     fractionRepairSpeed: 0.06
+    // ВИПРАВЛЕНО: довжина променя для лікування задається через maxRange тут
     bullet: {
+      type: BulletType
       maxRange: 60
-      // Цей параметр робить "палицю" променя візуально довгою
-      length: 60
     }
   }
 ]
-
 
 engineOffset: 4.5
 lowAltitude: true
@@ -57,4 +56,4 @@ lightRadius: 50
 lightColor: 8aa3f4
 engineColor: 8aa3f4
 
-research: ochpoch-mob-core
+research: ochpoch-mob-core-hooligan
