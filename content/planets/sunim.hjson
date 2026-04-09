@@ -1,0 +1,30 @@
+type: Planet
+generator: PlanetGenerator
+localizedName: "sunim"
+
+// Копіюємо блок meshLoader -> SunMesh з Java
+mesh: {
+  type: SunMesh
+  divisions: 4
+  octaves: 5
+  persistence: 0.3
+  scl: 1.7
+  pow: 1.2
+  mag: 1.0
+  color1: ff7a38
+  color2: ff9638
+  color3: ffc64c
+  color4: ffc64c
+  color5: ffe371
+  color6: f4ee8e
+}
+
+radius: 4
+bloom: true
+accessible: false
+drawOrbit: false
+
+// Налаштування атмосфери (в Java це часто за замовчуванням, але ми пропишемо)
+hasAtmosphere: true
+atmosphereColor: ff7a38
+atmosphereRadius: 0.3
