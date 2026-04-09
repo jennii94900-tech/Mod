@@ -1,5 +1,6 @@
 generator: PlanetGenerator
 localizedName: "Blue Sun"
+
 mesh: {
     type: SunMesh
     divisions: 3
