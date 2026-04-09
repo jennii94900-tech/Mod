@@ -2,9 +2,9 @@ type: tank
 name: "Aluminum Raider"
 description: "Швидкий розвідувальний ховер-танк. Оснащений одиночною пусковою установкою 'Sliver'."
 
-hitSize: 12
-health: 510
-speed: 0.6
+hitSize: 13
+health: 630
+speed: 0.7
 rotateSpeed: 3 
 
 // Налаштування для ховера (щоб він не мав гусениць і "ковзав")
