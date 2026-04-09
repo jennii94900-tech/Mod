@@ -38,7 +38,7 @@ mesh: [
   {
     type: HexSkyMesh
     speed: 2
-    divisions: 4
+    divisions: 5
     radius: 0.17
     color: 7da4ff
     octaves: 3
@@ -50,7 +50,7 @@ mesh: [
   {
     type: HexSkyMesh
     speed: 3
-    divisions: 4
+    divisions: 5
     radius: 0.2
     color: ffffff
     octaves: 2
