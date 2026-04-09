@@ -24,7 +24,7 @@ mesh: {
 // Теперь это центр собственной системы
 solarSystem: bluesun
 parent: sun
-orbitRadius: 12000
+orbitRadius: 13000
 
 accessible: true
 radius: 3
