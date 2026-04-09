@@ -1,5 +1,5 @@
 generator: PlanetGenerator
-parent: hooligan
+parent: sun
 localizedName: "sunim"
 description: "Твоє сонце."
 
