@@ -10,7 +10,6 @@ mesh: {
   scl: 1.7
   pow: 1.2
   mag: 1
-  // ВИПРАВЛЕНО: кольори мають бути в масиві colors: [...]
   colors: [
     ff7a38
     ff9638
@@ -26,7 +25,9 @@ orbitRadius: 0
 bloom: true
 accessible: false
 drawOrbit: false
+
+// ВИПРАВЛЕНА АТМОСФЕРА (згідно з Planets.java)
 hasAtmosphere: true
 atmosphereColor: ff7a38
-// ВИПРАВЛЕНО: назад на atmosphereRad для стабільності
-atmosphereRad: 0.3
+atmosphereRadIn: 0.02
+atmosphereRadOut: 0.3
