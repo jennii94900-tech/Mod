@@ -1,25 +1,33 @@
-type: Planet
+// В Mindustry для планет тип часто не пишеться всередині, 
+// якщо гра вже знає, що це файл планети, але ми лишимо для чіткості
 generator: PlanetGenerator
 localizedName: "Мала Зоря"
-description: "Карликова зірка з деталізованою короною."
+description: "Карликова зірка."
 
+// Налаштування мешу
 mesh: {
   type: NoiseMesh
   seed: 42
   divisions: 4
-  radius: 1.2  // Маленький радіус кулі
+  radius: 1.2
   color1: ffd37f
   color2: ff5252
   octaves: 3
   persistence: 0.8
-  scl: 0.5     // Зменшили масштаб, щоб шум пасував під малий розмір
-  mag: 0.3     // Невеликі спалахи плазми
+  scl: 0.5
+  mag: 0.3
 }
 
-// Характеристики карлика
+// Правильні назви полів для версії 146+ / 156
 radius: 1.2
-bloom: true
+orbitRadius: 0
 accessible: false
 hasAtmosphere: true
+bloom: true
+
+// ВИПРАВЛЕНО: atmosphereRadius замість atmosphereRad
 atmosphereColor: ff9c5a
-atmosphereRad: 0.15   // Тонка корона навколо
+atmosphereRadius: 0.15
+
+// Додатково для сонця
+drawOrbit: false
