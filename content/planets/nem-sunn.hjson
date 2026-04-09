@@ -18,9 +18,8 @@ mesh: {
 
 // Характеристики карлика
 radius: 1.2
-orbitRadius: 0
 bloom: true
 accessible: false
 hasAtmosphere: true
 atmosphereColor: ff9c5a
-atmosphereRad: 0.15 // Тонка корона навколо
+atmosphereRad: 0.15   // Тонка корона навколо
