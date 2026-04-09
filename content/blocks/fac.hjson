@@ -27,6 +27,11 @@ plans: [
     requirements: [
       ochpoch-mob-refined-aluminum/18
     ]
+    unit: ochpoch-mob-twike
+    time: 520
+    requirements: [
+      ochpoch-mob-refined-aluminum/15
+   ]
   }
 ]
 
