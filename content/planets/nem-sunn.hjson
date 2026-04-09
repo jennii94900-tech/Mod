@@ -1,0 +1,26 @@
+type: Planet
+generator: PlanetGenerator
+localizedName: "Мала Зоря"
+description: "Карликова зірка з деталізованою короною."
+
+mesh: {
+  type: NoiseMesh
+  seed: 42
+  divisions: 4
+  radius: 1.2  // Маленький радіус кулі
+  color1: ffd37f
+  color2: ff5252
+  octaves: 3
+  persistence: 0.8
+  scl: 0.5     // Зменшили масштаб, щоб шум пасував під малий розмір
+  mag: 0.3     // Невеликі спалахи плазми
+}
+
+// Характеристики карлика
+radius: 1.2
+orbitRadius: 0
+bloom: true
+accessible: false
+hasAtmosphere: true
+atmosphereColor: ff9c5a
+atmosphereRad: 0.15 // Тонка корона навколо
