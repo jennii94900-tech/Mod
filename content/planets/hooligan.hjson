@@ -12,7 +12,7 @@ accessible: true
 visible: true
 alwaysUnlocked: true
 
-orbitRadius: 85
+orbitRadius: 50
 // Основний радіус планети
 radius: 1.3
 
