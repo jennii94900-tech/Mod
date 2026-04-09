@@ -10,7 +10,7 @@ orbitSpacing: 5
 // ----------------------------
 
 defaultCore: "ochpoch-mob-core"
-startSector: 10
+startSector: 86
 sectorSize: 2
 accessible: true
 visible: true
