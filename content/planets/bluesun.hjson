@@ -1,0 +1,39 @@
+type: Planet
+generator: PlanetGenerator
+localizedName: "Blue Sun"
+
+mesh: {
+    type: SunMesh
+    divisions: 3
+    octaves: 4
+    persistence: 0.6
+    scl: 1
+    pow: 1
+    mag: 0.5
+    colorScale: 1
+    // Палитра для настоящего голубого гиганта
+    colors: [
+        d5e1ff
+        9eb9ff
+        7da4ff
+        8aa3f4
+        617cff
+        ffffff
+    ]
+}
+
+// Теперь это центр собственной системы
+solarSystem: bluesun
+parent: sun
+orbitRadius: 12000
+
+accessible: true
+radius: 3
+visible: true
+hasAtmosphere: false
+bloom: true
+orbitSpacing: 8
+drawOrbit: false
+tidalLock: true
+iconColor: 8aa3f4
+icon: planet
