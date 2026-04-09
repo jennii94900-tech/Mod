@@ -2,7 +2,7 @@ localizedName: "hope"
 description: "A safe zone for starting. Here you will find the first deposits of aluminum."
 
 planet: "hooligan"
-sector: 10
+sector: 86
 
 difficulty: 1
 alwaysUnlocked: true
