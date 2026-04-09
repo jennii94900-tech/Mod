@@ -44,6 +44,8 @@ weapons: [
   }
 ]
 
+controller: RepairAI
+
 engineOffset: 4.5
 lowAltitude: true
 speed: 5.4
