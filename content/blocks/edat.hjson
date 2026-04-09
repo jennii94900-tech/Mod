@@ -11,24 +11,26 @@ shootSound: laser
 // Налаштування лазера
 shootType: {
   type: LaserBulletType
-  colors: [8aa3f4, 00f2ff, ffffff] // Кольори під твої кристали
+  colors: ["8aa3f4", "00f2ff", "ffffff"] 
   damage: 45
   hitEffect: hitLaser
   width: 25
-  length: 210
+  length: 210 // Для LaserBulletType це поле правильне
 }
 
-// Споживання енергії (за один постріл або постійно)
-Power: 1.2
+// ПРАВИЛЬНЕ споживання енергії
+consumes: {
+  power: 1.2
+}
 
 requirements: [
-  "ochpoch-mob-aluminum/40"
-  "ochpoch-mob-cristal/35"
+  "aluminum/40"
+  "cristal/35"
 ]
 
 category: turret
 
 research: {
-  parent: "ochpoch-mob-drobo"
-  planet: hooligan
+  parent: "drobo"
+  planet: "hooligan"
 }
