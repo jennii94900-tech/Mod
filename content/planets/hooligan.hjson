@@ -1,5 +1,5 @@
 generator: PlanetGenerator
-parent: nem-sunn
+parent: sun
 localizedName: "Hooligan"
 description: "Світ величних крижаних хребтів та просторих сніжних долин."
 
