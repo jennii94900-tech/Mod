@@ -7,27 +7,24 @@ constructTime: 530
 
 consumes: {
   power: 2.5
-  items: {
-    items: [
-      "ochpoch-mob-refined-aluminum/160"
-  }
+  items: [
+    ochpoch-mob-refined-aluminum/160
+  ]
 }
 
-// --- ВИПРАВЛЕНО: ПРАВИЛЬНА СТРУКТУРА ПОКРАЩЕНЬ ---
 upgrades: [
-  // Кожна пара [від кого, до кого] має бути в окремих дужках
-  ["ochpoch-mob-tank", "ochpoch-mob-payk"],
-  ["ochpoch-mob-t1-interrupter", "ochpoch-mob-interrupter"]
+  [ochpoch-mob-tank, ochpoch-mob-payk],
+  [ochpoch-mob-t1-interrupter, ochpoch-mob-interrupter]
 ]
 
 requirements: [
-  "ochpoch-mob-aluminum/80",
-  "refined-aluminum/85"
+  ochpoch-mob-aluminum/80
+  refined-aluminum/85
 ]
 
 category: units
 
 research: {
-  parent: "ochpoch-mob-fac" // Зміни на ID свого заводу, якщо він інший
+  parent: "ochpoch-mob-fac"
   planet: "hooligan"
 }
