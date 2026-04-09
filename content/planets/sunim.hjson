@@ -22,7 +22,7 @@ mesh: {
 }
 
 radius: 4
-orbitRadius: 0
+orbitRadius: 85
 bloom: true
 accessible: false
 drawOrbit: false
