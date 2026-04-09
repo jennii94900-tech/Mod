@@ -4,7 +4,7 @@ localizedName: "Hooligan"
 description: "Світ величних крижаних хребтів та просторих сніжних долин."
 
 // --- НОВІ ПАРАМЕТРИ ОРБІТИ ---
-orbitRadius: 83
+orbitRadius: 60
 rotateTime: 3600
 orbitSpacing: 5
 // ----------------------------
