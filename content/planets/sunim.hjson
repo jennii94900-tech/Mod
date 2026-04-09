@@ -1,5 +1,5 @@
 generator: PlanetGenerator
-localizedName: "Sunim"
+localizedName: "sunim"
 description: "Твоє сонце."
 
 mesh: {
