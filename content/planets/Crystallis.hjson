@@ -30,7 +30,7 @@ campaignRuleDefaults: {
 }
 
 prebuildBase: true
-defaultCore: core // Тут має бути назва твого нового ядра
+defaultCore: core   // Тут має бути назва твого нового ядра
 solarSystem: bluesun
 
 mesh: [
