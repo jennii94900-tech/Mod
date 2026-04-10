@@ -1,8 +1,8 @@
 radius: 0.85
 localizedName: Crystallis
 iconColor: 596ab8ff
-// Змінено на false, щоб вона не була відразу доступна
-alwaysUnlocked: false
+// Тепер планета доступна відразу, але лінія в дереві залишиться
+alwaysUnlocked: true
 accessible: true
 bloom: true
 
@@ -13,12 +13,12 @@ allowSectorInvasion: true
 allowLaunchToNumbered: false
 allowSelfSectorLaunch: false
 
-// Налаштування орбіти навколо Blue Sun
 parent: bluesun
+solarSystem: bluesun
 orbitSpacing: 30
-orbitRadius: 60 // Трохи далі, ніж Hooligan
+orbitRadius: 60 
 
-// Зв'язок у дереві технологій: відкриється після Hooligan
+// Зв'язок у дереві: лінія буде йти від Hooligan до Crystallis
 research: {
  parent: hooligan 
  planet: hooligan
@@ -32,12 +32,11 @@ campaignRuleDefaults: {
 
 prebuildBase: true
 defaultCore: core 
-solarSystem: bluesun
 
 mesh: [
   {
     type: NoiseMesh
-    planet: crystallis // Змінено на актуальну назву
+    planet: crystallis
     seed: 562
     divisions: 4
     color: 6e6e6eff
