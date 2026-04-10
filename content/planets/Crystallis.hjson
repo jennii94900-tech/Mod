@@ -1,20 +1,27 @@
 radius: 0.85
 localizedName: Crystallis
 iconColor: 596ab8ff
-alwaysUnlocked: true
+// Змінено на false, щоб вона не була відразу доступна
+alwaysUnlocked: false
 accessible: true
 bloom: true
 
 generator: SerpuloPlanetGenerator
-orbitRadius: 50
 sectorSize: 2
 startSector: 24
 allowSectorInvasion: true
 allowLaunchToNumbered: false
 allowSelfSectorLaunch: false
 
+// Налаштування орбіти навколо Blue Sun
+parent: bluesun
 orbitSpacing: 30
-orbitRadius: 43
+orbitRadius: 60 // Трохи далі, ніж Hooligan
+
+// Зв'язок у дереві технологій: відкриється після Hooligan
+research: {
+    planet: hooligan
+}
 
 campaignRuleDefaults: {
 	showSpawns: true
@@ -23,14 +30,13 @@ campaignRuleDefaults: {
 }
 
 prebuildBase: true
-defaultCore: core
-parent: bluesun
+defaultCore: core // Тут має бути назва твого нового ядра
+solarSystem: bluesun
 
 mesh: [
   {
-    // Основний кам'яний шар (сірий/темний)
     type: NoiseMesh
-    planet: kela
+    planet: crystallis // Змінено на актуальну назву
     seed: 562
     divisions: 4
     color: 6e6e6eff
@@ -42,9 +48,8 @@ mesh: [
     mag: 1.2
   }
   {
-    // Залізні руди та іржа (оранжево-коричневий метал)
     type: NoiseMesh
-    planet: kela
+    planet: crystallis
     seed: 124
     divisions: 4
     color: 9e543dff
@@ -54,12 +59,11 @@ mesh: [
     persistence: 0.6
     scale: 0.9
     mag: 0.8
-    coalesce: true // Змішує краї для ефекту вкраплень руди
+    coalesce: true 
   }
   {
-    // Додатковий скелястий шар (світло-сірий камінь)
     type: NoiseMesh
-    planet: kela
+    planet: crystallis
     seed: 88
     divisions: 4
     color: a1a1a1ff
@@ -71,4 +75,3 @@ mesh: [
     mag: 0.5
   }
 ]
-
