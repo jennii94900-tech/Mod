@@ -1,4 +1,5 @@
-generator: SerpuloPlanetGenerator 
+generator: SerpuloPlanetGenerator
+ 
 parent: bluesun
 localizedName: "Crystallis"       
 iconColor: ff9421       //Цвет иконки
