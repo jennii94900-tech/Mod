@@ -10,6 +10,6 @@ charge: 0.0
 // --- ВИПРАВЛЕНО: ТВОЇ ЛАПКИ ТА ПЛАНЕТА ---
 research: {
   parent: "ochpoch-mob-stone-core"
-  planet: "Crystallis"
+  planet: "hooligan"
 }
 
