@@ -1,4 +1,3 @@
-type: Planet
 generator: PlanetGenerator
 parent: bluesun
 localizedName: "Crystalium"
