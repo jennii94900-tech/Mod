@@ -25,7 +25,7 @@ campaignRuleDefaults: {
 prebuildBase: true
 defaultCore: core
 parent: bluesun
-solarSystem: Blue sun
+solarSystem: bluesun
 
 mesh: [
   {
