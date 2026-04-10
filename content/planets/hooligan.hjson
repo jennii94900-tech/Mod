@@ -21,6 +21,7 @@ hasAtmosphere: true
 atmosphereColor: 8aa3f4
 atmosphereRadIn: 0.02
 atmosphereRadOut: 0.35
+solarSystem: bluesun
 
 mesh: [
   {
