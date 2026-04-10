@@ -1,0 +1,61 @@
+type: flying
+name: hope
+description: "Спеціалізований дрон-привид. Повністю ігнорується ворогами."
+flying: true
+health: 220
+rotateSpeed: 11
+
+targetable: false
+hittable: false
+
+buildSpeed: 1.2
+mineSpeed: 6.5   
+mineTier: 2      
+
+mineItems: [
+  ochpoch-mob-aluminum
+  ochpoch-mob-cristal
+]
+
+weapons: [
+  {
+    type: RepairBeamWeapon
+    widthSinMag: 0.1
+    x: 0
+    y: 4 
+    laserColor: 617CFFFF
+    mirror: false
+    rotate: false
+    targetBuildings: true
+    targetUnits: false
+    autoTarget: false
+    controllable: true
+    reload: 20
+    shootY: 0
+    shootCone: 15
+    beamWidth: 0.8
+    repairSpeed: 3.5
+    fractionRepairSpeed: 0.06
+    // ВИПРАВЛЕНО: довжина променя для лікування задається через maxRange тут
+    bullet: {
+      type: BulletType
+      maxRange: 60
+    }
+  }
+]
+
+controller: RepairAI
+
+engineOffset: 4.5
+lowAltitude: true
+speed: 5.4
+accel: 0.03
+drag: 0.05
+hitSize: 10
+itemCapacity: 50 
+
+lightRadius: 50
+lightColor: 8aa3f4
+engineColor: 8aa3f4
+
+research: ochpoch-mob-stone-core
