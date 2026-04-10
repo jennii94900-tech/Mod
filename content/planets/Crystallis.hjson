@@ -20,7 +20,8 @@ orbitRadius: 60 // Трохи далі, ніж Hooligan
 
 // Зв'язок у дереві технологій: відкриється після Hooligan
 research: {
-    planet: hooligan
+ parent: hooligan 
+ planet: hooligan
 }
 
 campaignRuleDefaults: {
