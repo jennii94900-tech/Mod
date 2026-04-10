@@ -1,0 +1,15 @@
+name: "stone"
+description: "stone."
+color: "e0e0e0"
+
+flammability: 0.0      
+explosiveness: 0.1    
+radioactivity: 0.0   
+charge: 0.0            
+
+// --- ВИПРАВЛЕНО: ТВОЇ ЛАПКИ ТА ПЛАНЕТА ---
+research: {
+  parent: "ochpoch-mob-stone-core"
+  planet: "Crystallis"
+}
+
