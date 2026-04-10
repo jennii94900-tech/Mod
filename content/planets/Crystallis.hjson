@@ -1,10 +1,7 @@
-generator: AsteroidGenerator
+generator: PlanetGenerator
 parent: bluesun
 localizedName: Crystalium
-description: 
-  '''
-  Древний каменный гигант. Под слоями тёмного гранита скрываются огромные залежи светящихся кристаллов.
-  '''
+description: Древний каменный гигант. Под слоями тёмного гранита скрываются огромные залежи светящихся кристаллов.
 
 # --- ХАРАКТЕРИСТИКИ ---
 iconColor: 6e7080
