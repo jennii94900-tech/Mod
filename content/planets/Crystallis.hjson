@@ -12,7 +12,7 @@ icon: planet
 startSector: 15
 accessible: true
 alwaysUnlocked: true
-radius: 0.95
+radius: 1.0
 orbitRadius: 36
 rotateTime: 5000
 solarSystem: bluesun
@@ -29,8 +29,8 @@ mesh: [
   {
     type: NoiseMesh
     seed: 538
-    divisions: 5
-    radius: 0.92
+    divisions: 4
+    radius: 1.0
     color1: 4a4b53
     color2: 6e7080
     octaves: 6
@@ -42,8 +42,8 @@ mesh: [
   {
     type: NoiseMesh
     seed: 99
-    divisions: 5
-    radius: 1.05   # Радиус больше, чем у поверхности (это и создает эффект неба)
+    divisions: 4
+    radius: 1.2  # Радиус больше, чем у поверхности (это и создает эффект неба)
     color1: 6e7080 
     color2: 8aa3f4 
     octaves: 8
