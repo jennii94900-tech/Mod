@@ -1,0 +1,56 @@
+type: Planet
+generator: PlanetGenerator
+parent: bluesun
+localizedName: "Crystalium"
+description: "Древний каменный гигант. Под слоями тёмного гранита скрываются огромные залежи светящихся кристаллов."
+
+// --- ХАРАКТЕРИСТИКИ ---
+iconColor: 6e7080
+icon: planet
+startSector: 15
+accessible: true
+alwaysUnlocked: true
+
+radius: 0.95
+orbitRadius: 36
+rotateTime: 5000
+orbitSpacing: 10
+solarSystem: bluesun
+
+// --- АТМОСФЕРА (Разреженная, как у каменных лун) ---
+hasAtmosphere: true
+atmosphereColor: 6e7080
+atmosphereRadIn: 0.01
+atmosphereRadOut: 0.15
+bloom: false
+
+// --- ПОВЕРХНОСТЬ (КАМЕНЬ + КРИСТАЛЛЫ) ---
+mesh: [
+  // ПЕРВЫЙ ШЛЯ: Основной камень (тёмно-серый)
+  {
+    type: NoiseMesh
+    seed: 538
+    divisions: 5
+    radius: 0.92
+    color1: 4a4b53 // Глубокий серый
+    color2: 6e7080 // Светло-серый гранит
+    octaves: 6
+    persistence: 0.6
+    scl: 1.1
+    mag: 0.4
+  }
+  // ВТОРОЙ ШАР: Кристаллические выступы (светящиеся)
+  {
+    type: NoiseMesh
+    seed: 99
+    divisions: 6
+    radius: 0.95
+    color1: 8aa3f4 // Синий кристалл
+    color2: ffffff // Блеск
+    octaves: 8
+    persistence: 0.9 // Очень острые грани
+    scl: 0.5
+    mag: 1.1        // Кристаллы выше уровня камня
+    bloom: true     // Заставляем кристаллы светиться
+  }
+]
