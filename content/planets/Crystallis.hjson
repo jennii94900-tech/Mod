@@ -1,4 +1,4 @@
-generator: PlanetGenerator
+generator: SerpuloPlanetGenerator
 parent: bluesun
 localizedName: Crystalium
 description: Древний каменный гигант. Под слоями тёмного гранита скрываются огромные залежи светящихся кристаллов.
