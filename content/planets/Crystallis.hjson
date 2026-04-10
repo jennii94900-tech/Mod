@@ -1,9 +1,12 @@
-generator: PlanetGenerator
+generator: AsteroidGenerator
 parent: bluesun
-localizedName: "Crystalium"
-description: "Древний каменный гигант. Под слоями тёмного гранита скрываются огромные залежи светящихся кристаллов."
+localizedName: Crystalium
+description: 
+  '''
+  Древний каменный гигант. Под слоями тёмного гранита скрываются огромные залежи светящихся кристаллов.
+  '''
 
-// --- ХАРАКТЕРИСТИКИ ---
+# --- ХАРАКТЕРИСТИКИ ---
 iconColor: 6e7080
 icon: planet
 startSector: 15
@@ -16,40 +19,67 @@ rotateTime: 5000
 orbitSpacing: 10
 solarSystem: bluesun
 
-// --- АТМОСФЕРА (Разреженная, как у каменных лун) ---
+# --- АТМОСФЕРА ---
 hasAtmosphere: true
 atmosphereColor: 6e7080
 atmosphereRadIn: 0.01
 atmosphereRadOut: 0.15
 bloom: false
 
-// --- ПОВЕРХНОСТЬ (КАМЕНЬ + КРИСТАЛЛЫ) ---
+# --- ПОВЕРХНОСТЬ ---
 mesh: [
-  // ПЕРВЫЙ ШЛЯ: Основной камень (тёмно-серый)
   {
     type: NoiseMesh
     seed: 538
     divisions: 5
     radius: 0.92
-    color1: 4a4b53 // Глубокий серый
-    color2: 6e7080 // Светло-серый гранит
+    color1: 4a4b53
+    color2: 6e7080
     octaves: 6
     persistence: 0.6
     scl: 1.1
     mag: 0.4
   }
-  // ВТОРОЙ ШАР: Кристаллические выступы (светящиеся)
   {
     type: NoiseMesh
     seed: 99
-    divisions: 6
+    divisions: 5
     radius: 0.95
-    color1: 8aa3f4 // Синий кристалл
-    color2: ffffff // Блеск
+    color1: 8aa3f4
+    color2: ffffff
     octaves: 8
-    persistence: 0.9 // Очень острые грани
+    persistence: 0.9
     scl: 0.5
-    mag: 1.1        // Кристаллы выше уровня камня
-    bloom: true     // Заставляем кристаллы светиться
+    mag: 1.1
+    bloom: true
+  }
+  {
+mesh: [
+  # ПЕРШИЙ ШАР: Основний ландшафт
+  {
+    type: NoiseMesh
+    seed: 538
+    divisions: 5
+    radius: 0.92
+    color1: 4a4b53 # Темно-сірий (основа)
+    color2: 6e7080 # Колір іконки та атмосфери (сіро-блакитний)
+    octaves: 6
+    persistence: 0.6
+    scl: 1.1
+    mag: 0.4
+  }
+  # ДРУГИЙ ШАР: Кристалічні виступи (у тон поверхні, але зі свіченням)
+  {
+    type: NoiseMesh
+    seed: 99
+    divisions: 5
+    radius: 0.95
+    color1: 6e7080 # Тепер колір збігається з основним каменем
+    color2: 8aa3f4 # Світло-синій акцент для кристалів
+    octaves: 8
+    persistence: 0.9
+    scl: 0.5
+    mag: 1.1        # Виступають над поверхнею
+    bloom: true     # Залишаємо ефект сяйва
   }
 ]
