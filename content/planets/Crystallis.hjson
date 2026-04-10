@@ -1,6 +1,6 @@
-generator: SerpuloPlanetGenerator       //Генератор планеты (Если не создаёте свой генератор, тогда не меняйте название)
-localizedName: "Crystallis"       //Название планеты
-parent: bluesun
+generator: SerpuloPlanetGenerator 
+parent: bluesun     //Генератор планеты (Если не создаёте свой генератор, тогда не меняйте название)
+localizedName: "Crystallis"       
 iconColor: ff9421       //Цвет иконки
 orbitRadius: 23     //Радиус орбиты
 hasAtmosphere: true       //Есть ли атмосфера?
@@ -20,6 +20,7 @@ sectorSize: 3       //Размер секторов
 clearSectorOnLose: true       //Очищать сектор после проигрыша? (true - да, false - нет)
 allowSectorInvasion: false      //Возможность атаки с вражеских секторов (true - будет атака с вражеских секторов, false - враги не будут атаковать соседние сектора)
 allowLaunchToNumbered: false      //Возможность приземляться на соседние сектора (true - как на Серпуло, false - как на Эрекире)
+solarSystem: bluesun
 
 //Отрисовка облаков
 //В этом туториале этого не будет, если хотите узнать подробнее пишите в комментариях
