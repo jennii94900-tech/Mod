@@ -1,6 +1,6 @@
 generator: SerpuloPlanetGenerator       //Генератор планеты (Если не создаёте свой генератор, тогда не меняйте название)
 localizedName: "Crystallis"       //Название планеты
-parent: bluesun
+parent: 
 iconColor: ff9421       //Цвет иконки
 orbitRadius: 23     //Радиус орбиты
 hasAtmosphere: true       //Есть ли атмосфера?
