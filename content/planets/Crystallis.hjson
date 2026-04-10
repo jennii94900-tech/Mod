@@ -12,11 +12,9 @@ icon: planet
 startSector: 15
 accessible: true
 alwaysUnlocked: true
-
 radius: 0.95
 orbitRadius: 36
 rotateTime: 5000
-orbitSpacing: 10
 solarSystem: bluesun
 
 # --- АТМОСФЕРА ---
@@ -24,10 +22,10 @@ hasAtmosphere: true
 atmosphereColor: 6e7080
 atmosphereRadIn: 0.01
 atmosphereRadOut: 0.15
-bloom: false
 
-# --- ПОВЕРХНОСТЬ ---
+# --- ПОВЕРХНОСТЬ И НЕБО (МЕШИ) ---
 mesh: [
+  # 1. Основное тело планеты (камень)
   {
     type: NoiseMesh
     seed: 538
@@ -40,46 +38,20 @@ mesh: [
     scl: 1.1
     mag: 0.4
   }
+  # 2. "Небо" / Кристаллический слой (вынесен выше поверхности)
   {
     type: NoiseMesh
     seed: 99
     divisions: 5
-    radius: 0.95
-    color1: 8aa3f4
-    color2: ffffff
+    radius: 1.05   # Радиус больше, чем у поверхности (это и создает эффект неба)
+    color1: 6e7080 
+    color2: 8aa3f4 
     octaves: 8
-    persistence: 0.9
-    scl: 0.5
-    mag: 1.1
-    bloom: true
-  }
-  {
-mesh: [
-  # ПЕРШИЙ ШАР: Основний ландшафт
-  {
-    type: NoiseMesh
-    seed: 538
-    divisions: 5
-    radius: 0.92
-    color1: 4a4b53 # Темно-сірий (основа)
-    color2: 6e7080 # Колір іконки та атмосфери (сіро-блакитний)
-    octaves: 6
-    persistence: 0.6
-    scl: 1.1
-    mag: 0.4
-  }
-  # ДРУГИЙ ШАР: Кристалічні виступи (у тон поверхні, але зі свіченням)
-  {
-    type: NoiseMesh
-    seed: 99
-    divisions: 5
-    radius: 0.95
-    color1: 6e7080 # Тепер колір збігається з основним каменем
-    color2: 8aa3f4 # Світло-синій акцент для кристалів
-    octaves: 8
-    persistence: 0.9
-    scl: 0.5
-    mag: 1.1        # Виступають над поверхнею
-    bloom: true     # Залишаємо ефект сяйва
+    persistence: 0.7
+    scl: 0.8
+    mag: 0.2       # Небольшая высота, чтобы слой был похож на оболочку
+    bloom: true    # Свечение для эффекта атмосферы
   }
 ]
+
+# Убрали cloudMesh, так как NoiseMesh выше заменяет его визуально
