@@ -2,7 +2,7 @@ generator: SerpuloPlanetGenerator       //Генератор планеты (Е�
 localizedName: "Crystallis"       //Название планеты
 parent: hooligan
 iconColor: ff9421       //Цвет иконки
-orbitRadius: 23     //Радиус орбиты
+orbitRadius: 57    //Радиус орбиты
 hasAtmosphere: true       //Есть ли атмосфера?
 updateLighting: false
 atmosphereRadIn: 0.02
