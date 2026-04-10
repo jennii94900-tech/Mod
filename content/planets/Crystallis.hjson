@@ -1,54 +1,52 @@
-generator: SerpuloPlanetGenerator
+generator: SerpuloPlanetGenerator       //Генератор планеты (Если не создаёте свой генератор, тогда не меняйте название)
+localizedName: "Crystallis"       //Название планеты
 parent: bluesun
-localizedName: Crystalium
-description: Древний каменный гигант. Под слоями тёмного гранита скрываются огромные залежи светящихся кристаллов.
+iconColor: ff9421       //Цвет иконки
+orbitRadius: 23     //Радиус орбиты
+hasAtmosphere: true       //Есть ли атмосфера?
+updateLighting: false
+atmosphereRadIn: 0.02
+atmosphereRadOut: 0.3
+atmosphereColor: ff9900       //Цвет атмосферы
+drawOrbit: false      //Рисовать орбиту? (false - не отрисовывать, true - отрисовывать)
 
-# --- ХАРАКТЕРИСТИКИ ---
-iconColor: 6e7080
-icon: planet
-startSector: 15
-accessible: true
-alwaysUnlocked: true
-radius: 1.0
-orbitRadius: 36
-rotateTime: 5000
-solarSystem: bluesun
+accessible: true      //Можно ли на неё приземлиться (Оставляйте всегда true, если не хотите чтобы планета была декоративной)
+alwaysUnlocked: true      //Всегда ли разблокированна? (Оставляйте всегда true, если не хотите чтобы планета была декоративной)
+defaultCore: "stone-core"       //Основное ядро (В данном случае Осколок). Можно создать своё ядро и указать здесь
+sectorSeed: 0       //Семя сектора
+startSector: 1      //Начальный сектор 
+sectorSize: 1       //Размер секторов
 
-# --- АТМОСФЕРА ---
-hasAtmosphere: true
-atmosphereColor: 6e7080
-atmosphereRadIn: 0.01
-atmosphereRadOut: 0.15
+clearSectorOnLose: true       //Очищать сектор после проигрыша? (true - да, false - нет)
+allowSectorInvasion: false      //Возможность атаки с вражеских секторов (true - будет атака с вражеских секторов, false - враги не будут атаковать соседние сектора)
+allowLaunchToNumbered: false      //Возможность приземляться на соседние сектора (true - как на Серпуло, false - как на Эрекире)
 
-# --- ПОВЕРХНОСТЬ И НЕБО (МЕШИ) ---
-mesh: [
-  # 1. Основное тело планеты (камень)
-  {
+//Отрисовка облаков
+//В этом туториале этого не будет, если хотите узнать подробнее пишите в комментариях
+cloudMesh: {
+  type: HexSkyMesh
+  planet: TestPlanet
+  seed: 2
+  speed: 3
+  radius: 0.05
+  divisions: 5
+  color: eb7107
+  octaves: 2
+  persistence: 1
+  scl: 2
+  thresh: 0.45
+}
+
+mesh: {
     type: NoiseMesh
-    seed: 538
-    divisions: 4
-    radius: 1.0
-    color1: 4a4b53
-    color2: 6e7080
-    octaves: 6
-    persistence: 0.6
-    scl: 1.1
-    mag: 0.4
-  }
-  # 2. "Небо" / Кристаллический слой (вынесен выше поверхности)
-  {
-    type: NoiseMesh
-    seed: 99
-    divisions: 4
-    radius: 1.2  # Радиус больше, чем у поверхности (это и создает эффект неба)
-    color1: 6e7080 
-    color2: 8aa3f4 
-    octaves: 8
-    persistence: 0.7
-    scl: 0.8
-    mag: 0.2       # Небольшая высота, чтобы слой был похож на оболочку
-    bloom: true    # Свечение для эффекта атмосферы
-  }
-]
-
-# Убрали cloudMesh, так как NoiseMesh выше заменяет его визуально
+    planet: TestPlanet
+    seed: 562697
+    color1: d47420
+    color2: b85804
+    divisions: 5
+    radius: 0.9
+    octaves: 7
+    persistence: 1
+    scl: 0.75
+    mag: 1.2
+}
