@@ -12,12 +12,12 @@ mesh: {
     colorScale: 1
     // Палитра для настоящего голубого гиганта
     colors: [
-        d5e1ff
-        9eb9ff
-        7da4ff
-        8aa3f4
-        617cff
-        ffffff
+        9B4E44FF
+        DF7B54FF
+        9B4E44FF
+        FF9166FF
+        DF7B54FF
+        FFB672FF
     ]
 }
 
