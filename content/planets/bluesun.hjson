@@ -1,5 +1,5 @@
 generator: PlanetGenerator
-localizedName: "Blue Sun"
+localizedName: "Red Sun"
 
 mesh: {
     type: SunMesh
