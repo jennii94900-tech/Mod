@@ -1,0 +1,30 @@
+type: GenericCrafter
+name: "Obsidian Refinery"
+description: "Compresses crystals and stone-matter under extreme pressure to synthesize obsidian."
+size: 2
+hasItems: true
+updateEffect: smeltsmoke
+itemCapacity: 15
+
+// Час виготовлення (1.5 сек)
+craftTime: 90
+
+// Що споживає для роботи
+consumes: {
+  items: [
+    stone-item/3
+    cristal/1
+  ]
+  power: 1.2
+}
+
+// Що видає на виході
+outputItem: obsidian/1
+
+// Вартість будівництва (тільки алюміній)
+requirements: [
+  aluminum/60
+]
+
+category: crafting
+research: mechanical-drill
