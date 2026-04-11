@@ -9,7 +9,7 @@ charge: 0.0
 
 // --- ВИПРАВЛЕНО: ТВОЇ ЛАПКИ ТА ПЛАНЕТА ---
 research: {
-  parent: "ochpoch-mob-core"
+  parent: "ochpoch-mob-aluminum"
   planet: "hooligan"
 }
 
