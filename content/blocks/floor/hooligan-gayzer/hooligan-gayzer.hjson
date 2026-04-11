@@ -1,0 +1,10 @@
+type: StaticProp
+name: "Hooligan Geyser"
+size: 3
+solid: false
+variants: 2
+
+// Світло залишаємо чи теж прибрати? Поки що лишив мінімальне підсвічування
+emitLight: true
+lightRadius: 60
+lightColor: 8aa3f422
