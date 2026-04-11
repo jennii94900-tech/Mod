@@ -22,7 +22,7 @@ weapons: [
     type: RepairBeamWeapon
     widthSinMag: 0.1
     x: 0
-    y: 5
+    y: 3
     laserColor: 617CFFFF
     mirror: false
     rotate: false
