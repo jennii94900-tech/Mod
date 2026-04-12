@@ -29,7 +29,8 @@ mesh: [
     divisions: 6      
     radius: 1.3
     color1: ffffff    
-    color2: 7da4ff    
+    color2: 7da4ff 
+    color3: 6ECDEC   
     octaves: 5         
     persistence: 0.4   
     scale: 1.8         
