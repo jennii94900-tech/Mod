@@ -1,6 +1,5 @@
 name: hooligan Vent
 type: SteamVent
-blendGroup: benitite-crystal
 effect: ventSteam
 effectColor: ffffff52
 effectSpacing: 22
