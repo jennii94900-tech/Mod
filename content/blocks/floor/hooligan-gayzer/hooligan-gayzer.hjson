@@ -1,7 +1,7 @@
 type: StaticProp
 name: "Hooligan Geyser"
 size: 2
-solid: false
+solid: true
 variants: 2
 
 // Світло залишаємо чи теж прибрати? Поки що лишив мінімальне підсвічування
