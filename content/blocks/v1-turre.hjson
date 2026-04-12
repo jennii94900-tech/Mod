@@ -1,6 +1,6 @@
 type: ItemTurret
 name: "Spark"
-description: "Маленька, але дуже швидка алюмінієва турель. Ідеальна для раннього захисту бази."
+description: "t1 turret."
 size: 1
 health: 360
 range: 312
@@ -9,12 +9,12 @@ recoil: 1.7
 shootSound: artireri
 
 ammoTypes: {
-  // --- АЛЮМІНІЙ (ID В ЛАПКАХ) ---
+  // --- АЛЮМІНІЙ ---
   "ochpoch-mob-aluminum": {
     type: BasicBulletType
     speed: 8
     damage: 14
-    lifetime: 40 // Розрахунок: 210 / 7 = 30
+    lifetime: 40
     width: 6
     height: 9
     frontColor: 577277ff
@@ -24,12 +24,12 @@ ammoTypes: {
     ammoMultiplier: 2
   }
   
-  // --- КРИСТАЛИ ---
+  // --- КРИСТАЛИ (ТВОЇ ПЕРШІ) ---
   "ochpoch-mob-cristal": {
     type: BasicBulletType
     speed: 8
     damage: 24
-    lifetime: 40 // Розрахунок: 210 / 8 = 26.25
+    lifetime: 40
     width: 7
     height: 12
     frontColor: 00f2ff
@@ -37,19 +37,47 @@ ammoTypes: {
     status: shocked 
     ammoMultiplier: 4
   }
+
+  // --- КРИСТАЛИ МЕТАНУ (З РОЗЛЬОТОМ ВПЕРЕД) ---
+  "ochpoch-mob-methane-crystal": {
+    type: BasicBulletType
+    speed: 8
+    damage: 24
+    lifetime: 40
+    width: 7
+    height: 12
+    frontColor: 00f2ff
+    backColor: 8aa3f4
+    status: shocked 
+    ammoMultiplier: 4
+    
+    fragBullets: 5
+    fragVelocityMin: 0.6
+    fragVelocityMax: 1.4
+    fragLifeMin: 0.3
+    fragAngle: 35 
+    
+    fragBullet: {
+      type: BasicBulletType
+      speed: 4
+      damage: 10
+      lifetime: 15
+      width: 4
+      height: 7
+      frontColor: 00f2ff
+      backColor: 8aa3f4
+      keepVelocity: true
+    }
+  }
 }
 
 requirements: [
-  // Ціна теж у лапках
   "ochpoch-mob-aluminum/26"
 ]
 
 category: turret
 
-// --- ДОСЛІДЖЕННЯ ---
 research: {
-  // Прив'язка до твого Міксера в лапках
   parent: "ochpoch-mob-core"
   planet: hooligan
 }
-
