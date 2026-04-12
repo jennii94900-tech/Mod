@@ -63,7 +63,7 @@ mesh: [
   }
   {
     type: HexSkyMesh
-    speed: 3
+    speed: 1
     divisions: 5
     radius: 0.14
     color: 6ECDEC # Хмари кольору кріогенки
@@ -71,6 +71,6 @@ mesh: [
     persistence: 0.2
     scl: 2
     thresh: 0.43
-    seed: 4
+    seed: 3
   }
 ]
