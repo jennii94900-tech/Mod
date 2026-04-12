@@ -39,7 +39,7 @@ mesh: [
   }
   {
     type: HexSkyMesh
-    speed: 2
+    speed: 1
     divisions: 5
     radius: 0.19
     color: 7da4ff
@@ -51,9 +51,9 @@ mesh: [
   }
   {
     type: HexSkyMesh
-    speed: 3
+    speed: 1
     divisions: 5
-    radius: 0.16
+    radius: 0.17
     color: ffffff
     octaves: 2
     persistence: 0.2
@@ -65,7 +65,7 @@ mesh: [
     type: HexSkyMesh
     speed: 1
     divisions: 5
-    radius: 0.14
+    radius: 0.15
     color: 6ECDEC # Хмари кольору кріогенки
     octaves: 2
     persistence: 0.2
