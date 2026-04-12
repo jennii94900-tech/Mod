@@ -14,7 +14,7 @@ sectorSize: 2
 accessible: true
 visible: true
 alwaysUnlocked: true
-radius: 1.3
+radius: 1.0
 
 # АТМОСФЕРА
 hasAtmosphere: true
@@ -28,7 +28,7 @@ mesh: [
   {
     type: NoiseMesh
     divisions: 6      
-    radius: 1.3
+    radius: 1.1
     color1: ffffff    
     color2: 7da4ff   # Колір кріогенної рідини
     octaves: 5         
@@ -41,7 +41,7 @@ mesh: [
     type: HexSkyMesh
     speed: 2
     divisions: 5
-    radius: 0.18
+    radius: 0.19
     color: 7da4ff
     octaves: 3
     persistence: 0.3
@@ -65,7 +65,7 @@ mesh: [
     type: HexSkyMesh
     speed: 1
     divisions: 5
-    radius: 0.14
+    radius: 0.13
     color: 6ECDEC # Хмари кольору кріогенки
     octaves: 2
     persistence: 0.2
