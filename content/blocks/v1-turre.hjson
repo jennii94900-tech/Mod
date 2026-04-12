@@ -41,7 +41,7 @@ ammoTypes: {
   // --- КРИСТАЛИ МЕТАНУ (З РОЗЛЬОТОМ ВПЕРЕД) ---
   "ochpoch-mob-methane-crystal": {
     type: BasicBulletType
-    speed: 4
+    speed: 8
     damage: 32
     lifetime: 40
     width: 7
