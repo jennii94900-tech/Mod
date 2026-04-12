@@ -43,7 +43,7 @@ ammoTypes: {
     type: BasicBulletType
     speed: 4
     damage: 32
-    lifetime: 38
+    lifetime: 39.1
     width: 7
     height: 12
     frontColor: 00f2ff
