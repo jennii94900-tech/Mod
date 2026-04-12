@@ -1,5 +1,6 @@
 name: hooligan Vent
 type: SteamVent
+variants: 2
 effect: ventSteam
 effectColor: ffffff52
 effectSpacing: 22
