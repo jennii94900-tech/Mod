@@ -30,8 +30,7 @@ mesh: [
     divisions: 6      
     radius: 1.3
     color1: ffffff    
-    color2: 7da4ff 
-    color3: 6ECDEC   # Колір кріогенної рідини
+    color2: 7da4ff   # Колір кріогенної рідини
     octaves: 5         
     persistence: 0.4   
     scale: 1.8         
@@ -66,7 +65,7 @@ mesh: [
     type: HexSkyMesh
     speed: 3
     divisions: 5
-    radius: 0.12
+    radius: 0.14
     color: 6ECDEC # Хмари кольору кріогенки
     octaves: 2
     persistence: 0.2
