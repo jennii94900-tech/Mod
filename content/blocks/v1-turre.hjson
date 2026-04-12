@@ -59,7 +59,7 @@ ammoTypes: {
     
     fragBullet: {
       type: BasicBulletType
-      speed: 4
+      speed: 8
       damage: 10
       lifetime: 15
       width: 4
