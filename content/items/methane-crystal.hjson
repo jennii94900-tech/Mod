@@ -1,0 +1,7 @@
+name: Methane Crystal
+description: "A cold, crystallized form of methane. Extremely fragile but high in energy content."
+color: 6ecdec
+flammability: 0.8
+explosiveness: 0.1
+hardness: 2
+cost: 1
