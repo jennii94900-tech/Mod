@@ -1,6 +1,4 @@
-name: hooligan Vent
-type: SteamVent
+type: Floor
+name: "lent"
 variants: 2
-effect: ventSteam
-effectColor: ffffff52
-effectSpacing: 22
+playerUnmineable: false
