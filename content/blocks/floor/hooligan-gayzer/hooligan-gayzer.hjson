@@ -1,10 +1,9 @@
-type: StaticProp
-name: "Hooligan Geyser"
-size: 1
-solid: fslse
-variants: 2
-
-// Світло залишаємо чи теж прибрати? Поки що лишив мінімальне підсвічування
-emitLight: true
-lightRadius: 60
-lightColor: 8aa3f422
+name: hooligan Vent
+type: SteamVent
+blendGroup: benitite-crystal
+effect: ventSteam
+effectColor: ffffff52
+effectSpacing: 25
+attributes: {
+   radiation: 1
+}
