@@ -1,0 +1,38 @@
+name: Methane Collector
+type: GenericCrafter
+description: "A specialized collector designed to slowly extract and crystallize methane from the planet's frozen atmosphere."
+size: 2
+health: 200
+category: production
+
+craftTime: 300
+hasItems: true
+outputItem: methane-crystal/1
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawParticles
+      color: 6ecdec
+      particles: 12
+      size: 2
+      length: 12
+      lifetime: 80
+    }
+  ]
+}
+
+requirements: [
+  aluminum/20
+]
+
+research: {
+  parent: mixer
+  requirements: [
+    aluminum/500
+  ]
+}
