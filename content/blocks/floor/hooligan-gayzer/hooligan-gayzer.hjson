@@ -3,7 +3,4 @@ type: SteamVent
 blendGroup: benitite-crystal
 effect: ventSteam
 effectColor: ffffff52
-effectSpacing: 25
-attributes: {
-   radiation: 1
-}
+effectSpacing: 22
