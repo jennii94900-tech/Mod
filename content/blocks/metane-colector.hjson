@@ -1,7 +1,7 @@
 name: Methane Collector
 type: GenericCrafter
 description: "A specialized collector designed to slowly extract and crystallize methane from the planet's frozen atmosphere."
-size: 2
+size: 1
 health: 200
 category: production
 
