@@ -34,15 +34,15 @@ mesh: [
     color2: 7da4ff
     octaves: 5         
     persistence: 0.4   
-    scale: 1.8         
-    mag: 0.9
+    scale: 1.9         
+    mag: 1.0
     seed: 42           
   }
   {
     # Кріогенний меш зі світінням
     type: NoiseMesh
     divisions: 6      
-    radius: 1.4
+    radius: 1.2
     color1: 6ECDEC    # Колір кріогенки
     color2: 4da6c2    
     octaves: 4         
