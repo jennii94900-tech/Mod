@@ -34,8 +34,8 @@ mesh: [
     color2: 7da4ff
     octaves: 5         
     persistence: 0.4   
-    scale: 1.9         
-    mag: 1.0
+    scale: 1.8         
+    mag: 0.9
     seed: 42           
   }
   {
@@ -47,8 +47,8 @@ mesh: [
     color2: 4da6c2    
     octaves: 4         
     persistence: 0.5   
-    scale: 1.5         
-    mag: 0.6
+    scale: 1.8        
+    mag: 0.7
     seed: 99 
     bloom: true
   }
