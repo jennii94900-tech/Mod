@@ -2,10 +2,10 @@ type: tank
 name: "Aluminum Bastion"
 description: "Спеціалізована мобільна пускова установка. Стріляє потужними ракетами 'Rage' на великі відстані."
 
-speed: 0.35
-health: 1256
-armor: 13
-hitSize: 19
+speed: 0.36
+health: 1430
+armor: 18
+hitSize: 21
 rotateSpeed: 2.2
 faceTarget: false
 omniMovement: true
