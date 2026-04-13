@@ -19,9 +19,6 @@ drawer: {
       type: DrawParticles
       color: 6ecdec
       particles: 12
-      size: 2
-      length: 12
-      lifetime: 80
     }
   ]
 }
