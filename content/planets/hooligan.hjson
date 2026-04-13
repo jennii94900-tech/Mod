@@ -42,7 +42,7 @@ mesh: [
     # Кріогенний меш зі світінням
     type: NoiseMesh
     divisions: 6      
-    radius: 1.2
+    radius: 1.3
     color1: 6ECDEC    # Колір кріогенки
     color2: 4da6c2    
     octaves: 4         
