@@ -26,11 +26,12 @@ solarSystem: bluesun
 # ПОВЕРХНЯ ТА ХМАРИ
 mesh: [
   {
+    # Основна поверхня (Біла/Блакитна)
     type: NoiseMesh
     divisions: 6      
     radius: 1.3
     color1: ffffff    
-    color2: 7da4ff   # Колір кріогенної рідини
+    color2: 7da4ff
     octaves: 5         
     persistence: 0.4   
     scale: 1.8         
@@ -38,11 +39,26 @@ mesh: [
     seed: 42           
   }
   {
+    # Кріогенний меш зі світінням
+    type: NoiseMesh
+    divisions: 6      
+    radius: 1.2
+    color1: 6ECDEC    # Колір кріогенки
+    color2: 4da6c2    
+    octaves: 4         
+    persistence: 0.5   
+    scale: 1.5         
+    mag: 0.6
+    seed: 99           
+    # Додаємо ефект світіння (сяйво)
+    bloom: true
+  }
+  {
     type: HexSkyMesh
     speed: 1
     divisions: 5
     radius: 0.19
-    color: 7da4ff
+    color: 7da4ffaa
     octaves: 3
     persistence: 0.3
     scl: 1
@@ -54,7 +70,7 @@ mesh: [
     speed: 1
     divisions: 5
     radius: 0.17
-    color: ffffff
+    color: ffffffcc
     octaves: 2
     persistence: 0.2
     scl: 2
@@ -66,7 +82,7 @@ mesh: [
     speed: 1
     divisions: 5
     radius: 0.15
-    color: 6ECDEC # Хмари кольору кріогенки
+    color: 6ECDECbb
     octaves: 2
     persistence: 0.2
     scl: 2
@@ -74,3 +90,4 @@ mesh: [
     seed: 3
   }
 ]
+
