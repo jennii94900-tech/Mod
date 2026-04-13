@@ -5,8 +5,7 @@ size: 1
 health: 640
 
 // --- ХАРАКТЕРИСТИКИ ---
-range: 492             
-reloadTime: 90 // У MassDriver поле називається reloadTime, а не просто reload
+range: 492         
 itemCapacity: 60       
 
 // Ефекти (recoil видалено, бо він тут не працює)
