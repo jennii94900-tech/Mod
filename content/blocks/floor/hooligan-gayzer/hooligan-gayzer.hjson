@@ -13,7 +13,7 @@ effect:{
     effects: [
         {
             type: ParticleEffect
-            lifetime: 180
+            lifetime: 120
             sizeInterp: slope
             length: 45
             baseLength: 4
@@ -27,7 +27,7 @@ effect:{
         }
         {
             type: ParticleEffect
-            lifetime: 140
+            lifetime: 130
             sizeInterp: slope
             length: 45
             baseLength: 4
