@@ -9,7 +9,7 @@ category: power
 attribute: steam
 # 1.0 — стандарт для роботи на одній клітинці вентиляції
 minEfficiency: 8
-powerProduction: 2.5
+powerProduction: 1.0
 
 # Візуал та туман
 squareSprite: false
@@ -30,7 +30,6 @@ drawer: {
     {
       type: DrawBlurSpin
       suffix: -rotator
-      blurOpacity: 0.6
       rotateSpeed: 10
     }
   ]
