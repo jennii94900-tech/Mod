@@ -8,7 +8,7 @@ category: power
 # Налаштування енергії
 attribute: steam
 # 1.0 — стандарт для роботи на одній клітинці вентиляції
-minEfficiency: 1.0 
+minEfficiency: 8
 powerProduction: 2.5
 
 # Візуал та туман
