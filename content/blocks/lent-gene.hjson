@@ -9,7 +9,7 @@ category: power
 attribute: steam
 # 1.0 — стандарт для роботи на одній клітинці вентиляції
 minEfficiency: 8
-powerProduction: 1.0
+powerProduction: 0.8
 
 # Візуал та туман
 squareSprite: false
