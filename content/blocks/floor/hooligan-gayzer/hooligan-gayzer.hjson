@@ -1,14 +1,13 @@
-name: Basalt Vent
+name: Hooligan Vent
 type: SteamVent
+# Переконайся, що блок 'stonehh' існує
 blendGroup: stonehh
-parent: stonehh
 attributes: {
    steam: 1
 }
 
-
 effectSpacing: 15
-effect:{
+effect: {
     type: MultiEffect
     effects: [
         {
@@ -19,9 +18,12 @@ effect:{
             baseLength: 4
             sizeFrom: 4
             sizeTo: 8
-            colorFrom: 7489F3FF
-            colorTo: 7489F3FF
+            # Колір (блакитний)
+            colorFrom: 7489f3ff
+            colorTo: 7489f333 # Додав прозорість в кінці (33) для плавного зникнення
             layer: 61.8
             cone: 45
             baseRotation: 30
          }
+    ]
+}
