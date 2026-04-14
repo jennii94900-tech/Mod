@@ -20,6 +20,8 @@ requirements: [
   aluminum/50
 ]
 
+research: aluminum-generator 
+
 # Анімація турбіни
 drawer: {
   type: DrawMulti
