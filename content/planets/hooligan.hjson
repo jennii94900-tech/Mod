@@ -43,7 +43,7 @@ mesh: [
     # Кріогенний меш (Виправлено: NoiseMesh замість SunMesh для стабільності)
     type: NoiseMesh
     divisions: 6
-    radius: 1.27
+    radius: 1.28
     color1: 6ECDEC    # Колір кріогенки
     color2: 4da6c2    
     octaves: 4         
