@@ -1,28 +1,3 @@
-generator: PlanetGenerator
-parent: bluesun
-localizedName: "Hooligan"
-description: "Світ величних крижаних хребтів та просторих сніжних долин."
-
-# ОРБІТА
-orbitRadius: 60
-rotateTime: 3600
-orbitSpacing: 5
-
-defaultCore: "ochpoch-mob-core"
-startSector: 86
-sectorSize: 2
-accessible: true
-visible: true
-alwaysUnlocked: true
-radius: 1.3
-
-# АТМОСФЕРА
-hasAtmosphere: true
-atmosphereColor: 8aa3f4
-atmosphereRadIn: 0.02
-atmosphereRadOut: 0.35
-solarSystem: bluesun
-
 # ПОВЕРХНЯ ТА ХМАРИ
 mesh: [
   {
@@ -39,20 +14,19 @@ mesh: [
     seed: 42           
   }
   {
-{
-    # Криогенный меш в стиле "Солнца" (будет пульсировать и сиять)
+    # Криогенный меш в стиле "Солнца" (тепер дужка тільки одна)
     type: SunMesh
     divisions: 6
     radius: 1.27
-    # Цвета криогенки
     color1: 6ECDEC
     color2: 4da6c2
     octaves: 4
     persistence: 0.5
     scl: 1.8
-    pow: 1.1    # Сила яркости (чем выше, тем резче свет)
-    mag: 0.7    # Размер "вспышек" или пятен
+    pow: 1.1    
+    mag: 0.7    
     seed: 9
+    bloom: true
   }
   {
     type: HexSkyMesh
@@ -91,4 +65,3 @@ mesh: [
     seed: 3
   }
 ]
-
