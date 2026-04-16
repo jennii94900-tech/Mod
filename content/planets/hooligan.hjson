@@ -43,7 +43,7 @@ mesh: [
     # Криогенный меш в стиле "Солнца" (будет пульсировать и сиять)
     type: SunMesh
     divisions: 6
-    radius: 1.2
+    radius: 1.27
     # Цвета криогенки
     color1: 6ECDEC
     color2: 4da6c2
