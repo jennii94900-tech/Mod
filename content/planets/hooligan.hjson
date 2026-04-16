@@ -39,18 +39,20 @@ mesh: [
     seed: 42           
   }
   {
-    # Кріогенний меш зі світінням
-    type: NoiseMesh
-    divisions: 6      
+{
+    # Криогенный меш в стиле "Солнца" (будет пульсировать и сиять)
+    type: SunMesh
+    divisions: 6
     radius: 1.2
-    color1: 6ECDEC    # Колір кріогенки
-    color2: 4da6c2    
-    octaves: 4         
-    persistence: 0.5   
-    scale: 1.8        
-    mag: 0.7
-    seed: 99 
-    bloom: true
+    # Цвета криогенки
+    color1: 6ECDEC
+    color2: 4da6c2
+    octaves: 4
+    persistence: 0.5
+    scl: 1.8
+    pow: 1.1    # Сила яркости (чем выше, тем резче свет)
+    mag: 0.7    # Размер "вспышек" или пятен
+    seed: 9
   }
   {
     type: HexSkyMesh
