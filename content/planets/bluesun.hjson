@@ -3,7 +3,7 @@ localizedName: "Red Sun"
 
 mesh: {
     type: SunMesh
-    divisions: 3
+    divisions: 4
     octaves: 4
     persistence: 0.6
     scl: 1
