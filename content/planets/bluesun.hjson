@@ -1,5 +1,5 @@
 generator: PlanetGenerator
-localizedName: "Red Sun"
+localizedName: "Cyan Star"
 
 mesh: {
     type: SunMesh
@@ -10,18 +10,18 @@ mesh: {
     pow: 1
     mag: 0.5
     colorScale: 1
-    // Палитра для настоящего голубого гиганта
+    // Палитра в стиле Tantros (бирюзовый неон)
     colors: [
-        9B4E44FF
-        DF7B54FF
-        9B4E44FF
-        FF9166FF
-        DF7B54FF
-        FFB672FF
+        36ffdaff // Яркая бирюза
+        49f6f6ff // Циан
+        2a4d4dff // Темная бирюза для глубины
+        58f5f5ff // Светлый неон
+        1a2b2bff // Глубокий сине-зеленый
+        ffffffaa // Почти белый (блики)
     ]
 }
 
-// Теперь это центр собственной системы
+# Теперь это центр собственной системы
 solarSystem: bluesun
 parent: sun
 orbitRadius: 13000
@@ -34,5 +34,6 @@ bloom: true
 orbitSpacing: 8
 drawOrbit: false
 tidalLock: true
-iconColor: 8aa3f4
+# Цвет иконки теперь тоже бирюзовый
+iconColor: 36ffda
 icon: planet
