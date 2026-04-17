@@ -2,10 +2,10 @@ type: Drill
 name: "Aluminum Drill"
 description: "A powerful mechanical drill that operates without power. Efficient for early resource extraction."
 size: 1
-health: 312
+health: 300
 // Tier 2 - для алюмінію та кристалів
 tier: 2
-drillTime: 253
+drillTime: 260
 
 requirements: [
   // ВИПРАВЛЕНО: Повний ID твого алюмінію
