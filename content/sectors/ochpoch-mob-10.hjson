@@ -17,8 +17,7 @@ rules: {
   // Залишаємо тільки твої (itemWhitelist у правилах сектора дозволений)
   itemWhitelist: [
     "ochpoch-mob-h-aluminum",
-    "ochpoch-mob-cristal",
-    "silicon"
+    "ochpoch-mob-cristal"
   ]
   // Технічні фішки для v8
   clearDefaultItems: true
