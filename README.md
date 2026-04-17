@@ -1,4 +1,4 @@
-# 🧊 Syblinozen: The Hooligan Frontier 🪐
+# 🧊 The Hooligan Frontier 🪐
 
 Welcome to the **Syblinozen Project** — a massive industrial expansion for **Mindustry**. Venture beyond the known systems and land on **Hooligan**, a frozen planet at the very edge of the solar system.
 
