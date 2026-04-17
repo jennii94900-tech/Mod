@@ -11,7 +11,7 @@ solarSystem: bluesun
 
 # ХАРАКТЕРИСТИКИ
 defaultCore: "ochpoch-mob-core"
-startSector: 40
+startSector: 1
 sectorSize: 2
 accessible: true
 visible: true
