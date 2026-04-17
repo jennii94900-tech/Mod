@@ -16,7 +16,7 @@ sectorSize: 2
 accessible: true
 visible: true
 alwaysUnlocked: true
-radius: 1.3
+radius: 1.2
 
 # АТМОСФЕРА
 hasAtmosphere: true
@@ -30,7 +30,7 @@ mesh: [
     # Основна поверхня (Біла/Блакитна)
     type: NoiseMesh
     divisions: 6      
-    radius: 1.3
+    radius: 1.2
     color1: ffffff    
     color2: 7da4ff
     octaves: 5         
@@ -43,7 +43,7 @@ mesh: [
     # Кріогенний меш (Виправлено: NoiseMesh замість SunMesh для стабільності)
     type: NoiseMesh
     divisions: 6
-    radius: 1.28
+    radius: 1.18
     color1: 6ECDEC    # Колір кріогенки
     color2: 4da6c2    
     octaves: 4         
