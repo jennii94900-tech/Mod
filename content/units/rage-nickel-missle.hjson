@@ -8,7 +8,7 @@ playerControllable: true
 logicControllable: false
 speed: 7
 physics: false
-lifetime: 50
+lifetime: 30
 hitSize: 2.4
 trailLength: 3
 useUnitCap: false
