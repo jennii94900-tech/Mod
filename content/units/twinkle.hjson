@@ -13,8 +13,7 @@ hittable: false
 commands: [
   move,
   mine,
-  repair,
-  build
+  repair
 ]
 
 # РОБОТА
