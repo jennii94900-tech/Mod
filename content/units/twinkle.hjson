@@ -1,6 +1,6 @@
 type: flying
 name: Twinkle
-description: "Спеціалізований дрон-привид. Повністю ігнорується ворогами."
+description: "core unit."
 flying: true
 health: 220
 rotateSpeed: 11
