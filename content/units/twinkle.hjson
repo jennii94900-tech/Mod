@@ -1,22 +1,13 @@
 type: flying
 name: Twinkle
-description: "A specialized ghost drone. Completely ignored by enemies. Capable of mining, building, and repairing structures."
+description: "Спеціалізований дрон-привид. Повністю ігнорується ворогами."
 flying: true
 health: 220
 rotateSpeed: 11
 
-# ПРИВИД: вороги не бачать і не можуть влучити
 targetable: false
 hittable: false
 
-# КОМАНДИ: дозволяють гравцеві керувати режимами роботи дрона
-commands: [
-  move,
-  mine,
-  repair
-]
-
-# РОБОТА
 buildSpeed: 1.2
 mineSpeed: 6.5   
 mineTier: 2      
@@ -26,25 +17,26 @@ mineItems: [
   ochpoch-mob-cristal
 ]
 
-# ШТУЧНИЙ ІНТЕЛЕКТ
-controller: BuilderAI
-
 weapons: [
   {
     type: RepairBeamWeapon
     widthSinMag: 0.1
-    x: 0
+    x: 2
     y: 3
     laserColor: 617CFFFF
-    mirror: false
+    mirror: true
     rotate: false
     targetBuildings: true
     targetUnits: false
-    autoTarget: true
+    autoTarget: false
     controllable: true
     reload: 20
+    shootY: 0
+    shootCone: 15
+    beamWidth: 0.8
     repairSpeed: 3.5
     fractionRepairSpeed: 0.06
+    // ВИПРАВЛЕНО: довжина променя для лікування задається через maxRange тут
     bullet: {
       type: BulletType
       maxRange: 60
@@ -52,7 +44,8 @@ weapons: [
   }
 ]
 
-# ФІЗИКА ТА ВІЗУАЛ
+controller: RepairAI
+
 engineOffset: 4.5
 lowAltitude: true
 speed: 5.4
