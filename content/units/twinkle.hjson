@@ -39,7 +39,7 @@ weapons: [
     bullet: {
       type: BulletType
       # ЗРОБЛЕНО МЕНШИМ: Було 60, тепер 40 (промінь став коротшим)
-      maxRange: 40
+      maxRange: 60
     }
   }
 ]
