@@ -9,63 +9,84 @@ recoil: 1.7
 shootSound: artireri
 
 ammoTypes: {
-  // --- АЛЮМІНІЙ ---
+  # --- АЛЮМІНІЙ ---
   "ochpoch-mob-aluminum": {
     type: BasicBulletType
     speed: 8
     damage: 14
     lifetime: 40
-    width: 6
+    # Зроблено круглішою (ширина майже як висота)
+    width: 8
     height: 9
-    frontColor: 577277ff
-    backColor: 577277ff
+    # Оновлений колір (більш насичений сталевий)
+    frontColor: 9bbcc4ff
+    backColor: 688b94ff
+    # Додано шлейф
+    trailColor: 688b94ff
+    trailWidth: 2.5
+    trailLength: 10
+    
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     ammoMultiplier: 2
   }
-  
-  // --- КРИСТАЛИ (ТВОЇ ПЕРШІ) ---
+
+  # --- КРИСТАЛИ ---
   "ochpoch-mob-cristal": {
     type: BasicBulletType
     speed: 8
     damage: 24
     lifetime: 40
-    width: 7
-    height: 12
+    width: 10
+    height: 11
     frontColor: 00f2ff
     backColor: 8aa3f4
+    # Додано шлейф
+    trailColor: 8aa3f4
+    trailWidth: 3
+    trailLength: 12
+    
     status: shocked 
     ammoMultiplier: 4
   }
 
-  // --- КРИСТАЛИ МЕТАНУ (З РОЗЛЬОТОМ ВПЕРЕД) ---
+  # --- КРИСТАЛИ МЕТАНУ ---
   "ochpoch-mob-methane-crystal": {
     type: BasicBulletType
     speed: 8
     damage: 32
     lifetime: 40
-    width: 7
-    height: 12
+    width: 10
+    height: 11
     frontColor: 00f2ff
     backColor: 8aa3f4
+    # Додано шлейф
+    trailColor: 00f2ff
+    trailWidth: 3
+    trailLength: 15
+    
     status: shocked 
     ammoMultiplier: 4
-    
+
     fragBullets: 7
     fragVelocityMin: 0.6
     fragVelocityMax: 1.4
     fragLifeMin: 0.3
     fragAngle: 35 
-    
+
     fragBullet: {
       type: BasicBulletType
       speed: 8
       damage: 10
       lifetime: 15
-      width: 4
+      width: 5
       height: 5
       frontColor: 00f2ff
       backColor: 8aa3f4
+      # Шлейф навіть для дрібних уламків
+      trailColor: 8aa3f4
+      trailWidth: 1.5
+      trailLength: 5
       keepVelocity: true
     }
   }
