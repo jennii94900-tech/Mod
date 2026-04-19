@@ -24,7 +24,7 @@ weapons: [
     type: RepairBeamWeapon
     widthSinMag: 0.05
     x: 2.2
-    y: 3
+    y: 2
     laserColor: 617CFFFF
     mirror: true
     rotate: false
@@ -35,7 +35,7 @@ weapons: [
     reload: 20
     repairSpeed: 3.5
     fractionRepairSpeed: 0.06
-    beamWidth: 0.8
+    beamWidth: 0.6
     bullet: {
       type: BulletType
       maxRange: 60
