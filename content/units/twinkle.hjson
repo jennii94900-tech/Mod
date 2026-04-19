@@ -35,7 +35,7 @@ weapons: [
     reload: 20
     repairSpeed: 3.5
     fractionRepairSpeed: 0.06
-    beamWidth: 0.4
+    beamWidth: 0.8
     bullet: {
       type: BulletType
       maxRange: 60
