@@ -1,6 +1,6 @@
 type: PowerTurret
-name: "Puncher"
-description: "t2-turret."
+name: "breakthrough"
+description: "breakthrough."
 size: 2
 health: 550 // Збільшив здоров'я, бо для 2х2 турелі 110 — це дуже мало
 range: 210
