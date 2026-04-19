@@ -2,30 +2,44 @@ type: PowerTurret
 name: "laser turret"
 description: "t2-turret."
 size: 2
-health: 110
+health: 650 // Збільшив здоров'я, бо для 2х2 турелі 110 — це дуже мало
 range: 210
 reload: 60
 recoil: 2
 shootSound: lasershoot
 
-// Налаштування лазера
+# РОЗКИД
+inaccuracy: 4
+
+# ЗАТРИМКА ПЕРЕД ПОСТРІЛОМ
+# Дає час турелі "навестися" перед тим, як випустити лазер
+shoot: {
+  firstShotDelay: 40
+}
+
+# НАЛАШТУВАННЯ ЛАЗЕРА
 shootType: {
   type: LaserBulletType
   colors: ["8aa3f4", "00f2ff", "ffffff"] 
   damage: 45
   hitEffect: hitLaser
-  width: 25
-  length: 210 // Для LaserBulletType це поле правильне
+  # ЗМЕНШЕНО ШИРИНУ: тепер промінь виглядає більш сфокусованим
+  width: 12
+  length: 210
+  
+  # САМОНАВЕДЕННЯ
+  # Лазер буде трохи довертатися за ціллю під час пострілу
+  homingPower: 0.1
+  homingRange: 150
 }
 
-// ПРАВИЛЬНЕ споживання енергії
 consumes: {
   power: 1.2
 }
 
 requirements: [
-  "aluminum/40"
-  "cristal/35"
+  "ochpoch-mob-aluminum/40"
+  "ochpoch-mob-cristal/35"
 ]
 
 category: turret
