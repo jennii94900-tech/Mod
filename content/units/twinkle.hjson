@@ -9,13 +9,6 @@ rotateSpeed: 11
 targetable: false
 hittable: false
 
-# КОМАНДИ (Додано для зручності керування)
-commands: [
-  move,
-  mine,
-  repair,
-  build
-]
 
 # РОБОТА
 buildSpeed: 1.3
@@ -52,7 +45,7 @@ weapons: [
 ]
 
 # ШТУЧНИЙ ІНТЕЛЕКТ
-controller: BuilderAI
+controller: RepairAI
 
 # ФІЗИКА ТА ЕФЕКТИ СЛІДУ
 engineOffset: 4.5
