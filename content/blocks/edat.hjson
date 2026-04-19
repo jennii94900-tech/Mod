@@ -2,7 +2,7 @@ type: PowerTurret
 name: "laser turret"
 description: "t2-turret."
 size: 2
-health: 650 // Збільшив здоров'я, бо для 2х2 турелі 110 — це дуже мало
+health: 550 // Збільшив здоров'я, бо для 2х2 турелі 110 — це дуже мало
 range: 210
 reload: 60
 recoil: 2
