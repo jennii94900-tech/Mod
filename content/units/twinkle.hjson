@@ -8,8 +8,8 @@ rotateSpeed: 11
 targetable: false
 hittable: false
 
-buildSpeed: 1.2
-mineSpeed: 6.5   
+buildSpeed: 1.3
+mineSpeed: 6.8  
 mineTier: 2      
 
 mineItems: [
