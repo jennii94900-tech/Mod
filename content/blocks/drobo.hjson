@@ -5,13 +5,15 @@ size: 1
 health: 600
 range: 140
 reload: 45
-inaccuracy: 15
+# ЗМЕНШЕНО: тепер турель стріляє точніше
+inaccuracy: 5
 shootCone: 30
 
 shoot: {
   type: ShootSpread
   shots: 12
-  spread: 7
+  # ЗМЕНШЕНО: патрони летять щільнішою групою
+  spread: 3
 }
 
 ammoTypes: {
@@ -26,7 +28,8 @@ ammoTypes: {
     backColor: 4a69bd
     lifetime: 35
     hitEffect: plasticExplosion
-    despawnEffect: smokeCloud
+    # ЗМІНЕНО: при зникненні пуля дає невеликий кольоровий сплеск
+    despawnEffect: hitBulletColor
   }
 }
 
