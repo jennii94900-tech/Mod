@@ -1,13 +1,23 @@
 type: flying
 name: Twinkle
-description: "core unit."
+description: "A specialized core unit. Completely ignored by enemies. Capable of mining, building, and repairing structures."
 flying: true
 health: 220
 rotateSpeed: 11
 
+# ПРИВИД
 targetable: false
 hittable: false
 
+# КОМАНДИ (Додано для зручності керування)
+commands: [
+  move,
+  mine,
+  repair,
+  build
+]
+
+# РОБОТА
 buildSpeed: 1.3
 mineSpeed: 6.8  
 mineTier: 2      
@@ -31,22 +41,35 @@ weapons: [
     autoTarget: false
     controllable: true
     reload: 20
-    shootY: 0
-    shootCone: 15
-    beamWidth: 0.8
     repairSpeed: 3.5
     fractionRepairSpeed: 0.06
-    // ВИПРАВЛЕНО: довжина променя для лікування задається через maxRange тут
     bullet: {
       type: BulletType
-      maxRange: 60
+      # ЗРОБЛЕНО МЕНШИМ: Було 60, тепер 40 (промінь став коротшим)
+      maxRange: 40
     }
   }
 ]
 
-controller: RepairAI
+# ШТУЧНИЙ ІНТЕЛЕКТ
+controller: BuilderAI
 
+# ФІЗИКА ТА ЕФЕКТИ СЛІДУ
 engineOffset: 4.5
+engineSize: 2.5
+# ДОДАНО СЛІД: Тепер двигун залишає за собою шлейф
+engines: [
+  {
+    x: 0
+    y: -4.5
+    radius: 2.5
+    rotation: -90
+  }
+]
+# Налаштування шлейфу
+trailLength: 15
+trailScl: 1.2
+
 lowAltitude: true
 speed: 5.4
 accel: 0.03
@@ -54,6 +77,7 @@ drag: 0.05
 hitSize: 10
 itemCapacity: 50 
 
+# СВІТЛО
 lightRadius: 50
 lightColor: 8aa3f4
 engineColor: 8aa3f4
