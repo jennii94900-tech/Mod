@@ -9,7 +9,6 @@ rotateSpeed: 11
 targetable: false
 hittable: false
 
-
 # РОБОТА
 buildSpeed: 1.3
 mineSpeed: 6.8  
@@ -23,7 +22,7 @@ mineItems: [
 weapons: [
   {
     type: RepairBeamWeapon
-    widthSinMag: 0.1
+    widthSinMag: 0.05
     x: 2.2
     y: 4
     laserColor: 617CFFFF
@@ -36,9 +35,9 @@ weapons: [
     reload: 20
     repairSpeed: 3.5
     fractionRepairSpeed: 0.06
+    beamWidth: 0.4
     bullet: {
       type: BulletType
-      # ЗРОБЛЕНО МЕНШИМ: Було 60, тепер 40 (промінь став коротшим)
       maxRange: 60
     }
   }
@@ -50,7 +49,6 @@ controller: RepairAI
 # ФІЗИКА ТА ЕФЕКТИ СЛІДУ
 engineOffset: 4.5
 engineSize: 2.5
-# ДОДАНО СЛІД: Тепер двигун залишає за собою шлейф
 engines: [
   {
     x: 0
@@ -59,9 +57,10 @@ engines: [
     rotation: -90
   }
 ]
-# Налаштування шлейфу
 trailLength: 15
 trailScl: 1.2
+# ВСТАНОВЛЕНО КОЛІР ХВОСТА (такий як engineColor)
+trailColor: 8aa3f4
 
 lowAltitude: true
 speed: 5.4
@@ -70,7 +69,7 @@ drag: 0.05
 hitSize: 10
 itemCapacity: 50 
 
-# СВІТЛО
+# СВІТЛО ТА ДВИГУН
 lightRadius: 50
 lightColor: 8aa3f4
 engineColor: 8aa3f4
