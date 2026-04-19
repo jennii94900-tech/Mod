@@ -11,12 +11,6 @@ shootSound: lasershoot
 # РОЗКИД
 inaccuracy: 4
 
-# ЗАТРИМКА ПЕРЕД ПОСТРІЛОМ
-# Дає час турелі "навестися" перед тим, як випустити лазер
-shoot: {
-  firstShotDelay: 40
-}
-
 # НАЛАШТУВАННЯ ЛАЗЕРА
 shootType: {
   type: LaserBulletType
@@ -34,7 +28,7 @@ shootType: {
 }
 
 consumes: {
-  power: 1.2
+  power: 1.4
 }
 
 requirements: [
