@@ -1,21 +1,18 @@
 type: CoreBlock
-name: Ядро: <<fortress>>
-description: Високотехнологічне ядро з посиленим алюмінієвим корпусом. Пристосоване до суворих умов.
+name: "Core: Fortress"
+description: "A high-tech core with a reinforced aluminum hull. Perfectly adapted to harsh environments."
 size: 4
 health: 7600
 unitCapModifier: 25
 itemCapacity: 7500
-
-# Юніт, який вилітає з ядра (можеш замінити на свого кастомного)
-unitType: twinkle 
-
-# Тільки твої кастомні ресурси
+unitType: "ochpoch-mob-twinkle"
 requirements: [
-  aluminum/2500
-  refined-aluminum/1200
+  "ochpoch-mob-aluminum/2500",
+  "ochpoch-mob-refined-aluminum/1200"
 ]
-
-# Якщо хочеш, щоб воно було як на Ерекірі — додаємо категорію
 category: effect
-research: core 
 buildVisibility: shown
+research: {
+  parent: "ochpoch-mob-core"
+  planet: "hooligan"
+}
