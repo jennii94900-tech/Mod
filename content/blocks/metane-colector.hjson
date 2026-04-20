@@ -1,14 +1,12 @@
-name: Methane Collector
 type: GenericCrafter
+name: "Methane Collector"
 description: "A specialized collector designed to slowly extract and crystallize methane from the planet's frozen atmosphere."
 size: 1
 health: 200
 category: production
-
 craftTime: 300
 hasItems: true
-outputItem: methane-crystal/1
-
+outputItem: "ochpoch-mob-methane-crystal/1"
 drawer: {
   type: DrawMulti
   drawers: [
@@ -17,19 +15,17 @@ drawer: {
     }
     {
       type: DrawParticles
-      color: 6ecdec
+      color: "6ecdec"
       particles: 12
     }
   ]
 }
-
 requirements: [
-  aluminum/20
+  "ochpoch-mob-aluminum/20"
 ]
-
 research: {
-  parent: mixer
+  parent: "ochpoch-mob-mixer"
   requirements: [
-    aluminum/500
+    "ochpoch-mob-aluminum/500"
   ]
 }
