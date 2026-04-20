@@ -1,7 +1,9 @@
 name: "ochpoch-mob"
-displayName: "hooligan"
-author: "Hello"
-subtitle: "[#6ecdec[]]Version 2.1.1"
-description: "Explore the frozen depths of Hooligan — a world of majestic ice ridges and vast snowy valleys. New content is added daily! Please reload the mod to see recent updates. If you enjoy the mod, don't forget to leave a star!"
+displayName: "Hooligan"
+author: "Hello & Andrei"
+subtitle: "[#6ecdec]]]Version 2.1.1"
+description: "A custom planet mod featuring the icy world of Hooligan. We are adding new turrets, units, and sectors almost every day. 
+
+Note: Please reload the mod to see updates. If you like our work, leave a star on GitHub!"
 version: "2.1.1"
 minGameVersion: 157
