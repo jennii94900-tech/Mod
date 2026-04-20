@@ -1,16 +1,11 @@
 name: "Refined Aluminum"
-description: "used as a hull and as a chip for units and turrets ."
+description: "High-grade aluminum used for advanced unit hulls and electronic chips."
 color: "f0f0f0" 
-
 cost: 1.4
 flammability: 1.1
 explosiveness: 0
 radioactivity: 0.8
-
-// --- ТВОЇ ЛАПКИ ТА ПЛАНЕТА ---
 research: {
-  // Вказуємо повний ID звичайного алюмінію в лапках
   parent: "ochpoch-mob-aluminum"
   planet: "hooligan"
 }
-
