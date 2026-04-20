@@ -1,22 +1,17 @@
-# 🧊 The Hooligan Frontier 🪐
+# ❄️ Hooligan (ochpoch-mob)
 
-Welcome to the **Project** — a massive industrial expansion for **Mindustry**. Venture beyond the known systems and land on **Hooligan**, a frozen planet at the very edge of the solar system.
+This is a custom planet mod for Mindustry. We are building a cold, icy world called **Hooligan** at the edge of the system.
 
----
+### 🪐 What's inside:
+* **Hooligan Planet**: A frozen world with cryofluid oceans and blue mountains.
+* **New Tech**: Custom turrets (Spark, Crystal Scatter) and units (Twinkle drone).
+* **Work in Progress**: Me and my friend Andrei are adding new content almost every day.
 
-### 🌌 Planet: Hooligan
-A world of eternal frost where majestic ice ridges pierce the snowy clouds.
-- **Landscape**: Deep canyons, frozen lakes, and sharp blue mountain ranges.
-- **Atmosphere**: Thin, blue, and optimized for advanced cryogenic technologies.
-- **Location**: Orbiting at 60 units from the Sun (the furthest known point in the system).
-
-### 🚀 Installation
-Join the expedition right now:
-1. Launch **Mindustry**.
-2. Go to **Mods** -> **Import Mod**.
-3. Select **Import from GitHub**.
-4. Enter: `jennii94900-tech/Mod`
-5. Restart the game and conquer the frost!
+### 🛠 How to install:
+1. Open **Mindustry**.
+2. Go to **Mods** > **Import Mod** > **Import from GitHub**.
+3. Paste this: `jennii94900-tech/Mod`
+4. Restart and have fun!
 
 ---
-> *Developed as part of the **Ochpoch-Mob** project. New content is added daily!* ❄️🚀
+*If you find any bugs, let us know. Don't forget to star the mod if you like it!* 🚀
