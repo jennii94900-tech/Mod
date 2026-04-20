@@ -1,4 +1,4 @@
 type: OreBlock
 name: "ore-stone"
-itemDrop: "ochpoch-mob-stone"
+itemDrop: "ochpoch-mob-stone-item"
 variants: 2
