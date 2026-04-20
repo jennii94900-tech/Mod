@@ -1,23 +1,19 @@
 type: ItemTurret
-name: Crystal Scatter
-description: A heavy close-range turret. Fires a spread of sharp blue crystal shards.
+name: "Crystal Scatter"
+description: "A heavy close-range turret. Fires a spread of sharp blue crystal shards."
 size: 1
 health: 600
 range: 140
 reload: 45
-# ЗМЕНШЕНО: тепер турель стріляє точніше
 inaccuracy: 5
 shootCone: 30
-
 shoot: {
   type: ShootSpread
   shots: 12
-  # ЗМЕНШЕНО: патрони летять щільнішою групою
   spread: 3
 }
-
 ammoTypes: {
-  ochpoch-mob-cristal: {
+  "ochpoch-mob-cristal": {
     type: BasicBulletType
     speed: 4
     damage: 18
@@ -28,15 +24,12 @@ ammoTypes: {
     backColor: 4a69bd
     lifetime: 35
     hitEffect: plasticExplosion
-    # ЗМІНЕНО: при зникненні пуля дає невеликий кольоровий сплеск
     despawnEffect: hitBulletColor
   }
 }
-
 requirements: [
-  ochpoch-mob-aluminum/45
-  ochpoch-mob-cristal/20
+  "ochpoch-mob-aluminum/45",
+  "ochpoch-mob-cristal/20"
 ]
-
 category: turret
-research: v1-turre
+research: "v1-turre"
