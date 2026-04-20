@@ -1,21 +1,15 @@
-localizedName: "island" 
+localizedName: "Island"
 sector: 86
-planet: hooligan
-description: "Enemies are entrenched in this sector, destroy the core, explore more blocks for energy."
-
-# Складність
+planet: "hooligan"
+description: "Enemies are entrenched here. Destroy the enemy core to secure the area and unlock new energy technologies."
 difficulty: 6
-
-# Що потрібно вивчити, щоб відкрити цей сектор
+alwaysUnlocked: false
 research: {
-  parent: ochpoch-mob-19
+  parent: "ochpoch-mob-19"
   objectives: [
     {
       type: SectorComplete
-      preset: ochpoch-mob-19
+      preset: "ochpoch-mob-19"
     }
   ]
 }
-
-# Чи завжди він відкритий
-alwaysUnlocked: false
