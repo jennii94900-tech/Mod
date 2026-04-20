@@ -1,6 +1,6 @@
 type: missile
 name: "Rage Nickel Missile"
-description: "Швидка розривна ракета. Оснащена вбудованою системою підриву 'Rage'."
+description: "A fast explosive missile equipped with the 'Rage' detonation system."
 template: MissileUnitType
 flying: true
 lowAltitude: true
@@ -14,11 +14,9 @@ trailLength: 3
 useUnitCap: false
 health: 390
 trailColor: 6f939a
-
 range: 3
 loopSound: rokket
 loopSoundVolume: 0.3
-
 abilities: [
   {
     type: MoveEffectAbility
@@ -29,39 +27,28 @@ abilities: [
     teamColor: false
   }
 ]
-
 missileAccelTime: 20
 targetAir: true
 targetUnderBlocks: false
-
 engineColor: 6f939a
 engineLayer: 114
-
 hidden: true
 targetable: true
-
 weapons: [
   {
-    // Назва зброї (гра шукатиме rage-launcher.png, якщо його немає - малюватиметься "чиста" ракета)
     name: "rage-launcher" 
-    
-    // --- ПРИБРАНО ПАРАМЕТРИ, ЩО ВИКЛИКАЛИ ПОМИЛКИ ---
-    
     mirror: false 
     x: 0
     y: 0
-    
     reload: 1
     shootOnDeath: true
     shootCone: 360
     shake: 2
-    
     bullet: {
       type: ExplosionBulletType
       splashDamage: 590
       splashDamageRadius: 38
       buildingDamageMultiplier: 0.25
-      
       despawnEffect: {
         type: ExplosionEffect
         lifetime: 75
@@ -78,7 +65,6 @@ weapons: [
         sparkLen: 7
         sparkStroke: 2.6
       }
-      
       fragBullets: 5
       fragVelocityMin: 0.5
       fragRandomSpread: 130
@@ -94,7 +80,6 @@ weapons: [
         trailColor: 3d5158
         trailWidth: 2
         trailLength: 2.5
-        
         fragBullets: 1
         fragBullet: {
           type: ExplosionBulletType
@@ -111,4 +96,3 @@ weapons: [
     }
   } 
 ]
-
