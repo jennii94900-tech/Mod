@@ -1,44 +1,35 @@
 type: mech
-name: "static"
-description: "Легкий розвідувальний мех. Випускає короткі електричні розряди. Здатний переступати через перешкоди."
-
-
-speed: 0.7            // Швидший за Interrupter
+name: "Static"
+description: "A light reconnaissance mech. Fires short electrical discharges and is capable of boosting over obstacles."
+speed: 0.7
 drag: 0.4
 accel: 0.5
 rotateSpeed: 7
-health: 230           // Т1 рівень здоров'я
+health: 230
 armor: 7
 hitSize: 7
-
-// --- ФІШКА: ІГНОРУВАННЯ БУДІВЕЛЬ (BOOST) ---
 canBoost: true
 boostMultiplier: 1.5
-engineSize: 2         
+engineSize: 2
 lowAltitude: true
-
-// --- ЗБРОЯ (ОДНА БЛИСКАВКА) ---
 weapons: [
   {
     name: "static-laser"
     top: false
-    x: 4              // Одна гармата збоку
+    x: 4
     y: 0
-    mirror: true      // Робимо дві для симетрії, але слабші
+    mirror: true
     reload: 15
     shootSound: gun
-
     bullet: {
       type: LightningBulletType
       damage: 16
       lightningLength: 12
-      lightningColor: "00f2ff" // Твій фірмовий блакитний неон з іконки
+      lightningColor: "00f2ff"
     }
   }
 ]
-
 research: {
-  // Він відкривається відразу після ядра або Sparkk
   parent: "ochpoch-mob-fac"
   planet: "hooligan"
 }
