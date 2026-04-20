@@ -1,24 +1,18 @@
 type: flying
-name: Twinkle
+name: "Twinkle"
 description: "A specialized core unit. Completely ignored by enemies. Capable of mining, building, and repairing structures."
 flying: true
 health: 220
 rotateSpeed: 11
-
-# ПРИВИД
 targetable: false
 hittable: false
-
-# РОБОТА
 buildSpeed: 1.3
 mineSpeed: 6.8  
 mineTier: 2      
-
 mineItems: [
-  ochpoch-mob-aluminum
-  ochpoch-mob-cristal
+  "ochpoch-mob-aluminum",
+  "ochpoch-mob-cristal"
 ]
-
 weapons: [
   {
     type: RepairBeamWeapon
@@ -42,11 +36,7 @@ weapons: [
     }
   }
 ]
-
-# ШТУЧНИЙ ІНТЕЛЕКТ
 controller: RepairAI
-
-# ФІЗИКА ТА ЕФЕКТИ СЛІДУ
 engineOffset: 4.5
 engineSize: 2.5
 engines: [
@@ -59,19 +49,14 @@ engines: [
 ]
 trailLength: 15
 trailScl: 1.2
-# ВСТАНОВЛЕНО КОЛІР ХВОСТА (такий як engineColor)
 trailColor: 8aa3f4
-
 lowAltitude: true
 speed: 5.4
 accel: 0.03
 drag: 0.05
 hitSize: 10
 itemCapacity: 50 
-
-# СВІТЛО ТА ДВИГУН
 lightRadius: 50
 lightColor: 8aa3f4
 engineColor: 8aa3f4
-
 research: ochpoch-mob-core
