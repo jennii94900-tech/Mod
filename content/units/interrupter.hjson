@@ -1,22 +1,16 @@
 type: mech
 name: "Interrupter"
-description: "Штурмовий мех, що використовує силу електрики. Випускає подвійні розряди блискавок, які прошивають ворожі ряди."
-
-
+description: "A heavy assault mech that uses electrical power. Fires double lightning bolts that pierce through enemy ranks."
 speed: 0.5
 drag: 0.4
 accel: 0.5
 rotateSpeed: 4
 health: 1200
 armor: 17
-
-// --- ФІШКА: ІГНОРУВАННЯ БЛОКОВ (BOOST) ---
 canBoost: true
 boostMultiplier: 1.7
-engineSize: 3         // Прибираємо вогонь, щоб він "переступав" через заводи
+engineSize: 3
 lowAltitude: true
-
-// --- ЗБРОЯ (ПОДВІЙНА БЛИСКАВКА) ---
 weapons: [
   {
     name: "interrupter-shocker"
@@ -24,26 +18,20 @@ weapons: [
     mirror: true      
     x: 5              
     y: 0
-    reload: 10        // Трохи повільніше за лазер, але б'є сильніше
-    shootSound: gun
-
+    reload: 10
+    shootSound: spark
     bullet: {
       type: LightningBulletType
-      damage: 26      // Шкода від самого попадання
-      
-      // Параметри блискавки:
-      lightningLength: 26     // Довжина блискавки (дальність)
-      lightningDamage: 17     // Шкода від розряду
-      lightningColor: "00f2ff" // Твій фірмовий блакитний неон
-      
+      damage: 26
+      lightningLength: 26
+      lightningDamage: 17
+      lightningColor: "00f2ff"
       shootEffect: sparkShoot
       hitEffect: hitLancer
     }
   }
 ]
-
 research: {
   parent: "ochpoch-mob-t1-interrupter"
   planet: "hooligan"
 }
-
