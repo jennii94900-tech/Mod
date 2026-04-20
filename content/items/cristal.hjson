@@ -1,17 +1,11 @@
-name: "marmyriym"
-description: "very energetic material, used for turrets ."
-
-// --- ВИПРАВЛЕНО: КОЛІР МАЄ БУТИ В ЛАПКАХ ---
+name: "Marmyriym"
+description: "A highly energetic material used for advanced turrets and power systems."
 color: "00f2ff"
-
 flammability: 0
 explosiveness: 0.1
 radioactivity: 0
-charge: 10.10
-
+charge: 10.1
 cost: 1.5
-
-// --- ВИПРАВЛЕНО: ТВОЇ ЛАПКИ ТА ПЛАНЕТА ---
 research: {
   parent: "ochpoch-mob-refined-aluminum"
   planet: "hooligan"
