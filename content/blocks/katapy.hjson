@@ -1,28 +1,20 @@
 type: MassDriver
-name: "catapult"
-description: "perfect catapult for planet hooligan."
+name: "Catapult"
+description: "A specialized long-range mass driver optimized for the Hooligan frontier."
 size: 1
 health: 640
-
-// --- ХАРАКТЕРИСТИКИ ---
 range: 492         
 itemCapacity: 60       
-
-// Ефекти (recoil видалено, бо він тут не працює)
 shake: 1
-shootEffect: shootBig
-smokeEffect: shootBigSmoke
-
+shootEffect: "shootBig"
+smokeEffect: "shootBigSmoke"
 consumes: {
   power: 0.3           
 }
-
 requirements: [
   "ochpoch-mob-aluminum/25"
 ]
-
 category: distribution
-
 research: {
   parent: "ochpoch-mob-surge-alloy-conveyor"
   planet: "hooligan"
