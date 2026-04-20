@@ -1,22 +1,16 @@
-localizedName: "intersection" 
+localizedName: "Intersection"
 sector: 13
-planet: hooligan
-description: "research more turrets to protect the core."
-
-# Складність
+planet: "hooligan"
+description: "Research more turrets to defend the core. Expect heavy enemy resistance."
 difficulty: 9
 captureWave: 30
-
-# Що потрібно вивчити, щоб відкрити цей сектор
+alwaysUnlocked: false
 research: {
-  parent: ochpoch-mob-18
+  parent: "ochpoch-mob-18"
   objectives: [
     {
       type: SectorComplete
-      preset: ochpoch-mob-18
+      preset: "ochpoch-mob-18"
     }
   ]
 }
-
-# Чи завжди він відкритий
-alwaysUnlocked: false
