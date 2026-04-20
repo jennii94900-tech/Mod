@@ -1,15 +1,11 @@
 generator: PlanetGenerator
-parent: bluesun
+parent: "bluesun"
 localizedName: "Hooligan"
-description: "Світ величних крижаних хребтів та просторих сніжних долин."
-
-# ОРБІТА
+description: "A frozen world of majestic ice ridges and vast snowy valleys."
 orbitRadius: 65
 rotateTime: 3600
 orbitSpacing: 5
-solarSystem: bluesun
-
-# ХАРАКТЕРИСТИКИ
+solarSystem: "bluesun"
 defaultCore: "ochpoch-mob-core"
 startSector: 1
 sectorSize: 2
@@ -17,17 +13,12 @@ accessible: true
 visible: true
 alwaysUnlocked: true
 radius: 1.2
-
-# АТМОСФЕРА
 hasAtmosphere: true
 atmosphereColor: 8aa3f4
 atmosphereRadIn: 0.02
 atmosphereRadOut: 0.35
-
-# ПОВЕРХНЯ ТА ХМАРИ
 mesh: [
   {
-    # Основна поверхня (Біла/Блакитна)
     type: NoiseMesh
     divisions: 6      
     radius: 1.2
@@ -40,11 +31,10 @@ mesh: [
     seed: 42           
   }
   {
-    # Кріогенний меш (Виправлено: NoiseMesh замість SunMesh для стабільності)
     type: NoiseMesh
     divisions: 6
     radius: 1.18
-    color1: 6ECDEC    # Колір кріогенки
+    color1: 6ecdec
     color2: 4da6c2    
     octaves: 4         
     persistence: 0.5   
@@ -82,7 +72,7 @@ mesh: [
     speed: 1
     divisions: 5
     radius: 0.11
-    color: 6ECDECbb
+    color: 6ecdecbb
     octaves: 2
     persistence: 0.2
     scl: 2
