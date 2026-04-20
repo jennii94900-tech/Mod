@@ -1,6 +1,6 @@
 type: PowerNode
 name: "aluminum crystal node"
-description: "Транслює енергію краще за обичний посилений корпус із алюмінію."
+description: "Transmits energy more efficiently through a reinforced aluminum frame. Features enhanced range and node capacity."
 size: 1
 health: 120
 
@@ -11,13 +11,12 @@ laserColor1: 00f2ff
 laserColor2: ffffff
 
 requirements: [
-  "ochpoch-mob-aluminum/10"
+  ochpoch-mob-aluminum/10
 ]
 
 category: power
 
 research: {
-  // ЗМІНИ НА ЦЕ (Прив'язка до Алюмінію або Ядра):
   parent: "ochpoch-mob-aluminum-generator" 
   planet: "hooligan"
 }
