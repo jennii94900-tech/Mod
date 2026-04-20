@@ -1,28 +1,18 @@
-name: Vent Generator
 type: ThermalGenerator
-description: Generates power from thermal vents.
+name: "Vent Generator"
+description: "Generates power from thermal vents found on the planet's surface."
 size: 3
 health: 450
 category: power
-
-# Налаштування енергії
 attribute: steam
-# 1.0 — стандарт для роботи на одній клітинці вентиляції
 minEfficiency: 8
 powerProduction: 0.8
-
-# Візуал та туман
 squareSprite: false
 fogRadius: 2
-
-# Витрати на будівництво
 requirements: [
-  aluminum/50
+  "ochpoch-mob-aluminum/50"
 ]
-
-research: aluminum-generator 
-
-# Анімація турбіни
+research: "ochpoch-mob-aluminum-generator"
 drawer: {
   type: DrawMulti
   drawers: [
@@ -31,7 +21,7 @@ drawer: {
     }
     {
       type: DrawBlurSpin
-      suffix: -rotator
+      suffix: "-rotator"
       rotateSpeed: 10
     }
   ]
