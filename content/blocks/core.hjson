@@ -1,19 +1,15 @@
 type: CoreBlock
-name: "Ядро: <<hope>>"
+name: "Core: Hope"
 size: 3
 health: 4000
 itemCapacity: 5000
 unitCapModifier: 14
 unitType: "ochpoch-mob-twinkle"
-
 requirements: [ 
-aluminum/1700
+  "ochpoch-mob-aluminum/1700"
 ]
-
-
 category: effect
 alwaysUnlocked: true
-
 research: {
   root: true
   name: "Hooligan"
