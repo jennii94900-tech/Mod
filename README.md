@@ -1,4 +1,4 @@
-# ❄️ Hooligan (ochpoch-mob)
+# ❄️ Hooligan
 
 This is a custom planet mod for Mindustry. We are building a cold, icy world called **Hooligan** at the edge of the system.
 
