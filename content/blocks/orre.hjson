@@ -1,14 +1,7 @@
 type: OreBlock
-name: "Настінна кристалічна руда"
-description: "Рідкісні вкраплення енергетичних кристалів у скельній породі. Потребує потужного буріння для витягання."
-
-// Вказуємо, що випадає твій новий кристал
-// Перевір, щоб назва предмета в його файлі була саме такою!
-itemDrop: ochpoch-mob-cristal
-
-// ПАРАМЕТРИ ДЛЯ СТІНИ
+name: "Crystal Wall Ore"
+description: "Rare energy crystal deposits embedded in rock. Requires powerful drilling for extraction."
+itemDrop: "ochpoch-mob-cristal"
 wallOre: true
 variants: 2
-
-// Колір на міні-карті (яскраво-блакитний неон)
-mapColor: 00f2ff
+mapColor: "00f2ff"
