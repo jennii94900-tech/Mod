@@ -19,7 +19,7 @@ weapons: [
     x: 5              
     y: 0
     reload: 10
-    shootSound: spark
+    shootSound: gun
     bullet: {
       type: LightningBulletType
       damage: 26
