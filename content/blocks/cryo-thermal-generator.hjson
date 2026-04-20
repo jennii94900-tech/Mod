@@ -1,24 +1,20 @@
 type: ConsumeGenerator
-name: cristal generator 
-description: gives energy for cristal.
+name: "Crystal Generator"
+description: "Produces energy by consuming crystals."
 size: 2
 health: 170
 hasPower: true
 hasItems: true
 powerProduction: 3.0
-
 consumes: {
   items: [
-    cristal/2
+    "ochpoch-mob-cristal/2"
   ]
 }
-
 itemDuration: 90
-
 requirements: [
-  aluminum/25
-  cristal/15
+  "ochpoch-mob-aluminum/25",
+  "ochpoch-mob-cristal/15"
 ]
-
 category: power
-research: aluminum-generator 
+research: "ochpoch-mob-aluminum-generator"
