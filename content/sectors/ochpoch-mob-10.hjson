@@ -1,30 +1,30 @@
-localizedName: "hope"
-description: "A safe zone for starting. Here you will find the first deposits of aluminum."
-
+localizedName: "Hope"
+description: "A safe zone for starting your journey. Here you will find the first deposits of aluminum."
 planet: "hooligan"
 sector: 1
-
 difficulty: 1
 alwaysUnlocked: true
 captureWave: 15
-
-// ОСЬ ТУТ МИ ЗАБОРОНЯЄМО МІДЬ (Це працює саме в секторах)
 rules: {
-  // Вимикаємо стандартні ресурси Серпуло
   bannedItems: [
-    "copper", "lead", "metaglass", "graphite", "sand", "coal", "titanium", "thorium", "scrap"
+    "copper",
+    "lead",
+    "metaglass",
+    "graphite",
+    "sand",
+    "coal",
+    "titanium",
+    "thorium",
+    "scrap"
   ]
-  // Залишаємо тільки твої (itemWhitelist у правилах сектора дозволений)
   itemWhitelist: [
-    "ochpoch-mob-h-aluminum",
+    "ochpoch-mob-aluminum",
     "ochpoch-mob-cristal"
   ]
-  // Технічні фішки для v8
   clearDefaultItems: true
   onlyDepositCore: true
 }
-
 research: {
-  parent: "ochpoch-mob-core" // Назва твого ядра
+  parent: "ochpoch-mob-core"
   planet: "hooligan"
 }
