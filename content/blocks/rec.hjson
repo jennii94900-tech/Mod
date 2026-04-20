@@ -1,6 +1,6 @@
 type: Reconstructor
-name: "aluminum Reconstructor"
-description: "t2."
+name: "Aluminum Reconstructor"
+description: "Upgrades units to the second tier (T2)."
 size: 3
 health: 650
 constructTime: 795
@@ -19,7 +19,7 @@ upgrades: [
 
 requirements: [
   ochpoch-mob-aluminum/80
-  refined-aluminum/85
+  ochpoch-mob-refined-aluminum/85
 ]
 
 category: units
