@@ -3,28 +3,19 @@ name: "Obsidian Refinery"
 description: "Compresses crystals and stone-matter under extreme pressure to synthesize obsidian."
 size: 2
 hasItems: true
-updateEffect: smeltsmoke
+updateEffect: "smeltsmoke"
 itemCapacity: 15
-
-// Час виготовлення (1.5 сек)
 craftTime: 90
-
-// Що споживає для роботи
 consumes: {
   items: [
-    stone-item/3
-    cristal/1
+    "ochpoch-mob-stone/3",
+    "ochpoch-mob-cristal/1"
   ]
   power: 1.2
 }
-
-// Що видає на виході
-outputItem: obsidian/1
-
-// Вартість будівництва (тільки алюміній)
+outputItem: "ochpoch-mob-obsidian/1"
 requirements: [
-  aluminum/60
+  "ochpoch-mob-aluminum/60"
 ]
-
-category: crafting
-research: mixer
+category: "crafting"
+research: "ochpoch-mob-mixer"
