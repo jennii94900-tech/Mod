@@ -1,20 +1,15 @@
 type: tank
 name: "Aluminum Raider"
-description: "Швидкий розвідувальний ховер-танк. Оснащений одиночною пусковою установкою 'Sliver'."
-
+description: "A fast reconnaissance hover tank. Equipped with a single 'Sliver' missile launcher."
 hitSize: 14
 health: 630
 speed: 0.7
 rotateSpeed: 3 
-
-// Налаштування для ховера (щоб він не мав гусениць і "ковзав")
 omniMovement: true
 faceTarget: false
 treadRects: [] 
 shadowElevation: 0.2
-// Використовуємо це замість movementStepEffect, щоб лог був чистим
 stepShake: 0
-
 weapons: [
   {
     name: "aluminum-missile-launcher"
@@ -23,40 +18,28 @@ weapons: [
     rotate: true
     rotateSpeed: 10 
     mirror: false
-    
     reload: 60 
     recoil: 2
-    
-    // Використовуємо стандартний звук, щоб не було помилок "Audio file not found"
     shootSound: artireri 
-    
     bullet: {
       type: MissileBulletType
       damage: 45 
       speed: 4.5
       lifetime: 60
-      
       homingPower: 0.12
       homingRange: 160
-      
       weaveScale: 4
       weaveMag: 2
-      
       splashDamage: 60        
       splashDamageRadius: 38  
-      
       frontColor: ffffff
       backColor: 00aaff
       trailColor: 00aaff
       trailWidth: 2
       trailLength: 15
-      
       hitEffect: blastExplosion
       despawnEffect: blastExplosion
     }
   }
 ]
-
-// Досліджується після Т1 заводу
 research: fac
-
