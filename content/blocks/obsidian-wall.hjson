@@ -3,12 +3,9 @@ name: "Obsidian Wall"
 description: "A legendary defensive fortification. Practically indestructible against light and medium weaponry."
 size: 1
 health: 8650
-// 38 броні означає, що будь-яка куля зі шкодою менше 38 взагалі не завдасть шкоди
 armor: 38
-
 requirements: [
-  obsidian/35
+  "ochpoch-mob-obsidian/35"
 ]
-
 category: defense
-research: wall
+research: "ochpoch-mob-aluminum-wall"
