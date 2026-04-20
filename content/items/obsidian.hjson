@@ -1,15 +1,10 @@
 name: "Obsidian"
 description: "A dense, volcanic glass-like material. Extremely hard and resistant to heat."
-
-// Колір іконки та частинок (темно-фіолетовий/чорний)
-color: 3c3056
-
-// Характеристики предмета
-hardness: 4            // Твердість (як у торію або вище)
-cost: 1.5              // Коефіцієнт вартості в побудові
-flammability: 0.0      // Не горить
-explosiveness: 0.0     // Не вибухає
-radioactivity: 0.0     // Не радіоактивний
-charge: 0.0            // Не проводить електрику
-
-research: aluminum
+color: "3c3056"
+hardness: 4
+cost: 1.5
+flammability: 0
+explosiveness: 0
+radioactivity: 0
+charge: 0
+research: "aluminum"
