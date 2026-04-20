@@ -1,13 +1,12 @@
 type: Wall
 name: "Aluminum Wall"
-description: "Wall."
+description: "A solid defensive block made of reinforced aluminum. Extremely durable and resistant to physical damage."
 size: 1
-// Твоє замовлення: 6000 здоров'я
-health: 3100 
-armor: 16 // Додав трохи більше броні, щоб відповідати такому високому HP
+health: 6000
+armor: 16
 
 requirements: [
-  ochpoch-mob-aluminum/14
+  ochpoch-mob-aluminum/15
 ]
 
 category: defense
