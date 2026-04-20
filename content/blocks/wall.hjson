@@ -3,7 +3,7 @@ name: "Large Aluminum Wall"
 description: "A massive defensive structure made of thick aluminum plates. Provides superior protection for large-scale fortifications."
 size: 2
 health: 6500
-armor: 24
+armor: 25
 
 requirements: [
   ochpoch-mob-aluminum/35
