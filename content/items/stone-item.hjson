@@ -1,15 +1,11 @@
-name: "stone"
-description: "stone."
+name: "Stone"
+description: "A common mineral found in the planet's crust. Used for basic construction."
 color: "e0e0e0"
-
-flammability: 0.0      
-explosiveness: 0.1    
-radioactivity: 0.0   
-charge: 0.0            
-
-// --- ВИПРАВЛЕНО: ТВОЇ ЛАПКИ ТА ПЛАНЕТА ---
+flammability: 0
+explosiveness: 0.1
+radioactivity: 0
+charge: 0
 research: {
   parent: "ochpoch-mob-aluminum"
   planet: "hooligan"
 }
-
