@@ -1,43 +1,31 @@
 type: PowerTurret
-name: "breakthrough"
-description: "breakthrough."
+name: "Breakthrough"
+description: "A precision laser turret that pierces through enemy ranks with homing capabilities."
 size: 2
-health: 550 // Збільшив здоров'я, бо для 2х2 турелі 110 — це дуже мало
+health: 550
 range: 210
 reload: 60
 recoil: 2
 shootSound: lasershoot
-
-# РОЗКИД
 inaccuracy: 4
-
-# НАЛАШТУВАННЯ ЛАЗЕРА
 shootType: {
   type: LaserBulletType
   colors: ["8aa3f4", "00f2ff", "ffffff"] 
   damage: 45
   hitEffect: hitLaser
-  # ЗМЕНШЕНО ШИРИНУ: тепер промінь виглядає більш сфокусованим
   width: 12
   length: 210
-  
-  # САМОНАВЕДЕННЯ
-  # Лазер буде трохи довертатися за ціллю під час пострілу
   homingPower: 0.1
   homingRange: 150
 }
-
 consumes: {
   power: 1.4
 }
-
 requirements: [
   "ochpoch-mob-aluminum/40"
   "ochpoch-mob-cristal/35"
 ]
-
 category: turret
-
 research: {
   parent: "drobo"
   planet: "hooligan"
