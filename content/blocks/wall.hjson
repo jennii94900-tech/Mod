@@ -1,13 +1,12 @@
 type: Wall
 name: "Large Aluminum Wall"
-description: "Large wall."
+description: "A massive defensive structure made of thick aluminum plates. Provides superior protection for large-scale fortifications."
 size: 2
-// Твоє замовлення: 6000 здоров'я
 health: 6470 
-armor: 24 // Додав трохи більше броні, щоб відповідати такому високому HP
+armor: 24
 
 requirements: [
-  ochpoch-mob-aluminum/40
+  ochpoch-mob-aluminum/35
 ]
 
 category: defense
