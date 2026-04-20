@@ -1,5 +1,4 @@
 type: OreBlock
-// Назва має збігатися зі спрайтом без цифр у кінці
-name: "ore-stone" 
-itemDrop: stone-item
-variants: 2   // Вказуємо, що у нас 3 варіанти спрайту
+name: "ore-stone"
+itemDrop: "ochpoch-mob-stone"
+variants: 2
