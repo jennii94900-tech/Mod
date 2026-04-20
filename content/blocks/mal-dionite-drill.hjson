@@ -3,19 +3,13 @@ name: "Aluminum Drill"
 description: "A powerful mechanical drill that operates without power. Efficient for early resource extraction."
 size: 1
 health: 300
-// Tier 2 - для алюмінію та кристалів
 tier: 2
 drillTime: 260
-
 requirements: [
-  // ВИПРАВЛЕНО: Повний ID твого алюмінію
-  "ochpoch-mob-aluminum/24"
+  "ochpoch-mob-aluminum/18"
 ]
-
 category: production
-
 research: {
-  // ПРИВ'ЯЗУЄМО ДО ТВОГО ЯДРА (core) АБО АЛЮМІНІЮ
   parent: "ochpoch-mob-core"
   planet: "hooligan"
 }
