@@ -1,6 +1,6 @@
 type: ItemTurret
-name: "Spark"
-description: "High-velocity starter turret. Optimized for Hooligan's defense."
+name: "Glint"
+description: "A precision starter turret. Fires high-velocity projectiles using aluminum or crystal-based ammo. Ideal for early-game perimeter defense."
 size: 1
 health: 360
 range: 312
@@ -9,7 +9,7 @@ recoil: 1.7
 shootSound: artireri
 
 ammoTypes: {
-  "ochpoch-mob-aluminum": {
+  ochpoch-mob-aluminum: {
     type: BasicBulletType
     speed: 8
     damage: 14
@@ -26,7 +26,7 @@ ammoTypes: {
     ammoMultiplier: 2
   }
 
-  "ochpoch-mob-cristal": {
+  ochpoch-mob-cristal: {
     type: BasicBulletType
     speed: 8
     damage: 24
@@ -42,7 +42,7 @@ ammoTypes: {
     ammoMultiplier: 4
   }
 
-  "ochpoch-mob-methane-crystal": {
+  ochpoch-mob-methane-crystal: {
     type: BasicBulletType
     speed: 8
     damage: 32
@@ -87,4 +87,7 @@ category: turret
 research: {
   parent: "ochpoch-mob-core"
   planet: hooligan
+  requirements: [
+    ochpoch-mob-aluminum/150
+  ]
 }
