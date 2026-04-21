@@ -1,6 +1,6 @@
 type: Wall
-name: "Large Aluminum Wall"
-description: "A massive defensive structure made of thick aluminum plates. Provides superior protection for large-scale fortifications."
+name: "Aluminum Bastion"
+description: "A heavy-duty defensive barrier. Built from reinforced aluminum alloys to withstand prolonged sieges and heavy fire."
 size: 2
 health: 6500
 armor: 25
