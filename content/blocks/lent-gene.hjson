@@ -1,6 +1,6 @@
 type: ThermalGenerator
-name: "Vent Generator"
-description: "Generates power from thermal vents found on the planet's surface."
+name: "Thermal Siphon"
+description: "A specialized power station built for Hooligan's extreme climate. It siphons heat from deep underground vents to keep your industry running."
 size: 3
 health: 450
 category: power
@@ -9,10 +9,13 @@ minEfficiency: 8
 powerProduction: 0.8
 squareSprite: false
 fogRadius: 2
+
 requirements: [
-  "ochpoch-mob-aluminum/50"
+  ochpoch-mob-aluminum/50
 ]
-research: "ochpoch-mob-aluminum-generator"
+
+research: ochpoch-mob-aluminum-generator
+
 drawer: {
   type: DrawMulti
   drawers: [
