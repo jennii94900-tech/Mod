@@ -35,7 +35,6 @@ category: turret
 
 research: {
   parent: "v1-turre"
-  # ТЕПЕР ЦІНА НАБАГАТО МЕНША
   requirements: [
     ochpoch-mob-aluminum/400
     ochpoch-mob-cristal/250
