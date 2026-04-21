@@ -1,21 +1,28 @@
 type: GenericCrafter
-name: "Obsidian Refinery"
-description: "Compresses crystals and stone-matter under extreme pressure to synthesize obsidian."
+name: "Obsidian Press"
+description: "Uses extreme hydraulic pressure to fuse raw stone-matter and crystals into obsidian plates. Essential for advanced composite armor."
 size: 2
+health: 320
 hasItems: true
-updateEffect: "smeltsmoke"
+updateEffect: smeltsmoke
 itemCapacity: 15
 craftTime: 90
 consumes: {
   items: [
-    "ochpoch-mob-stone-item/3",
-    "ochpoch-mob-cristal/1"
+    ochpoch-mob-stone-item/3
+    ochpoch-mob-cristal/1
   ]
   power: 1.2
 }
-outputItem: "ochpoch-mob-obsidian/1"
+outputItem: ochpoch-mob-obsidian/1
 requirements: [
-  "ochpoch-mob-aluminum/60"
+  ochpoch-mob-aluminum/60
 ]
-category: "crafting"
-research: "ochpoch-mob-mixer"
+category: crafting
+research: {
+  parent: ochpoch-mob-mixer
+  requirements: [
+    ochpoch-mob-aluminum/450
+    ochpoch-mob-cristal/200
+  ]
+}
