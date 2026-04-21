@@ -1,6 +1,6 @@
 type: Wall
-name: "Aluminum Wall"
-description: "A solid defensive block made of reinforced aluminum. Extremely durable and resistant to physical damage."
+name: "Aluminum Plate"
+description: "A compact defensive block. Despite its size, the reinforced aluminum provides solid protection for early-game outposts."
 size: 1
 health: 4500
 armor: 15
