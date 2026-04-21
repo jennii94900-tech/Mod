@@ -1,17 +1,18 @@
-# ❄️ Hooligan
+# Hooligan Planet Mod
 
-This is a custom planet mod for Mindustry. We are building a cold, icy world called **Hooligan** at the edge of the system.
+Hooligan is a custom planet expansion for Mindustry. It introduces a unique, frozen celestial body located on the far periphery of the star system.
 
-### 🪐 What's inside:
-* **Hooligan Planet**: A frozen world with cryofluid oceans and blue mountains.
-* **New Tech**: Custom turrets (Spark, Crystal Scatter) and units (Twinkle drone).
-* **Work in Progress**: Me and my friend Andrei are adding new content almost every day.
+## Features
+* **Hooligan Planet**: A specialized environment characterized by cryofluid oceans and high-altitude icy terrain.
+* **Logistics and Industry**: Custom distribution systems and power generation adapted for extreme cold.
+* **Combat Units and Defense**: Unique tech tree including specialized turrets and support drones.
+* **Development**: Continuous updates with new content including T2 unit tiers and advanced factories.
 
-### 🛠 How to install:
-1. Open **Mindustry**.
-2. Go to **Mods** > **Import Mod** > **Import from GitHub**.
-3. Paste this: `jennii94900-tech/Mod`
-4. Restart and have fun!
+## Installation
+1. Launch **Mindustry**.
+2. Navigate to **Mods** > **Import Mod** > **Import from GitHub**.
+3. Enter the following repository: `jennii94900-tech/Mod`
+4. Restart the game to apply changes.
 
 ---
-*If you find any bugs, let us know. Don't forget to star the mod if you like it!* 🚀
+Technical support and bug reports are handled through the official GitHub repository. 
