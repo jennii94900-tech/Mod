@@ -1,6 +1,6 @@
 type: ItemTurret
-name: "Crystal Scatter"
-description: "A heavy close-range turret. Fires a spread of sharp blue crystal shards."
+name: "Fracture"
+description: "A devastating short-range defense system. Shatters crystals into a lethal cloud of high-velocity shards, perfect for shredding groups of enemies."
 size: 1
 health: 600
 range: 140
@@ -13,7 +13,7 @@ shoot: {
   spread: 3
 }
 ammoTypes: {
-  "ochpoch-mob-cristal": {
+  ochpoch-mob-cristal: {
     type: BasicBulletType
     speed: 4
     damage: 18
@@ -28,8 +28,16 @@ ammoTypes: {
   }
 }
 requirements: [
-  "ochpoch-mob-aluminum/45",
-  "ochpoch-mob-cristal/20"
+  ochpoch-mob-aluminum/45
+  ochpoch-mob-cristal/20
 ]
 category: turret
-research: "v1-turre"
+
+research: {
+  parent: "v1-turre"
+  # ТЕПЕР ЦІНА НАБАГАТО МЕНША
+  requirements: [
+    ochpoch-mob-aluminum/400
+    ochpoch-mob-cristal/250
+  ]
+}
