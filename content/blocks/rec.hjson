@@ -3,12 +3,12 @@ name: "Alu-Forge"
 description: "A specialized assembly unit. Uses refined aluminum to upgrade basic T1 units into advanced T2 combat models."
 size: 3
 health: 650
-constructTime: 795
+constructTime: 800
 
 consumes: {
-  power: 2.5
+  power: 2.6
   items: [
-    ochpoch-mob-refined-aluminum/165
+    ochpoch-mob-refined-aluminum/130
   ]
 }
 
