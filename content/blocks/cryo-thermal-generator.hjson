@@ -1,6 +1,6 @@
 type: ConsumeGenerator
-name: "Crystal Generator"
-description: "Produces energy by consuming crystals."
+name: "Crystal Resonance Cell"
+description: "An advanced power source that harnesses energy from crystal vibrations. Provides a significant power boost compared to standard aluminum combustion."
 size: 2
 health: 170
 hasPower: true
@@ -8,13 +8,13 @@ hasItems: true
 powerProduction: 3.0
 consumes: {
   items: [
-    "ochpoch-mob-cristal/2"
+    ochpoch-mob-cristal/2
   ]
 }
 itemDuration: 90
 requirements: [
-  "ochpoch-mob-aluminum/25",
-  "ochpoch-mob-cristal/15"
+  ochpoch-mob-aluminum/25
+  ochpoch-mob-cristal/15
 ]
 category: power
-research: "ochpoch-mob-aluminum-generator"
+research: ochpoch-mob-aluminum-generator
