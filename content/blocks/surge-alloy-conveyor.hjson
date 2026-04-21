@@ -1,6 +1,7 @@
 {
   "type": "duct",
-  "name": "aluminum duct",
+  "name": "Aluminum Conduit",
+  "description": "A high-speed transport tube. Its reinforced internal structure allows for a small buffer of items while maintaining rapid flow.",
   "size": 1,
   "health": 100,
   "speed": 13,
