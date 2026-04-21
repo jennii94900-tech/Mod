@@ -1,6 +1,6 @@
 type: Router
-name: "aluminum router"
-description: "Distributes incoming resources to three adjacent sides. Made of lightweight aluminum."
+name: "Aluminum Distributor"
+description: "A lightweight logistics unit designed for Hooligan's outposts. Splits a single resource stream into three equal directions."
 size: 1
 health: 60
 
