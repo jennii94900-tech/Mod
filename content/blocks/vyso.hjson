@@ -1,6 +1,6 @@
 type: PowerNode
-name: "aluminum crystal node"
-description: "Transmits energy more efficiently through a reinforced aluminum frame. Features enhanced range and node capacity."
+name: "Crystal Relay"
+description: "A specialized power node that uses aluminum conductivity and crystal focusing to transmit energy over long distances."
 size: 1
 health: 120
 
