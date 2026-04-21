@@ -1,6 +1,6 @@
 type: ConsumeGenerator
-name: aluminum generator 
-description: gives energy for aluminum .
+name: "Alu-Fission Core"
+description: "A compact combustion unit. It extracts energy through the rapid oxidation of aluminum plates, providing stable power for early industry."
 size: 2
 health: 165
 hasPower: true
@@ -9,15 +9,15 @@ powerProduction: 1.4
 
 consumes: {
   items: [
-    aluminum/1
+    ochpoch-mob-aluminum/1
   ]
 }
 
 itemDuration: 90
 
 requirements: [
-  aluminum/24
+  ochpoch-mob-aluminum/24
 ]
 
 category: power
-research: core
+research: ochpoch-mob-core
