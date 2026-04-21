@@ -12,7 +12,7 @@ sectorSize: 2
 accessible: true
 visible: true
 alwaysUnlocked: true
-radius: 1.2
+radius: 1.1
 hasAtmosphere: true
 atmosphereColor: 8aa3f4
 atmosphereRadIn: 0.02
@@ -21,7 +21,7 @@ mesh: [
   {
     type: NoiseMesh
     divisions: 6      
-    radius: 1.2
+    radius: 1.1
     color1: ffffff    
     color2: 7da4ff
     octaves: 5         
