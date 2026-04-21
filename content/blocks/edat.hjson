@@ -1,6 +1,6 @@
 type: PowerTurret
-name: "Breakthrough"
-description: "A precision laser turret that pierces through enemy ranks with homing capabilities."
+name: "Ion Beam"
+description: "Precision laser defense. Fires a concentrated beam with slight homing capabilities to neutralize high-speed targets."
 size: 2
 health: 550
 range: 210
@@ -10,7 +10,7 @@ shootSound: lasershoot
 inaccuracy: 4
 shootType: {
   type: LaserBulletType
-  colors: ["8aa3f4", "00f2ff", "ffffff"] 
+  colors: [8aa3f4, 00f2ff, ffffff] 
   damage: 45
   hitEffect: hitLaser
   width: 12
@@ -22,11 +22,15 @@ consumes: {
   power: 1.4
 }
 requirements: [
-  "ochpoch-mob-aluminum/40"
-  "ochpoch-mob-cristal/35"
+  ochpoch-mob-aluminum/40
+  ochpoch-mob-cristal/35
 ]
 category: turret
 research: {
-  parent: "drobo"
-  planet: "hooligan"
+  parent: drobo
+  planet: hooligan
+  requirements: [
+    ochpoch-mob-aluminum/600
+    ochpoch-mob-cristal/400
+  ]
 }
