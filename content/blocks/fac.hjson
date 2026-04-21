@@ -1,6 +1,6 @@
 type: UnitFactory
-name: "Aluminum Assembler"
-description: "Specialized facility for constructing Aluminum units."
+name: "Assembler Prime"
+description: "The backbone of Hooligan's military production. Automated systems rapidly construct basic aluminum units for exploration and combat."
 size: 2
 health: 900
 hasPower: true
@@ -11,30 +11,36 @@ consumes: {
 }
 plans: [
   {
-    unit: "ochpoch-mob-tank"
+    unit: ochpoch-mob-tank
     time: 635
     requirements: [
-      "ochpoch-mob-refined-aluminum/45"
+      ochpoch-mob-refined-aluminum/45
     ]
   }
   {
-    unit: "ochpoch-mob-t1-interrupter"
+    unit: ochpoch-mob-t1-interrupter
     time: 580
     requirements: [
-      "ochpoch-mob-refined-aluminum/18"
+      ochpoch-mob-refined-aluminum/18
     ]
   }
   {
-    unit: "ochpoch-mob-twinkle"
+    unit: ochpoch-mob-twinkle
     time: 520
     requirements: [
-      "ochpoch-mob-refined-aluminum/15"
+      ochpoch-mob-refined-aluminum/15
     ]
   }
 ]
 requirements: [
-  "ochpoch-mob-refined-aluminum/40",
-  "ochpoch-mob-aluminum/35"
+  ochpoch-mob-refined-aluminum/40
+  ochpoch-mob-aluminum/35
 ]
 category: units
-research: "ochpoch-mob-core"
+research: {
+  parent: ochpoch-mob-core
+  requirements: [
+    ochpoch-mob-aluminum/300
+    ochpoch-mob-refined-aluminum/100
+  ]
+}
