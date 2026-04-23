@@ -33,7 +33,7 @@ mesh: [
   {
     type: NoiseMesh
     divisions: 6
-    radius: 1.0
+    radius: 1.10
     color1: 6ecdec
     color2: 4da6c2    
     octaves: 4         
