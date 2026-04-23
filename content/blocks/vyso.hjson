@@ -7,7 +7,7 @@ health: 120
 maxNodes: 12
 laserRange: 15
 
-laserColor1: 8aa3f4
+laserColor1: 00f2ff
 laserColor2: ffffff
 
 requirements: [
