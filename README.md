@@ -1,7 +1,5 @@
 # Hooligan Planet Mod
 
-hello036345
-
 Custom frozen planet expansion for Mindustry.
 
 ## Features
