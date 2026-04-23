@@ -37,6 +37,8 @@ weapons: [
         blending: additive
         color: 00f2ff
         outline: false
+        progress: recoil
+        colorTo: ffffff00
       }
     ]
   }
