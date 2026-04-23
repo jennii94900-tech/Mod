@@ -8,7 +8,7 @@ maxNodes: 12
 laserRange: 15
 
 laserColor1: 00f2ff
-laserColor2: ffffff
+laserColor2: FF0000FF
 
 requirements: [
   ochpoch-mob-aluminum/10
