@@ -1,6 +1,6 @@
 type: mech
-name: "Interrupter"
-description: "A heavy assault mech that uses electrical power. Fires double lightning bolts that pierce through enemy ranks."
+name: "Static Breaker"
+description: "A specialized assault mech. Equipped with dual conductors that discharge high-voltage ion bolts, destabilizing enemy defenses."
 speed: 0.5
 drag: 0.4
 accel: 0.5
@@ -11,9 +11,10 @@ canBoost: true
 boostMultiplier: 1.7
 engineSize: 3
 lowAltitude: true
+
 weapons: [
   {
-    name: "interrupter-shocker"
+    name: interrupter-shocker
     top: false
     mirror: true      
     x: 5              
@@ -25,13 +26,27 @@ weapons: [
       damage: 26
       lightningLength: 26
       lightningDamage: 17
-      lightningColor: "00f2ff"
+      lightningColor: 00f2ff
       shootEffect: sparkShoot
       hitEffect: hitLancer
     }
+    parts: [
+      {
+        type: RegionPart
+        suffix: "-glow"
+        blending: additive
+        color: 00f2ff
+        outline: false
+      }
+    ]
   }
 ]
+
 research: {
-  parent: "ochpoch-mob-t1-interrupter"
-  planet: "hooligan"
+  parent: ochpoch-mob-t1-interrupter
+  planet: hooligan
+  requirements: [
+    ochpoch-mob-aluminum/800
+    ochpoch-mob-refined-aluminum/400
+  ]
 }
