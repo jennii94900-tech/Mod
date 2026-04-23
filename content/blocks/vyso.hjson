@@ -7,7 +7,7 @@ health: 120
 maxNodes: 12
 laserRange: 15
 
-laserColor1: 0000ff
+laserColor1: 8aa3f4
 laserColor2: ffffff
 
 requirements: [
@@ -17,8 +17,8 @@ requirements: [
 category: power
 
 research: {
-  parent: "ochpoch-mob-aluminum-generator" 
-  planet: "hooligan"
+  parent: ochpoch-mob-aluminum-generator
+  planet: hooligan
   requirements: [
     ochpoch-mob-aluminum/100
   ]
