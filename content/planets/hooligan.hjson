@@ -2,7 +2,7 @@ generator: PlanetGenerator
 parent: "bluesun"
 localizedName: "Hooligan"
 description: "A frozen world of majestic ice ridges and vast snowy valleys."
-orbitRadius: 65
+orbitRadius: 67
 rotateTime: 3600
 orbitSpacing: 5
 solarSystem: "bluesun"
@@ -45,14 +45,14 @@ mesh: [
   }
   {
     type: HexSkyMesh
-    speed: 0.8
+    speed: 1
     divisions: 5
-    radius: 0.18
-    color: 50a0c077
-    octaves: 4
-    persistence: 0.4
-    scl: 2
-    thresh: 0.35
-    seed: 5
+    radius: 0.15
+    color: 6ecdecbb
+    octaves: 3
+    persistence: 0.2
+    scl: 3
+    thresh: 0.43
+    seed: 4
   }
 ]
