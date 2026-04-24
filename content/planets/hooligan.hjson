@@ -47,7 +47,7 @@ mesh: [
     type: HexSkyMesh
     speed: 1
     divisions: 5
-    radius: 0.13
+    radius: 0.17
     color: ffffffcc
     octaves: 2
     persistence: 0.2
@@ -59,7 +59,7 @@ mesh: [
     type: HexSkyMesh
     speed: 2
     divisions: 5
-    radius: 0.11
+    radius: 0.14
     color: 6ecdecbb
     octaves: 2
     persistence: 0.2
