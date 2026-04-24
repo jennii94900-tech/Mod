@@ -45,7 +45,7 @@ mesh: [
   }
   {
     type: HexSkyMesh
-    speed: 2
+    speed: 1
     divisions: 5
     radius: 0.15
     color: 6ecdecbb
@@ -53,6 +53,6 @@ mesh: [
     persistence: 0.2
     scl: 3
     thresh: 0.43
-    seed: 4
+    seed: 5
   }
 ]
