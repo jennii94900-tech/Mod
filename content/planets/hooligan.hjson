@@ -1,12 +1,12 @@
 generator: PlanetGenerator
-parent: bluesun
+parent: "bluesun"
 localizedName: "Hooligan"
 description: "A frozen world of majestic ice ridges and vast snowy valleys."
 orbitRadius: 65
 rotateTime: 3600
 orbitSpacing: 5
-solarSystem: bluesun
-defaultCore: ochpoch-mob-core
+solarSystem: "bluesun"
+defaultCore: "ochpoch-mob-core"
 startSector: 1
 sectorSize: 3
 accessible: true
@@ -14,9 +14,9 @@ visible: true
 alwaysUnlocked: true
 radius: 1.1
 hasAtmosphere: true
-atmosphereColor: 50a0c088
+atmosphereColor: 6ecdecbb
 atmosphereRadIn: 0.02
-atmosphereRadOut: 0.3
+atmosphereRadOut: 0.35
 mesh: [
   {
     type: NoiseMesh
@@ -24,10 +24,10 @@ mesh: [
     radius: 1.1
     color1: ffffff    
     color2: 7da4ff
-    octaves: 4        
-    persistence: 0.6   
-    scale: 1.1         
-    mag: 0.5
+    octaves: 5         
+    persistence: 0.4   
+    scale: 1.8         
+    mag: 0.9
     seed: 42           
   }
   {
@@ -38,10 +38,10 @@ mesh: [
     color2: 4da6c2    
     octaves: 4         
     persistence: 0.5   
-    scale: 0.9       
-    mag: 0.3
+    scale: 1.8       
+    mag: 0.5
     seed: 9 
-    bloom: false
+    bloom: true
   }
   {
     type: HexSkyMesh
