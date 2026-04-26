@@ -5,7 +5,7 @@ speed: 0.7
 drag: 0.4
 accel: 0.5
 rotateSpeed: 7
-health: 230
+health: 300
 armor: 7
 hitSize: 7
 canBoost: true
