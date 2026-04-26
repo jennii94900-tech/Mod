@@ -36,5 +36,5 @@ weapons: [
     }
   }
 ]
-category: repair
+category: effect
 research: ochpoch-mob-core
