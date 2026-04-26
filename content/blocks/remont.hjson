@@ -1,0 +1,40 @@
+type: PowerTurret
+name: "Lumen Restorer"
+description: "Emits a high-intensity repair beam that automatically restores the structural integrity of nearby buildings. Does not target enemies."
+health: 280
+size: 1
+reload: 20
+range: 140
+shootType: {
+  type: BulletType
+  maxRange: 140
+}
+consumePower: 0.6
+requirements: [
+  ochpoch-mob-cristal/30
+  ochpoch-mob-aluminum/45
+]
+weapons: [
+  {
+    type: RepairBeamWeapon
+    widthSinMag: 0.1
+    x: 0
+    y: 0
+    mirror: false
+    rotate: false
+    laserColor: 617CFFFF
+    beamWidth: 0.6
+    repairSpeed: 3.5
+    fractionRepairSpeed: 0.04
+    targetUnits: false
+    targetBuildings: true
+    autoTarget: true
+    controllable: true
+    bullet: {
+      type: BulletType
+      maxRange: 140
+    }
+  }
+]
+category: repair
+research: ochpoch-mob-core
