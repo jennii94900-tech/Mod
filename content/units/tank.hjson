@@ -23,15 +23,15 @@ weapons: [
     shootSound: artireri 
     bullet: {
       type: MissileBulletType
-      damage: 45 
+      damage: 43 
       speed: 4.5
       lifetime: 60
       homingPower: 0.12
       homingRange: 160
       weaveScale: 4
       weaveMag: 2
-      splashDamage: 60        
-      splashDamageRadius: 38  
+      splashDamage: 30       
+      splashDamageRadius: 20  
       frontColor: ffffff
       backColor: 00aaff
       trailColor: 00aaff
