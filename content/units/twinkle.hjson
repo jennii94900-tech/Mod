@@ -10,45 +10,44 @@ buildSpeed: 1.3
 mineSpeed: 6.8
 mineTier: 2
 mineItems: [
-"ochpoch-mob-aluminum",
-"ochpoch-mob-cristal"
+  "ochpoch-mob-aluminum",
+  "ochpoch-mob-cristal"
 ]
 payloadCapacity: 144
 pickupUnits: false
-vulnerableWithPayload: false
 weapons: [
-{
-type: RepairBeamWeapon
-widthSinMag: 0.05
-x: 2.2
-y: 1.0
-laserColor: 617CFFFF
-mirror: true
-rotate: false
-targetBuildings: true
-targetUnits: false
-autoTarget: false
-controllable: true
-reload: 20
-repairSpeed: 3.5
-fractionRepairSpeed: 0.06
-beamWidth: 0.6
-bullet: {
-type: BulletType
-maxRange: 60
-}
-}
+  {
+    type: RepairBeamWeapon
+    widthSinMag: 0.05
+    x: 2.2
+    y: 1.0
+    laserColor: 617CFFFF
+    mirror: true
+    rotate: false
+    targetBuildings: true
+    targetUnits: false
+    autoTarget: false
+    controllable: true
+    reload: 20
+    repairSpeed: 3.5
+    fractionRepairSpeed: 0.06
+    beamWidth: 0.6
+    bullet: {
+      type: BulletType
+      maxRange: 60
+    }
+  }
 ]
 controller: RepairAI
 engineOffset: 4.5
 engineSize: 2.5
 engines: [
-{
-x: 0
-y: -4.5
-radius: 2.5
-rotation: -90
-}
+  {
+    x: 0
+    y: -4.5
+    radius: 2.5
+    rotation: -90
+  }
 ]
 trailLength: 15
 trailScl: 1.2
