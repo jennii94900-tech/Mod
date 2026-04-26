@@ -2,7 +2,7 @@ type: flying
 name: "Twinkle"
 description: "A specialized core unit. Completely ignored by enemies. Capable of mining, building, and repairing structures."
 flying: true
-health: 220
+health: 200
 rotateSpeed: 11
 targetable: false
 hittable: false
