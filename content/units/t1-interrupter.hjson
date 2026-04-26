@@ -23,7 +23,7 @@ weapons: [
     shootSound: gun
     bullet: {
       type: LightningBulletType
-      damage: 16
+      damage: 17
       lightningLength: 12
       lightningColor: "00f2ff"
     }
