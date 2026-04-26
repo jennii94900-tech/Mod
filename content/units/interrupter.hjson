@@ -5,7 +5,7 @@ speed: 0.5
 drag: 0.4
 accel: 0.5
 rotateSpeed: 4
-health: 1200
+health: 1190
 armor: 17
 canBoost: true
 boostMultiplier: 1.7
@@ -23,9 +23,9 @@ weapons: [
     shootSound: gun
     bullet: {
       type: LightningBulletType
-      damage: 26
-      lightningLength: 26
-      lightningDamage: 17
+      damage: 25
+      lightningLength: 25
+      lightningDamage: 15
       lightningColor: 00f2ff
       shootEffect: sparkShoot
       hitEffect: hitLancer
