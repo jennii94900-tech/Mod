@@ -55,4 +55,16 @@ mesh: [
     thresh: 0.43
     seed: 5
   }
+  {
+  type: HexSkyMesh
+    speed: 2
+    divisions: 5
+    radius: 0.13
+    color: 6ecdecbb
+    octaves: 3
+    persistence: 0.2
+    scl: 3
+    thresh: 0.43
+    seed: 4
+ }
 ]
