@@ -12,13 +12,13 @@ sectorSize: 1
 accessible: true
 visible: true
 alwaysUnlocked: true
-radius: 0.4
+radius: 0.9
 hasAtmosphere: false
 mesh: [
   {
     type: NoiseMesh
     divisions: 4
-    radius: 0.4
+    radius: 0.9
     color1: 7a7a7a
     color2: 4a4a4a
     octaves: 3
