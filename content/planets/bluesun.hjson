@@ -2,7 +2,7 @@ generator: PlanetGenerator
 localizedName: "Cyan Star"
 mesh: {
   type: SunMesh
-  divisions: 5
+  divisions: 4
   octaves: 4
   persistence: 0.6
   scl: 1
