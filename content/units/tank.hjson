@@ -1,15 +1,33 @@
-type: tank
+type: hover
 name: "Aluminum Raider"
 description: "A fast reconnaissance hover tank. Equipped with a single 'Sliver' missile launcher."
 hitSize: 14
 health: 630
 speed: 0.7
 rotateSpeed: 3 
-omniMovement: true
-faceTarget: false
-treadRects: [] 
+hovering: true
 shadowElevation: 0.2
-stepShake: 0
+drag: 0.08
+accel: 0.09
+engineSize: 3
+engineOffset: 7
+engines: [
+  {
+    x: -4
+    y: -5
+    radius: 2
+    rotation: -90
+  }
+  {
+    x: 4
+    y: -5
+    radius: 2
+    rotation: -90
+  }
+]
+engineColor: d3d3d3
+trailColor: d3d3d3
+trailLength: 20
 weapons: [
   {
     name: "aluminum-missile-launcher"
@@ -20,7 +38,7 @@ weapons: [
     mirror: false
     reload: 60 
     recoil: 2
-    shootSound: artireri 
+    shootSound: artillery 
     bullet: {
       type: MissileBulletType
       damage: 43 
@@ -33,8 +51,8 @@ weapons: [
       splashDamage: 30       
       splashDamageRadius: 20  
       frontColor: ffffff
-      backColor: 00aaff
-      trailColor: 00aaff
+      backColor: d3d3d3
+      trailColor: d3d3d3
       trailWidth: 2
       trailLength: 15
       hitEffect: blastExplosion
@@ -42,4 +60,24 @@ weapons: [
     }
   }
 ]
-research: fac
+research: core-type: RepairTurret
+name: "Lumen Restorer"
+description: "Emits a high-intensity repair beam that automatically restores the structural integrity of nearby buildings. Does not target enemies."
+health: 280
+size: 1
+range: 140
+repairSpeed: 3.5
+fractionRepairSpeed: 0.04
+laserColor: 617CFFFF
+beamWidth: 0.6
+pulseRadius: 2
+activeSound: beam
+consumes: {
+  power: 0.6
+}
+requirements: [
+  ochpoch-mob-cristal/30
+  ochpoch-mob-aluminum/45
+]
+category: effect
+research: ochpoch-mob-core
