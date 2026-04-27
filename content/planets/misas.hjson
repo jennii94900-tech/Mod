@@ -6,7 +6,7 @@ orbitRadius: 11
 rotateTime: 1200
 orbitSpacing: 2
 solarSystem: "bluesun"
-defaultCore: "ochpoch-mob-core"
+defaultCore: "core-shard"
 startSector: 1
 sectorSize: 1
 accessible: true
