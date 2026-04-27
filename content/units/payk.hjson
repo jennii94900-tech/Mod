@@ -4,7 +4,7 @@ description: "A specialized mobile launcher. Fires powerful 'Rage' missiles over
 speed: 0.36
 health: 1430
 armor: 18
-hitSize: 27
+hitSize: 20
 rotateSpeed: 2.3
 faceTarget: false
 omniMovement: true
