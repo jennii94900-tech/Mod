@@ -2,8 +2,8 @@ generator: PlanetGenerator
 parent: "bluesun"
 localizedName: "Hooligan"
 description: "A frozen world of majestic ice ridges and vast snowy valleys."
-orbitRadius: 67
-rotateTime: 3600
+orbitRadius: 85
+rotateTime: 3500
 orbitSpacing: 5
 solarSystem: "bluesun"
 defaultCore: "ochpoch-mob-core"
