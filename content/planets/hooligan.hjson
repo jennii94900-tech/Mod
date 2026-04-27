@@ -53,6 +53,6 @@ mesh: [
     persistence: 0.2
     scl: 3
     thresh: 0.43
-    seed: 3
+    seed: 5
   }
 ]
