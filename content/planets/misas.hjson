@@ -1,14 +1,14 @@
 generator: PlanetGenerator
 parent: "hooligan"
-localizedName: "Crag"
+localizedName: "norys"
 description: "A small, lifeless satellite of Hooligan, composed of dense rock and ancient craters."
-orbitRadius: 15
+orbitRadius: 13
 rotateTime: 1200
 orbitSpacing: 2
 solarSystem: "bluesun"
 defaultCore: "ochpoch-mob-core"
 startSector: 1
-sectorSize: 1
+sectorSize: 2
 accessible: true
 visible: true
 alwaysUnlocked: true
