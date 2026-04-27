@@ -60,7 +60,7 @@ mesh: [
     speed: 2
     divisions: 5
     radius: 0.13
-    color: 6ecdecbb
+    color: 4da6c2
     octaves: 3
     persistence: 0.2
     scl: 3
