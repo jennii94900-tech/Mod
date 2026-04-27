@@ -23,8 +23,8 @@ mesh: [
     color2: 4a4a4a
     octaves: 3
     persistence: 0.6
-    scale: 0.7
-    mag: 0.4
+    scale: 1.7
+    mag: 0.9
     seed: 123
   }
 ]
