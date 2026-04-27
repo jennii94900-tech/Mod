@@ -1,6 +1,6 @@
 name: "aluminum"
 description: "A very light material used for advanced buildings and units."
-color: "e0e0e0"
+color: "577277FF"
 flammability: 0.3      
 explosiveness: 0.8     
 radioactivity: 3.1    
