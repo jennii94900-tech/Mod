@@ -12,7 +12,7 @@ sectorSize: 2
 accessible: true
 visible: true
 alwaysUnlocked: true
-radius: 0.4
+radius: 0.36
 hasAtmosphere: false
 mesh: [
   {
