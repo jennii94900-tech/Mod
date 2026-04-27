@@ -14,7 +14,7 @@ visible: true
 alwaysUnlocked: true
 radius: 1.1
 hasAtmosphere: true
-atmosphereColor: 6ecdecbb
+atmosphereColor: A6DAFFFF
 atmosphereRadIn: 0.02
 atmosphereRadOut: 0.35
 mesh: [
@@ -22,7 +22,7 @@ mesh: [
     type: NoiseMesh
     divisions: 6      
     radius: 1.1
-    color1: ffffff    
+    color1: D0ECFFFF    
     color2: 7da4ff
     octaves: 5         
     persistence: 0.4   
