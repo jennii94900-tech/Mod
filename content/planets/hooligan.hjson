@@ -12,7 +12,7 @@ sectorSize: 3
 accessible: true
 visible: true
 alwaysUnlocked: true
-radius: 1.08
+radius: 1.09
 hasAtmosphere: true
 atmosphereColor: D0ECFFFF
 atmosphereRadIn: 0.01
