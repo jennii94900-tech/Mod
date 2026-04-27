@@ -2,3 +2,4 @@ type: OreBlock
 name: "ore-aluminum"
 itemDrop: "ochpoch-mob-aluminum"
 variants: 2
+mapColor: "577277FF"
