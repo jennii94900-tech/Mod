@@ -60,24 +60,4 @@ weapons: [
     }
   }
 ]
-research: core-type: RepairTurret
-name: "Lumen Restorer"
-description: "Emits a high-intensity repair beam that automatically restores the structural integrity of nearby buildings. Does not target enemies."
-health: 280
-size: 1
-range: 140
-repairSpeed: 3.5
-fractionRepairSpeed: 0.04
-laserColor: 617CFFFF
-beamWidth: 0.6
-pulseRadius: 2
-activeSound: beam
-consumes: {
-  power: 0.6
-}
-requirements: [
-  ochpoch-mob-cristal/30
-  ochpoch-mob-aluminum/45
-]
-category: effect
-research: ochpoch-mob-core
+research: core
