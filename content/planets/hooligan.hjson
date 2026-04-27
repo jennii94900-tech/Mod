@@ -15,8 +15,8 @@ alwaysUnlocked: true
 radius: 1.1
 hasAtmosphere: true
 atmosphereColor: A6DAFFFF
-atmosphereRadIn: 0.02
-atmosphereRadOut: 0.35
+atmosphereRadIn: 0.01
+atmosphereRadOut: 0.15
 mesh: [
   {
     type: NoiseMesh
