@@ -26,8 +26,8 @@ mesh: [
     color2: 7da4ff
     octaves: 5         
     persistence: 0.4   
-    scale: 3.0         
-    mag: 2.0
+    scale: 2.0         
+    mag: 1.0
     seed: 42           
   }
   {
