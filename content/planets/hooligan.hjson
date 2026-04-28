@@ -38,8 +38,8 @@ mesh: [
     color2: 6ecdec    
     octaves: 4         
     persistence: 0.5   
-    scale: 1.8       
-    mag: 0.5
+    scale: 2.0       
+    mag: 0.9
     seed: 9 
     bloom: true
   }
