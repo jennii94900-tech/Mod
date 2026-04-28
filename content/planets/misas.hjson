@@ -31,12 +31,12 @@ mesh: [
     type: HexSkyMesh
     speed: 1
     divisions: 5
-    radius: 0.15
-    color: 6ecdecbb
+    radius: 0.12
+    color: DEF0FFFFbb
     octaves: 3
     persistence: 0.2
     scl: 3
     thresh: 0.43
-    seed: 7
+    seed: 6
   }
 ]
