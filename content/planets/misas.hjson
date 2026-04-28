@@ -1,27 +1,23 @@
 generator: PlanetGenerator
-parent: "hooligan"
+parent: "bluesun"
 localizedName: "Norys"
-description: "A small planet on which there are remnants of aluminum, crystals and stone."
-orbitRadius: 9
+description: "a small planet on which there are remnants of aluminum,crystals and stone."
+orbitRadius: 25
 rotateTime: 2800
 orbitSpacing: 2
 solarSystem: "bluesun"
 defaultCore: "core"
+startSector: 1
 sectorSize: 1
 accessible: true
 visible: true
 alwaysUnlocked: true
 radius: 1.0
 hasAtmosphere: false
-allowLaunchToNumbered: true
-research: {
-  parent: "core"
-  name: "core"
-}
 mesh: [
   {
     type: NoiseMesh
-    divisions: 3
+    divisions: 4
     radius: 0.9
     color1: 5E5E6CFF
     color2: 474754FF
