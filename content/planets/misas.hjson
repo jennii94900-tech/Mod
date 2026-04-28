@@ -32,7 +32,7 @@ mesh: [
     speed: 1
     divisions: 5
     radius: 0.10
-    color: DEF0FFFFbb
+    color: DEF0FFFF
     octaves: 3
     persistence: 0.2
     scl: 3
