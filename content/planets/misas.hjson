@@ -7,7 +7,6 @@ rotateTime: 2800
 orbitSpacing: 2
 solarSystem: "bluesun"
 defaultCore: "core"
-startSector: 1
 sectorSize: 1
 accessible: true
 visible: true
