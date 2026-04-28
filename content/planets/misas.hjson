@@ -3,7 +3,7 @@ parent: "bluesun"
 localizedName: "Norys"
 description: "A small, lifeless satellite of Hooligan, composed of dense rock and ancient craters."
 orbitRadius: 47
-rotateTime: 950
+rotateTime: 2800
 orbitSpacing: 2
 solarSystem: "bluesun"
 defaultCore: "core"
