@@ -16,7 +16,7 @@ hasAtmosphere: false
 mesh: [
   {
     type: NoiseMesh
-    divisions: 4
+    divisions: 1
     radius: 0.9
     color1: 5E5E6CFF
     color2: 474754FF
