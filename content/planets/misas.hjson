@@ -6,7 +6,7 @@ orbitRadius: 9
 rotateTime: 2800
 orbitSpacing: 2
 solarSystem: "bluesun"
-defaultCore: "ochpoch-mob-core"
+defaultCore: "core-shard"
 sectorSize: 1
 accessible: true
 visible: true
@@ -15,12 +15,13 @@ radius: 1.0
 hasAtmosphere: false
 allowLaunchToNumbered: true
 research: {
-  parent: "ochpoch-mob-core"
+  parent: "core"
+  name: "core"
 }
 mesh: [
   {
     type: NoiseMesh
-    divisions: 4
+    divisions: 3
     radius: 0.9
     color1: 5E5E6CFF
     color2: 474754FF
