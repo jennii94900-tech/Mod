@@ -23,8 +23,8 @@ mesh: [
     color2: 3CA370FF
     octaves: 3
     persistence: 0.6
-    scale: 1.0
-    mag: 1.0
+    scale: 0.1
+    mag: 0.1
     seed: 123
   }
   {
