@@ -1,12 +1,6 @@
 # Hooligan Planet Mod
 
-Custom frozen planet expansion for Mindustry.
-
-## Features
-- New planet: Hooligan
-- Custom tech tree: Turrets, units, and power systems
-- New logistics: Specialized ducts and routers
-- Regular content updates
+This mod adds a new planet, Hooligan, a new technology tree, and so on.
 
 ## Installation
 1. Mods > Import Mod > Import from GitHub
