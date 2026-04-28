@@ -6,7 +6,7 @@ orbitRadius: 9
 rotateTime: 2800
 orbitSpacing: 2
 solarSystem: "bluesun"
-defaultCore: "core-shard"
+defaultCore: "core"
 sectorSize: 1
 accessible: true
 visible: true
