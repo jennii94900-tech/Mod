@@ -1,5 +1,5 @@
 localizedName: "Landing Zone"
-description: "Initial landing site. Establish defenses and secure aluminum deposits before the first hostile contact."
+description: "This sector contains small piles of aluminum and crystals."
 planet: "misas"
 sector: 1
 difficulty: 1
@@ -26,5 +26,5 @@ rules: {
 }
 research: {
   parent: ochpoch-mob-core
-  planet: hooligan
+  planet: misas
 }
