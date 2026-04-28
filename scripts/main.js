@@ -1,9 +1,14 @@
 Events.on(ClientLoadEvent, e => {
     const hooligan = Vars.content.getByName(ContentType.planet, "ochpoch-mob-hooligan");
     const norys = Vars.content.getByName(ContentType.planet, "ochpoch-mob-norys");
-    const coreHope = Vars.content.getByName(ContentType.block, "ochpoch-mob-core");
 
-    if(hooligan != null && norys != null && coreHope != null){
+    if(hooligan != null && norys != null){
         norys.techTree = hooligan.techTree;
+        
+        Vars.content.blocks().each(b => {
+            if(b.name.startsWith("ochpoch-mob-")){
+                b.buildVisibility = BuildVisibility.shown;
+            }
+        });
     }
 });
