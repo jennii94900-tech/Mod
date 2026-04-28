@@ -1,5 +1,5 @@
 generator: PlanetGenerator
-localizedName: "Cyan Star"
+localizedName: "Cyan Sun"
 mesh: {
   type: SunMesh
   divisions: 4
