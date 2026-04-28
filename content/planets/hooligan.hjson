@@ -20,7 +20,7 @@ atmosphereRadOut: 0.15
 mesh: [
   {
     type: NoiseMesh
-    divisions: 6      
+    divisions: 5      
     radius: 1.1
     color1: D0ECFFFF    
     color2: 7da4ff
@@ -32,7 +32,7 @@ mesh: [
   }
   {
     type: NoiseMesh
-    divisions: 6
+    divisions: 4
     radius: 1.11
     color1: 6ecdec
     color2: 6ecdec    
@@ -53,6 +53,6 @@ mesh: [
     persistence: 0.2
     scl: 3
     thresh: 0.43
-    seed: 6
+    seed: 7
  }
 ]
