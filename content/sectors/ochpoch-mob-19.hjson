@@ -1,6 +1,6 @@
 localizedName: "Crash"
 planet: "hooligan"
-sector: 10
+sector: 143
 description: "A spaceship crashed here. Resources are scarce, with only small deposits of aluminum available."
 difficulty: 3
 research: {
