@@ -3,7 +3,7 @@ parent: "bluesun"
 localizedName: "Norys"
 description: "a small planet on which there are remnants of aluminum, crystals and stone."
 iconColor: 3CA370FF
-orbitRadius: 30
+orbitRadius: 40
 rotateTime: 2800
 orbitSpacing: 2
 solarSystem: "bluesun"
