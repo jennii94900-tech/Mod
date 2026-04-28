@@ -4,6 +4,7 @@ Events.on(ClientLoadEvent, e => {
 
     if(hooligan != null && norys != null){
         norys.techTree = hooligan.techTree;
+        norys.context = hooligan.context;
         
         Vars.content.blocks().each(b => {
             if(b.name.startsWith("ochpoch-mob-")){
