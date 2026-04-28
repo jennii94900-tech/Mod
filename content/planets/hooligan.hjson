@@ -26,9 +26,21 @@ mesh: [
     color2: 7da4ff
     octaves: 5         
     persistence: 0.4   
-    scale: 2.0         
-    mag: 0.9
+    scale: 4.5         
+    mag: 2.2
     seed: 42           
+  }
+  {
+    type: NoiseMesh
+    divisions: 6
+    radius: 1.12
+    color1: ffffff
+    color2: ffffff00
+    octaves: 4
+    persistence: 0.5
+    scale: 4.5
+    mag: 2.5
+    seed: 42
   }
   {
     type: NoiseMesh
@@ -38,8 +50,8 @@ mesh: [
     color2: 6ecdec    
     octaves: 4         
     persistence: 0.5   
-    scale: 1.8       
-    mag: 0.5
+    scale: 3.5       
+    mag: 1.2
     seed: 9 
     bloom: true
   }
