@@ -38,5 +38,5 @@ mesh: [
     scl: 3
     thresh: 0.43
     seed: 6
-  }
+ }
 ]
