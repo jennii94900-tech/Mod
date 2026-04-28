@@ -1,8 +1,8 @@
 generator: PlanetGenerator
-parent: "bluesun"
+parent: "hooligan"
 localizedName: "Norys"
 description: "a small planet on which there are remnants of aluminum,crystals and stone."
-orbitRadius: 25
+orbitRadius: 9
 rotateTime: 2800
 orbitSpacing: 2
 solarSystem: "bluesun"
