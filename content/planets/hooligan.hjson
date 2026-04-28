@@ -7,7 +7,7 @@ rotateTime: 3500
 orbitSpacing: 5
 solarSystem: "bluesun"
 defaultCore: "ochpoch-mob-core"
-startSector: 1
+startSector: 100
 sectorSize: 3
 accessible: true
 visible: true
