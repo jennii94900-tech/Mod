@@ -23,15 +23,15 @@ mesh: [
     color2: 3CA370FF
     octaves: 3
     persistence: 0.6
-    scale: 0.0
-    mag: 0.0
+    scale: 1.0
+    mag: 0.5
     seed: 123
   }
   {
     type: HexSkyMesh
     speed: 1
     divisions: 5
-    radius: 0.6
+    radius: 0.12
     color: DEF0FFFF
     octaves: 3
     persistence: 0.2
