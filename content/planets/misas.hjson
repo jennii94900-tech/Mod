@@ -1,7 +1,7 @@
 generator: PlanetGenerator
 parent: "bluesun"
 localizedName: "Norys"
-description: "A small, lifeless satellite of Hooligan, composed of dense rock and ancient craters."
+description: "a small planet on which there are remnants of aluminum,crystals and stone."
 orbitRadius: 47
 rotateTime: 2800
 orbitSpacing: 2
