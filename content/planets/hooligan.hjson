@@ -2,6 +2,7 @@ generator: PlanetGenerator
 parent: "bluesun"
 localizedName: "Hooligan"
 description: "A frozen world of majestic ice ridges and vast snowy valleys."
+iconColor: 6ecdec
 orbitRadius: 85
 rotateTime: 3500
 orbitSpacing: 5
