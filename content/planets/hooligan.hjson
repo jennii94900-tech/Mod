@@ -12,7 +12,7 @@ sectorSize: 3
 accessible: true
 visible: true
 alwaysUnlocked: true
-radius: 1.1
+radius: 1.09
 hasAtmosphere: true
 atmosphereColor: D0ECFFFF
 atmosphereRadIn: 0.01
@@ -27,7 +27,7 @@ mesh: [
     octaves: 5         
     persistence: 0.4   
     scale: 2.0         
-    mag: 1.0
+    mag: 1.1
     seed: 42           
   }
   {
@@ -38,8 +38,8 @@ mesh: [
     color2: 6ecdec    
     octaves: 4         
     persistence: 0.5   
-    scale: 3.5       
-    mag: 1.2
+    scale: 1.8       
+    mag: 0.5
     seed: 9 
     bloom: true
   }
