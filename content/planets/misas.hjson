@@ -1,12 +1,12 @@
 generator: PlanetGenerator
-parent: "hooligan"
+parent: "bluesun"
 localizedName: "Norys"
 description: "A small, lifeless satellite of Hooligan, composed of dense rock and ancient craters."
-orbitRadius: 10
+orbitRadius: 47
 rotateTime: 950
 orbitSpacing: 2
 solarSystem: "bluesun"
-defaultCore: "core-shard"
+defaultCore: "core"
 startSector: 1
 sectorSize: 1
 accessible: true
