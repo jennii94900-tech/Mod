@@ -28,7 +28,7 @@ mesh: [
     persistence: 0.4   
     scale: 2.0         
     mag: 0.9
-    seed: 43           
+    seed: 45           
   }
   {
     type: NoiseMesh
