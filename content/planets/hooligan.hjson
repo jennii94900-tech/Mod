@@ -33,18 +33,6 @@ mesh: [
   {
     type: NoiseMesh
     divisions: 6
-    radius: 1.12
-    color1: ffffff
-    color2: ffffff00
-    octaves: 4
-    persistence: 0.5
-    scale: 4.5
-    mag: 2.5
-    seed: 42
-  }
-  {
-    type: NoiseMesh
-    divisions: 6
     radius: 1.11
     color1: 6ecdec
     color2: 6ecdec    
