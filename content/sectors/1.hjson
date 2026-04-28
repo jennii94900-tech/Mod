@@ -1,0 +1,30 @@
+localizedName: "Landing Zone"
+description: "Initial landing site. Establish defenses and secure aluminum deposits before the first hostile contact."
+planet: "misas"
+sector: 1
+difficulty: 1
+alwaysUnlocked: true
+captureWave: 15
+rules: {
+  bannedItems: [
+    copper
+    lead
+    metaglass
+    graphite
+    sand
+    coal
+    titanium
+    thorium
+    scrap
+  ]
+  itemWhitelist: [
+    ochpoch-mob-aluminum
+    ochpoch-mob-cristal
+  ]
+  clearDefaultItems: true
+  onlyDepositCore: true
+}
+research: {
+  parent: ochpoch-mob-core
+  planet: hooligan
+}
