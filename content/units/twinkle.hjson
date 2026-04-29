@@ -51,7 +51,7 @@ engines: [
 ]
 trailLength: 15
 trailScl: 1.2
-trailColor: 8aa3f4
+trailColor: 385055FF
 lowAltitude: true
 speed: 5.4
 accel: 0.03
@@ -59,6 +59,6 @@ drag: 0.05
 hitSize: 10
 itemCapacity: 50
 lightRadius: 50
-lightColor: 8aa3f4
-engineColor: 8aa3f4
+lightColor: 385055FF
+engineColor: 385055FF
 research: ochpoch-mob-core
