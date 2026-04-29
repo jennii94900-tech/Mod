@@ -34,13 +34,13 @@ mesh: [
   {
     type: NoiseMesh
     divisions: 6
-    radius: 1.105
+    radius: 1.01
     color1: 3CA370FF
     color2: 5ba33c
     octaves: 6
     persistence: 0.7
-    scale: 1.2
-    mag: 1.7
+    scale: 0.1
+    mag: 1.8
     seed: 123
   }
   {
