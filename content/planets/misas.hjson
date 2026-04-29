@@ -1,7 +1,7 @@
 generator: PlanetGenerator
 parent: "bluesun"
 localizedName: "Norys"
-description: "a small planet on which there are remnants of aluminum, crystals and stone."
+description: "A small planet resembling Earth with vast oceans and green continents."
 iconColor: 3CA370FF
 orbitRadius: 40
 rotateTime: 2800
@@ -14,30 +14,45 @@ accessible: true
 visible: true
 alwaysUnlocked: true
 radius: 1.1
-hasAtmosphere: false
+hasAtmosphere: true
+atmosphereColor: 409BF7FF
+atmosphereRadIn: 0.01
+atmosphereRadOut: 0.2
 mesh: [
   {
     type: NoiseMesh
-    divisions: 4
+    divisions: 6
     radius: 1.1
-    color1: 409BF7FF
-    color2: 3CA370FF
-    octaves: 3
-    persistence: 0.6
-    scale: 1.0
-    mag: 0.5
+    color1: 1a5e9a
+    color2: 2b80cc
+    octaves: 5
+    persistence: 0.5
+    scale: 0.8
+    mag: 0.1
+    seed: 123
+  }
+  {
+    type: NoiseMesh
+    divisions: 6
+    radius: 1.105
+    color1: 3CA370FF
+    color2: 5ba33c
+    octaves: 6
+    persistence: 0.7
+    scale: 1.2
+    mag: 0.7
     seed: 123
   }
   {
     type: HexSkyMesh
-    speed: 1
-    divisions: 4
-    radius: 0.12
-    color: DEF0FFFF
-    octaves: 3
-    persistence: 0.2
-    scl: 3
-    thresh: 0.43
+    speed: 0.8
+    divisions: 5
+    radius: 0.1
+    color: ffffffaa
+    octaves: 4
+    persistence: 0.4
+    scl: 1
+    thresh: 0.5
     seed: 6
  }
 ]
