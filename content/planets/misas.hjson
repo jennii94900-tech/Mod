@@ -21,38 +21,38 @@ atmosphereRadOut: 0.2
 mesh: [
   {
     type: NoiseMesh
-    divisions: 6
-    radius: 1.4
+    divisions: 5
+    radius: 1.5
     color1: 1a5e9a
     color2: 2b80cc
     octaves: 5
     persistence: 0.5
-    scale: 0.8
+    scale: 0.1
     mag: 0.1
     seed: 123
   }
   {
     type: NoiseMesh
-    divisions: 6
-    radius: 1.44
+    divisions: 5
+    radius: 1.105
     color1: 3CA370FF
     color2: 5ba33c
     octaves: 6
-    persistence: 0.5
-    scale: 1.1
-    mag: 0.4
+    persistence: 0.7
+    scale: 0.6
+    mag: 3.0
     seed: 123
   }
   {
     type: HexSkyMesh
     speed: 0.8
     divisions: 5
-    radius: 0.1
+    radius: 0.14
     color: ffffffaa
     octaves: 4
     persistence: 0.4
-    scl: 0.9
-    thresh: 0.6
+    scl: 1
+    thresh: 0.5
     seed: 6
  }
 ]
