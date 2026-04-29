@@ -57,7 +57,7 @@ mesh: [
    }
    {
     type: HexSkyMesh
-    speed: 3.0
+    speed: 2.0
     divisions: 5
     radius: 0.12
     color: 232328FF
