@@ -2,7 +2,7 @@ generator: PlanetGenerator
 parent: "bluesun"
 localizedName: "Norys"
 description: "A dying world, polluted and exhausted by industrial expansion."
-iconColor: 6b5b4a
+iconColor: 5c5443aa
 orbitRadius: 54
 rotateTime: 2700
 orbitSpacing: 2
@@ -36,7 +36,7 @@ mesh: [
     speed: 0.8
     divisions: 5
     radius: 0.14
-    color: ffffffaa
+    color: 2E2A22AA
     octaves: 4
     persistence: 0.4
     scl: 1
