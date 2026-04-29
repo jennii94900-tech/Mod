@@ -22,19 +22,19 @@ mesh: [
   {
     type: NoiseMesh
     divisions: 6
-    radius: 1.5
+    radius: 1.4
     color1: 1a5e9a
     color2: 2b80cc
     octaves: 5
     persistence: 0.5
-    scale: 0.1
+    scale: 0.8
     mag: 0.1
     seed: 123
   }
   {
     type: NoiseMesh
     divisions: 6
-    radius: 1.105
+    radius: 1.44
     color1: 3CA370FF
     color2: 5ba33c
     octaves: 6
@@ -47,12 +47,12 @@ mesh: [
     type: HexSkyMesh
     speed: 0.8
     divisions: 5
-    radius: 0.14
+    radius: 0.1
     color: ffffffaa
     octaves: 4
     persistence: 0.4
-    scl: 1
-    thresh: 0.5
+    scl: 0.9
+    thresh: 0.6
     seed: 6
  }
 ]
