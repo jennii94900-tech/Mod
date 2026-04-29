@@ -1,8 +1,8 @@
 generator: PlanetGenerator
 parent: "bluesun"
 localizedName: "Norys"
-description: "A small planet resembling Earth with vast oceans and green continents."
-iconColor: 3CA370FF
+description: "A dying world, polluted and exhausted by industrial expansion."
+iconColor: 6b6b59
 orbitRadius: 54
 rotateTime: 2700
 orbitSpacing: 2
@@ -15,7 +15,7 @@ visible: true
 alwaysUnlocked: true
 radius: 1.4
 hasAtmosphere: true
-atmosphereColor: 409BF7FF
+atmosphereColor: 8c8c70
 atmosphereRadIn: 0.01
 atmosphereRadOut: 0.2
 mesh: [
@@ -23,8 +23,8 @@ mesh: [
     type: NoiseMesh
     divisions: 5
     radius: 1.5
-    color1: 1a5e9a
-    color2: 2b80cc
+    color1: 3e4b57
+    color2: 2b343d
     octaves: 5
     persistence: 0.5
     scale: 0.1
@@ -35,8 +35,8 @@ mesh: [
     type: NoiseMesh
     divisions: 5
     radius: 1.105
-    color1: 3CA370FF
-    color2: 5ba33c
+    color1: 6b5b4a
+    color2: 4a443b
     octaves: 6
     persistence: 0.7
     scale: 0.6
@@ -60,7 +60,7 @@ mesh: [
     speed: 2.0
     divisions: 5
     radius: 0.11
-    color: 464656FF
+    color: 5c5443aa
     octaves: 1
     persistence: 0.2
     scl: 1
