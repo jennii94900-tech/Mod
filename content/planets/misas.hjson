@@ -3,7 +3,7 @@ parent: "bluesun"
 localizedName: "Norys"
 description: "A small planet resembling Earth with vast oceans and green continents."
 iconColor: 3CA370FF
-orbitRadius: 50
+orbitRadius: 54
 rotateTime: 2700
 orbitSpacing: 2
 solarSystem: "bluesun"
