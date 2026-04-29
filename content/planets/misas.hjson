@@ -28,7 +28,7 @@ mesh: [
     octaves: 5
     persistence: 0.5
     scale: 0.9
-    mag: 0.2
+    mag: 0.9
     seed: 123
   }
   {
