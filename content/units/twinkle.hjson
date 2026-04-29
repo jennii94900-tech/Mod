@@ -57,8 +57,8 @@ speed: 5.4
 accel: 0.03
 drag: 0.05
 hitSize: 9
-itemCapacity: 50
-lightRadius: 50
+itemCapacity: 45
+lightRadius: 55
 lightColor: 4A686DFF
 engineColor: 4A686DFF
 research: ochpoch-mob-core
