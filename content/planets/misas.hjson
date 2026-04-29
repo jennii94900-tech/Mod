@@ -61,7 +61,7 @@ mesh: [
     divisions: 5
     radius: 0.12
     color: 232328FF
-    octaves: 3
+    octaves: 2
     persistence: 0.3
     scl: 1
     thresh: 0.4
