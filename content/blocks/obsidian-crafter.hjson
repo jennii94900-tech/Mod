@@ -9,8 +9,8 @@ itemCapacity: 15
 craftTime: 90
 consumes: {
   items: [
-    ochpoch-mob-stone-item/3
-    ochpoch-mob-cristal/1
+    ochpoch-mob-methane-crystal/2
+    ochpoch-mob-cristal/2
   ]
   power: 1.2
 }
