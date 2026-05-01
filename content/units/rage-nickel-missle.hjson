@@ -45,7 +45,7 @@ weapons: [
     shake: 2
     bullet: {
       type: ExplosionBulletType
-      splashDamage: 590
+      splashDamage: 250
       splashDamageRadius: 38
       buildingDamageMultiplier: 1
       despawnEffect: {
