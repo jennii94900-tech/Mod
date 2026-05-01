@@ -3,11 +3,10 @@ name: "Unit Repair Point"
 description: "A specialized station that repairs nearby friendly units. Does not restore buildings."
 health: 450
 size: 1
-range: 120
 repairSpeed: 5.5
 laserColor: 617CFFFF
 beamWidth: 0.9
-pulseRadius: 3
+pulseRadius: 5
 consumes: {
   power: 0.8
 }
