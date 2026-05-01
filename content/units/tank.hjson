@@ -2,7 +2,7 @@ type: tank
 name: "Aluminum Raider"
 description: "A fast reconnaissance hover tank. Equipped with a single 'Sliver' missile launcher."
 hitSize: 14
-health: 630
+health: 635
 speed: 0.7
 rotateSpeed: 3 
 omniMovement: true
@@ -26,6 +26,8 @@ weapons: [
       damage: 43 
       speed: 4.5
       lifetime: 60
+      width: 12
+      height: 16
       homingPower: 0.12
       homingRange: 160
       weaveScale: 4
@@ -33,10 +35,10 @@ weapons: [
       splashDamage: 30       
       splashDamageRadius: 20  
       frontColor: ffffff
-      backColor: 00aaff
-      trailColor: 00aaff
-      trailWidth: 2
-      trailLength: 15
+      backColor: b0bac0
+      trailColor: 98a7b0
+      trailWidth: 3.5
+      trailLength: 20
       hitEffect: blastExplosion
       despawnEffect: blastExplosion
     }
