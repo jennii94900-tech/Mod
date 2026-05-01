@@ -47,7 +47,7 @@ weapons: [
       type: ExplosionBulletType
       splashDamage: 590
       splashDamageRadius: 38
-      buildingDamageMultiplier: 0.25
+      buildingDamageMultiplier: 1
       despawnEffect: {
         type: ExplosionEffect
         lifetime: 75
