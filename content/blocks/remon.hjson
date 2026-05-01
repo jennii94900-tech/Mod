@@ -1,0 +1,23 @@
+type: RepairTurret
+name: "Unit Repair Point"
+description: "A specialized station that repairs nearby friendly units. Does not restore buildings."
+health: 450
+size: 1
+range: 120
+repairSpeed: 5.5
+fractionRepairSpeed: 0.08
+targetUnits: true
+targetBuildings: false
+laserColor: 617CFFFF
+beamWidth: 0.7
+pulseRadius: 3
+activeSound: beam
+consumes: {
+  power: 0.8
+}
+requirements: [
+  ochpoch-mob-cristal/40
+  ochpoch-mob-aluminum/60
+]
+category: effect
+research: ochpoch-mob-core
