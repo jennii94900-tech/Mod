@@ -65,34 +65,6 @@ weapons: [
         sparkLen: 7
         sparkStroke: 2.6
       }
-      fragBullets: 5
-      fragVelocityMin: 0.5
-      fragRandomSpread: 130
-      fragBullet: {
-        type: BasicBulletType
-        width: 16
-        height: 16
-        speed: 4
-        lifetime: 50
-        damage: 50
-        backColor: 3d5158
-        frontColor: 9aafaa
-        trailColor: 3d5158
-        trailWidth: 2
-        trailLength: 2.5
-        fragBullets: 1
-        fragBullet: {
-          type: ExplosionBulletType
-          splashDamage: 100
-          splashDamageRadius: 18
-          despawnEffect: {
-             type: ExplosionEffect
-             waveColor: ffffff
-             sparkColor: 9aafaa
-             waveRad: 30
-          }
-        }
-      }
     }
   } 
 ]
