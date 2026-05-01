@@ -9,7 +9,7 @@ fractionRepairSpeed: 0.08
 targetUnits: true
 targetBuildings: false
 laserColor: 617CFFFF
-beamWidth: 0.7
+beamWidth: 1.5
 pulseRadius: 3
 activeSound: beam
 consumes: {
