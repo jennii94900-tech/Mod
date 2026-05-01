@@ -1,6 +1,6 @@
 type: GenericCrafter
 name: "Obsidian Press"
-description: "Uses extreme hydraulic pressure to fuse raw stone-matter and crystals into obsidian plates. Essential for advanced composite armor."
+description: "Uses extreme hydraulic pressure to fuse raw crystal and marmyriym into obsidian plates. Essential for advanced composite armor."
 size: 2
 health: 320
 hasItems: true
