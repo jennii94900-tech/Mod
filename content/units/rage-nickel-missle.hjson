@@ -14,7 +14,7 @@ trailLength: 3
 useUnitCap: false
 health: 390
 trailColor: 6f939a
-range: 0
+range: 1
 loopSound: rokket
 loopSoundVolume: 0.3
 abilities: [
