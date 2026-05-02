@@ -17,7 +17,7 @@ radius: 1.09
 hasAtmosphere: true
 atmosphereColor: 6ecdea8a
 atmosphereRadIn: 0.01
-atmosphereRadOut: 0.15
+atmosphereRadOut: 0.2
 mesh: [
   {
     type: NoiseMesh
