@@ -15,7 +15,7 @@ visible: true
 alwaysUnlocked: true
 radius: 1.09
 hasAtmosphere: true
-atmosphereColor: 6ecdea8a
+atmosphereColor: 6ecdea44
 atmosphereRadIn: 0.02
 atmosphereRadOut: 0.3
 mesh: [
