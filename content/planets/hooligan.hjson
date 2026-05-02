@@ -35,8 +35,8 @@ mesh: [
     type: NoiseMesh
     divisions: 5
     radius: 1.06
-    color1: 6ecdec
-    color2: 6ecdec    
+    color1: 6ECDEAEE
+    color2: 6ECDEAEE  
     octaves: 4         
     persistence: 0.5   
     scale: 1.8       
