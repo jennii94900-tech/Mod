@@ -3,7 +3,7 @@ parent: "bluesun"
 localizedName: "Hooligan"
 description: "A frozen world of majestic ice ridges and vast snowy valleys."
 iconColor: 7da4ff
-orbitRadius: 100
+orbitRadius: 99
 rotateTime: 3500
 orbitSpacing: 5
 solarSystem: "bluesun"
