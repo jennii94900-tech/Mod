@@ -7,6 +7,13 @@ range: 140
 reload: 45
 inaccuracy: 5
 shootCone: 30
+consumes: {
+  coolant: {
+    liquid: ochpoch-mob-nitrogen
+    amount: 0.1
+    optional: true
+  }
+}
 shoot: {
   type: ShootSpread
   shots: 12
