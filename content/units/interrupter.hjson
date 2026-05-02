@@ -12,11 +12,6 @@ boostMultiplier: 1.7
 engineSize: 3
 lowAltitude: true
 
-# Стійкість до ефектів
-immuneTo: [
-  shocked
-  freezing
-]
 
 weapons: [
   {
