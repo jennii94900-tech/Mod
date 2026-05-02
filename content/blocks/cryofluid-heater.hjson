@@ -13,12 +13,12 @@ drawer: {
       type: DrawDefault
     }
     {
-      type: DrawLiquidRegion
+      type: DrawLiquidTile
       drawLiquid: cryofluid
-      suffix: "-liquid"
+      padding: 2
     }
     {
-      type: DrawTop
+      type: DrawRegion
       suffix: "-top"
     }
   ]
