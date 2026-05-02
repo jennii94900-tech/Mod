@@ -4,7 +4,7 @@ localizedName: "Norys"
 description: "A dying world, polluted and exhausted by industrial expansion."
 iconColor: 5c5443aa
 orbitRadius: 65
-rotateTime: 2700
+rotateTime: 3400
 orbitSpacing: 2
 solarSystem: "bluesun"
 defaultCore: "core"
