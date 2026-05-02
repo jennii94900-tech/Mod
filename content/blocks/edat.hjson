@@ -20,6 +20,11 @@ shootType: {
 }
 consumes: {
   power: 1.4
+  coolant: {
+    liquid: ochpoch-mob-nitrogen
+    amount: 0.12
+    optional: true
+  }
 }
 requirements: [
   ochpoch-mob-aluminum/40
