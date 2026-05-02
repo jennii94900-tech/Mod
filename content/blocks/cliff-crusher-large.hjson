@@ -6,7 +6,6 @@ health: 450
 drillTime: 140      
 tier: 3             
 range: 6
-laserColor: 577277ff
 laserWidth: 0.6
 consumes: {
   power: 1.0
