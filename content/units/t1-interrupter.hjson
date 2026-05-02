@@ -13,10 +13,6 @@ boostMultiplier: 1.5
 engineSize: 2
 lowAltitude: true
 
-immuneTo: [
-  shocked
-  freezing
-]
 
 weapons: [
   {
