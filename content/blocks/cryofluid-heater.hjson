@@ -14,7 +14,7 @@ drawer: {
     }
     {
       type: DrawLiquidRegion
-      drawLiquid: ochpoch-mob-cryofluid
+      drawLiquid: cryofluid
       suffix: "-liquid"
     }
     {
@@ -29,7 +29,7 @@ consumes: {
     ochpoch-mob-methane-crystal/1
   ]
   liquids: [
-    ochpoch-mob-cryofluid/0.2
+    cryofluid/0.2
   ]
 }
 outputLiquid: ochpoch-mob-nitrogen/0.15
