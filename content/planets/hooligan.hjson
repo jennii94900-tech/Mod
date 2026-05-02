@@ -15,32 +15,32 @@ visible: true
 alwaysUnlocked: true
 radius: 1.09
 hasAtmosphere: true
-atmosphereColor: 6ecdea44
+atmosphereColor: 6ecdea33
 atmosphereRadIn: 0.02
 atmosphereRadOut: 0.3
 mesh: [
   {
     type: NoiseMesh
     divisions: 5      
-    radius: 1.1
-    color1: D0ECFFFF    
-    color2: 7da4ff
+    radius: 1.01
+    color1: 8fb6ff
+    color2: 5c85d6
     octaves: 5         
     persistence: 0.4   
-    scale: 2.0         
-    mag: 0.9
+    scale: 1.1         
+    mag: 0.5
     seed: 45           
   }
   {
     type: NoiseMesh
-    divisions: 5
-    radius: 1.06
-    color1: 6ECDEAEE
-    color2: 6ECDEAEE  
+    divisions: 6
+    radius: 0.98
+    color1: 4a6fb5
+    color2: 3d5a91
     octaves: 4         
     persistence: 0.5   
-    scale: 1.8       
-    mag: 0.8
+    scale: 0.9       
+    mag: 0.4
     seed: 9 
     bloom: false
   }
@@ -48,8 +48,8 @@ mesh: [
     type: HexSkyMesh
     speed: 1
     divisions: 5
-    radius: 0.15
-    color: 6ecdecbb
+    radius: 0.1
+    color: 6ecdec66
     octaves: 3
     persistence: 0.43
     scl: 3
