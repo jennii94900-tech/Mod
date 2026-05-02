@@ -42,7 +42,7 @@ mesh: [
     scale: 1.8       
     mag: 0.8
     seed: 9 
-    bloom: true
+    bloom: false
   }
   {
     type: HexSkyMesh
