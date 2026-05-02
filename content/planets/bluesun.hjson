@@ -1,46 +1,33 @@
 generator: PlanetGenerator
-localizedName: "object_01"
-description: "A dying star encapsulated in a fractured tectonic shell. Ancient energy still leaks through the massive rifts of its cooling surface."
-mesh: [
-  {
-    type: NoiseMesh
-    divisions: 6
-    radius: 2.0
-    color1: 49f6f6ff
-    color2: 1a8a8a
-    octaves: 3
-    persistence: 0.5
-    scale: 0.5
-    mag: 0.3
-    seed: 123
-    bloom: true
-  }
-  {
-    type: NoiseMesh
-    divisions: 6
-    radius: 3.0
-    color1: 111818ff
-    color2: 11181800 
-    octaves: 6
-    persistence: 0.8
-    scale: 1.2
-    mag: 1.3
-    seed: 456
-  }
-]
+localizedName: "Cyan Sun"
+mesh: {
+  type: SunMesh
+  divisions: 2
+  octaves: 4
+  persistence: 0.6
+  scl: 1
+  pow: 1
+  mag: 0.5
+  colorScale: 1
+  colors: [
+    49f6f6ff
+    8fffff
+    aaffffff
+    58f5f5ff
+    36ffdaff
+    ffffff
+  ]
+}
 solarSystem: "bluesun"
 parent: "sun"
 orbitRadius: 13000
 accessible: true
 radius: 3
 visible: true
-hasAtmosphere: true
-atmosphereColor: 1a8a8a33
-atmosphereRadIn: 0.01
-atmosphereRadOut: 0.2
-bloom: false
+hasAtmosphere: false
+bloom: true
 orbitSpacing: 8
 drawOrbit: false
 tidalLock: true
-iconColor: "258a8a"
+iconColor: "49f6f6"
 icon: "planet"
