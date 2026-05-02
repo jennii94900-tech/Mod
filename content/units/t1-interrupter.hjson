@@ -12,6 +12,12 @@ canBoost: true
 boostMultiplier: 1.5
 engineSize: 2
 lowAltitude: true
+
+immuneTo: [
+  shocked
+  freezing
+]
+
 weapons: [
   {
     name: "static-laser"
@@ -24,7 +30,7 @@ weapons: [
     bullet: {
       type: LightningBulletType
       damage: 17
-      lightningLength: 12
+      lightningLength: 18
       lightningColor: "00f2ff"
     }
   }
