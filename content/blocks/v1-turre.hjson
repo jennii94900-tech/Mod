@@ -8,6 +8,14 @@ reload: 24
 recoil: 1.7
 shootSound: artireri
 
+consumes: {
+  coolant: {
+    liquid: ochpoch-mob-nitrogen
+    amount: 0.1
+    optional: true
+  }
+}
+
 ammoTypes: {
   ochpoch-mob-aluminum: {
     type: BasicBulletType
