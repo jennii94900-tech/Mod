@@ -1,0 +1,16 @@
+type: Conduit
+name: "Aluminum Pipe"
+description: "Durable pipeline for liquid transport. Resistant to corrosion and low temperatures."
+size: 1
+health: 65
+liquidCapacity: 10
+liquidPressure: 1.2
+requirements: [
+  ochpoch-mob-refined-aluminum/6
+]
+category: liquid
+research: {
+  parent: ochpoch-mob-core
+  planet: hooligan
+}
+
