@@ -28,7 +28,7 @@ ammoTypes: {
     backColor: 688b94ff
     trailColor: 688b94ff
     trailWidth: 2.5
-    trailLength: 7
+    trailLength: 4
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     ammoMultiplier: 2
@@ -45,7 +45,7 @@ ammoTypes: {
     backColor: 8aa3f4
     trailColor: 8aa3f4
     trailWidth: 3
-    trailLength: 8
+    trailLength: 4
     status: shocked 
     ammoMultiplier: 4
     lightning: 5
@@ -65,7 +65,7 @@ ammoTypes: {
     backColor: 8aa3f4
     trailColor: 00f2ff
     trailWidth: 3
-    trailLength: 10
+    trailLength: 4
     status: shocked 
     ammoMultiplier: 4
     fragBullets: 7
