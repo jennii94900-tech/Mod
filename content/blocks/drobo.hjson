@@ -9,7 +9,7 @@ inaccuracy: 5
 shootCone: 30
 consumes: {
   coolant: {
-    liquid: ochpoch-mob-nitrogen
+    liquid: nitrogen
     amount: 0.1
     optional: true
   }
