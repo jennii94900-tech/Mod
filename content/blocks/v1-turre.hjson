@@ -10,7 +10,7 @@ shootSound: artireri
 
 consumes: {
   coolant: {
-    liquid: ochpoch-mob-nitrogen
+    liquid: nitrogen
     amount: 0.1
     optional: true
   }
@@ -28,7 +28,7 @@ ammoTypes: {
     backColor: 688b94ff
     trailColor: 688b94ff
     trailWidth: 2.5
-    trailLength: 10
+    trailLength: 7
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     ammoMultiplier: 2
@@ -45,9 +45,13 @@ ammoTypes: {
     backColor: 8aa3f4
     trailColor: 8aa3f4
     trailWidth: 3
-    trailLength: 12
+    trailLength: 8
     status: shocked 
     ammoMultiplier: 4
+    lightning: 5
+    lightningLength: 8
+    lightningDamage: 5
+    lightningColor: 00f2ff
   }
 
   ochpoch-mob-methane-crystal: {
@@ -61,7 +65,7 @@ ammoTypes: {
     backColor: 8aa3f4
     trailColor: 00f2ff
     trailWidth: 3
-    trailLength: 15
+    trailLength: 10
     status: shocked 
     ammoMultiplier: 4
     fragBullets: 7
@@ -80,7 +84,7 @@ ammoTypes: {
       backColor: 8aa3f4
       trailColor: 8aa3f4
       trailWidth: 1.5
-      trailLength: 5
+      trailLength: 3
       keepVelocity: true
     }
   }
