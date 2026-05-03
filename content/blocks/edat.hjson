@@ -12,22 +12,16 @@ shootType: {
   type: LaserBulletType
   colors: [8aa3f4, 00f2ff, ffffff] 
   damage: 45
-  hitEffect: massiveExplosion
-  despawnEffect: shockwave
-  shootEffect: shootSmall
+  hitEffect: hitLaser
   width: 12
   length: 210
-  lightColor: 00f2ff
-  lightningSpacing: 20
-  lightningLength: 2
-  lightningDelay: 1.1
   homingPower: 0.1
   homingRange: 150
 }
 consumes: {
   power: 1.4
   coolant: {
-    liquid: nitrogen
+    liquid: ochpoch-mob-nitrogen
     amount: 0.12
     optional: true
   }
