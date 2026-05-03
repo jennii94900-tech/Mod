@@ -21,7 +21,7 @@ shootType: {
 consumes: {
   power: 1.4
   coolant: {
-    liquid: ochpoch-mob-nitrogen
+    liquid: nitrogen
     amount: 0.12
     optional: true
   }
