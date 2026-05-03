@@ -14,7 +14,7 @@ shootType: {
   damage: 45
   hitEffect: massiveExplosion
   despawnEffect: shockwave
-  shootEffect: lancershoot
+  shootEffect: shootSmall
   width: 12
   length: 210
   lightColor: 00f2ff
