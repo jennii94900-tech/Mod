@@ -28,7 +28,7 @@ research: {
   ]
   objectives: [
     {
-      type: SectorOccupation
+      type: SectorComplete
       preset: "ochpoch-mob-18"
     }
   ]
