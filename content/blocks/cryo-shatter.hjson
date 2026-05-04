@@ -7,7 +7,7 @@ range: 190
 reload: 80
 recoil: 3
 shake: 2
-shootSound: gun
+shootSound: shootBig
 
 consumes: {
   liquid: {
@@ -29,9 +29,33 @@ ammoTypes: {
     trailColor: 8aa3f4
     trailWidth: 3
     trailLength: 12
-    hitEffect: blastExplosion
     status: freezing
     statusDuration: 180
+    
+    hitEffect: {
+      type: WaveEffect
+      sides: 4
+      sizeFrom: 0
+      sizeTo: 40
+      lifetime: 25
+      colorFrom: 6b489e
+      colorTo: 3a2a52
+      strokeFrom: 4
+      strokeTo: 0
+    }
+    
+    despawnEffect: {
+      type: WaveEffect
+      sides: 4
+      sizeFrom: 0
+      sizeTo: 40
+      lifetime: 25
+      colorFrom: 6b489e
+      colorTo: 3a2a52
+      strokeFrom: 4
+      strokeTo: 0
+    }
+
     fragBullets: 5
     fragBullet: {
       type: BasicBulletType
