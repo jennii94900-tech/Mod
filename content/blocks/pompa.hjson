@@ -28,7 +28,7 @@ requirements: [
 category: liquid
 
 research: {
-  parent: "ochpoch-mob-aluminum"
+  parent: "ochpoch-mob-aluminum-pipe"
   planet: "hooligan"
 }
 
