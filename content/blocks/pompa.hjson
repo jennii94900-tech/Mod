@@ -22,7 +22,7 @@ drawer: {
 
 requirements: [
   ochpoch-mob-aluminum/26
-  ochpoch-mob-cristal/4
+  ochpoch-mob-cristal/8
 ]
 
 category: liquid
