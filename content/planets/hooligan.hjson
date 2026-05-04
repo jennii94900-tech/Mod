@@ -13,7 +13,7 @@ sectorSize: 3
 accessible: true
 visible: true
 alwaysUnlocked: true
-radius: 1.09
+radius: 1.07
 hasAtmosphere: true
 atmosphereColor: 8c8c70
 atmosphereRadIn: 0.02
@@ -49,12 +49,12 @@ mesh: [
     type: HexSkyMesh
     speed: 1
     divisions: 5
-    radius: 0.15
+    radius: 0.13
     color: 6ecdecbb
     octaves: 4
-    persistence: 0.49
+    persistence: 0.50
     scl: 4
-    thresh: 0.50
+    thresh: 0.52
     seed: 7
  }
 ]
