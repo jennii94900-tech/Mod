@@ -56,7 +56,7 @@ requirements: [
 category: turret
 
 research: {
-  parent: "ochpoch-mob-ebat"
+  parent: "ochpoch-mob-edat"
   planet: hooligan
   requirements: [
     ochpoch-mob-aluminum/2000
