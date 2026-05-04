@@ -3,7 +3,7 @@ parent: "bluesun"
 localizedName: "Norys"
 description: "A dying world, polluted and exhausted by industrial expansion."
 iconColor: 5c5443aa
-orbitRadius: 70
+orbitRadius: 75
 rotateTime: 3400
 orbitSpacing: 2
 solarSystem: "bluesun"
