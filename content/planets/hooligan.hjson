@@ -33,17 +33,17 @@ mesh: [
   }
   {
     type: SunMesh
-	divisions: 5
- radius: 1.1
-	octaves: 90
-	preststance: 0.2
-	scl: 1
-	pow: 1
-	colorScale: 1
-	colors: [
- 6ECDEAEE
-	6ECDEAEE
-	6ECDEAEE
+    divisions: 5
+    radius: 1.1
+    octaves: 90
+    preststance: 0.2
+    scl: 1
+    pow: 1
+    colorScale: 1
+    colors: [
+        6ECDEAEE
+        6ECDEAEE
+        6ECDEAEE
   }
   {
     type: HexSkyMesh
