@@ -34,7 +34,7 @@ mesh: [
   {
     type: SunMesh
     divisions: 5
-    radius: 1.15
+    radius: 1.8
     octaves: 90
     preststance: 0.2
     scl: 1
