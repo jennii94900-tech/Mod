@@ -3,7 +3,7 @@ name: "Obsidian Wall"
 description: "A legendary defensive fortification. Practically indestructible against light and medium weaponry."
 size: 1
 health: 7500
-armor: 38
+armor: 30
 requirements: [
   "ochpoch-mob-obsidian/35"
 ]
