@@ -2,7 +2,7 @@ generator: PlanetGenerator
 localizedName: "Cyan Sun"
 mesh: {
   type: SunMesh
-  divisions: 2
+  divisions: 1
   octaves: 4
   persistence: 0.6
   scl: 1
@@ -22,7 +22,7 @@ solarSystem: "bluesun"
 parent: "sun"
 orbitRadius: 13000
 accessible: true
-radius: 3
+radius: 1
 visible: true
 hasAtmosphere: false
 bloom: true
