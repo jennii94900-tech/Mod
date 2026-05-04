@@ -10,10 +10,12 @@ shake: 2
 shootSound: gun
 
 consumes: {
-  liquid: {
-    liquid: nitrogen
-    amount: 0.15
-  }
+  liquids: [
+    {
+      liquid: nitrogen
+      amount: 0.15
+    }
+  ]
 }
 
 ammoTypes: {
@@ -88,7 +90,7 @@ research: {
   ]
   objectives: [
     {
-      type: SectorOccupation
+      type: SectorComplete
       preset: "ochpoch-mob-18"
     }
   ]
