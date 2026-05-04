@@ -9,7 +9,7 @@ orbitSpacing: 2
 solarSystem: "bluesun"
 defaultCore: "core"
 startSector: 36
-sectorSize: 2
+sectorSize: 1
 accessible: true
 visible: true
 alwaysUnlocked: true
