@@ -1,6 +1,6 @@
 type: GenericCrafter
 name: "Obsidian Press"
-description: "Uses extreme hydraulic pressure to fuse raw crystal and marmyriym into obsidian plates. Essential for advanced composite armor."
+description: "Uses extreme hydraulic pressure to fuse raw crystal and methane crystals into obsidian plates. Essential for advanced composite armor."
 size: 2
 health: 320
 hasItems: true
@@ -16,13 +16,20 @@ consumes: {
 }
 outputItem: ochpoch-mob-obsidian/1
 requirements: [
-  ochpoch-mob-aluminum/60
+  ochpoch-mob-refined-aluminum/60
+  ochpoch-mob-cristal/40
 ]
 category: crafting
 research: {
-  parent: ochpoch-mob-mixer
+  parent: "ochpoch-mob-mixer"
   requirements: [
-    ochpoch-mob-aluminum/450
+    ochpoch-mob-refined-aluminum/450
     ochpoch-mob-cristal/200
+  ]
+  objectives: [
+    {
+      type: SectorOccupation
+      preset: "ochpoch-mob-18"
+    }
   ]
 }
