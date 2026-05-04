@@ -22,7 +22,7 @@ solarSystem: "bluesun"
 parent: "sun"
 orbitRadius: 13000
 accessible: true
-radius: 1
+radius: 4
 visible: true
 hasAtmosphere: false
 bloom: true
