@@ -2,7 +2,7 @@ type: ItemTurret
 name: "Cryo-Shatter"
 description: "Fires obsidian shards cooled with liquid nitrogen. Shatters on impact, slowing down and damaging multiple targets."
 size: 2
-health: 850
+health: 920
 range: 191
 reload: 80
 recoil: 3
