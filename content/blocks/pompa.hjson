@@ -1,0 +1,34 @@
+type: Pump
+name: "Aluminum Pump"
+description: "A simple mechanical pump for extracting liquids from lakes. Requires no power."
+size: 1
+health: 140
+pumpAmount: 0.11
+hasLiquids: true
+liquidCapacity: 40
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawTop
+      suffix: "-top"
+    }
+  ]
+}
+
+requirements: [
+  ochpoch-mob-aluminum/26
+  ochpoch-mob-cristal/4
+]
+
+category: liquid
+
+research: {
+  parent: "ochpoch-mob-aluminum"
+  planet: "hooligan"
+}
+
