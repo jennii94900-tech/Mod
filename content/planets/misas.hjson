@@ -21,7 +21,7 @@ atmosphereRadOut: 0.2
 mesh: [
   {
     type: NoiseMesh
-    divisions: 5
+    divisions: 4
     radius: 1.105
     color1: 6b5b4a
     color2: ED7A4CEB
@@ -34,7 +34,7 @@ mesh: [
   {
     type: HexSkyMesh
     speed: 0.8
-    divisions: 5
+    divisions: 4
     radius: 0.14
     color: 2E2A22AA
     octaves: 4
@@ -46,7 +46,7 @@ mesh: [
    {
     type: HexSkyMesh
     speed: 2.0
-    divisions: 5
+    divisions: 4
     radius: 0.12
     color: 5c5443aa
     octaves: 1
