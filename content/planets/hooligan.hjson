@@ -41,9 +41,9 @@ mesh: [
 	pow: 1
 	colorScale: 1
 	colors: [
-		6ECDEAEE
-		6ECDEAEE
-		6ECDEAEE
+ 6ECDEAEE
+	6ECDEAEE
+	6ECDEAEE
   }
   {
     type: HexSkyMesh
