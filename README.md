@@ -1,6 +1,7 @@
 # Hooligan Planet Mod
 
 This mod adds a new planet, Hooligan, a new technology tree, and so on.
+This planet is cold and therefore you will have to use aluminum and crystals to keep your buildings from freezing.
 
 ## Installation
 1. Mods > Import Mod > Import from GitHub
