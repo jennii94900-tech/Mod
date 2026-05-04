@@ -26,8 +26,8 @@ weapons: [
       damage: 43 
       speed: 4.5
       lifetime: 60
-      width: 12
-      height: 16
+      width: 9
+      height: 12
       homingPower: 0.12
       homingRange: 160
       weaveScale: 4
@@ -37,8 +37,8 @@ weapons: [
       frontColor: ffffff
       backColor: b0bac0
       trailColor: 98a7b0
-      trailWidth: 3.5
-      trailLength: 20
+      trailWidth: 2.5
+      trailLength: 3
       hitEffect: blastExplosion
       despawnEffect: blastExplosion
     }
