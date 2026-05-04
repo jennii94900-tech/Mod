@@ -2,6 +2,6 @@ name: "ochpoch-mob"
 displayName: "Hooligan"
 author: "Hello,Andrei"
 subtitle: "[#6ecdec[]]Version 2.2"
-description: "Frozen planet expansion. Includes custom technology tree, industrial systems, and combat units designed for extreme cold environments."
+description: "This planet is cold and therefore you will have to use aluminum and crystals to keep your buildings from freezing.."
 version: "2.2"
 minGameVersion: 157
