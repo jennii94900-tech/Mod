@@ -6,9 +6,10 @@ health: 1200
 requirements: [
   ochpoch-mob-refined-aluminum/60
 ]
-category: effect
+category: defense
 buildVisibility: shown
 research: {
+  parent: "ochpoch-mob-core"
   planet: hooligan
   alwaysUnlocked: true
 }
