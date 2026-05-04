@@ -9,7 +9,7 @@ requirements: [
 category: defense
 buildVisibility: shown
 research: {
-  parent: "ochpoch-mob-core"
+  parent: "ochpoch-mob-stonehh"
   planet: hooligan
   alwaysUnlocked: true
 }
