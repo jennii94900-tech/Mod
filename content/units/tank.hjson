@@ -38,7 +38,7 @@ weapons: [
       backColor: b0bac0
       trailColor: 98a7b0
       trailWidth: 2.5
-      trailLength: 3
+      trailLength: 5
       hitEffect: blastExplosion
       despawnEffect: blastExplosion
     }
