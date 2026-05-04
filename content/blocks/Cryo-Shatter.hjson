@@ -1,0 +1,65 @@
+type: ItemTurret
+name: "Cryo-Shatter"
+description: "Fires obsidian shards cooled with liquid nitrogen. Shatters on impact, slowing down and damaging multiple targets."
+size: 2
+health: 850
+range: 190
+reload: 80
+recoil: 3
+shake: 2
+shootSound: shootBig
+
+consumes: {
+  liquid: {
+    liquid: nitrogen
+    amount: 0.15
+  }
+}
+
+ammoTypes: {
+  ochpoch-mob-obsidian: {
+    type: BasicBulletType
+    speed: 6
+    damage: 85
+    width: 14
+    height: 16
+    shrinkY: 0.3
+    frontColor: 6b489e
+    backColor: 3a2a52
+    trailColor: 8aa3f4
+    trailWidth: 3
+    trailLength: 12
+    hitEffect: blastExplosion
+    status: freezing
+    statusDuration: 180
+    fragBullets: 5
+    fragBullet: {
+      type: BasicBulletType
+      damage: 15
+      speed: 3
+      lifetime: 20
+      width: 6
+      height: 8
+      frontColor: 8aa3f4
+      backColor: 6b489e
+      status: freezing
+    }
+  }
+}
+
+requirements: [
+  ochpoch-mob-aluminum/120
+  ochpoch-mob-cristal/80
+  ochpoch-mob-obsidian/40
+]
+
+category: turret
+
+research: {
+  parent: "ochpoch-mob-ebat"
+  planet: hooligan
+  requirements: [
+    ochpoch-mob-aluminum/2000
+    ochpoch-mob-obsidian/500
+  ]
+}
