@@ -49,7 +49,7 @@ engines: [
     rotation: -90
   }
 ]
-trailLength: 15
+trailLength: 5
 trailScl: 1.2
 trailColor: 4A686DFF
 lowAltitude: true
