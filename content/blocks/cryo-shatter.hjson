@@ -26,12 +26,12 @@ ammoTypes: {
     shrinkY: 0.3
     frontColor: 6b489e
     backColor: 3a2a52
-    trailColor: 8aa3f4
+    trailColor: 3a2a52
     trailWidth: 3
     trailLength: 4
     status: freezing
     statusDuration: 180
-    
+
     hitEffect: {
       type: WaveEffect
       sides: 4
@@ -43,7 +43,7 @@ ammoTypes: {
       strokeFrom: 4
       strokeTo: 0
     }
-    
+
     despawnEffect: {
       type: WaveEffect
       sides: 4
@@ -85,5 +85,11 @@ research: {
   requirements: [
     ochpoch-mob-aluminum/2000
     ochpoch-mob-obsidian/500
+  ]
+  objectives: [
+    {
+      type: SectorOccupation
+      preset: "ochpoch-mob-18"
+    }
   ]
 }
