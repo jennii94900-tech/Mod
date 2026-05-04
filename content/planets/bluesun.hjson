@@ -10,12 +10,12 @@ mesh: {
   mag: 0.5
   colorScale: 1
   colors: [
-    49f6f6ff
-    8fffff
-    aaffffff
-    58f5f5ff
-    36ffdaff
-    ffffff
+    73275CFF
+    422445FF
+    5A265EFF
+    73275CFF
+    422445FF
+    5A265EFF
   ]
 }
 solarSystem: "bluesun"
