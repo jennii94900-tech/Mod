@@ -1,10 +1,10 @@
 generator: PlanetGenerator
-parent: "bluesun"
+parent: "hooligam"
 localizedName: "Norys"
 description: "A dying world, polluted and exhausted by industrial expansion."
 iconColor: 5c5443aa
-orbitRadius: 75
-rotateTime: 3400
+orbitRadius: 15
+rotateTime: 3000
 orbitSpacing: 2
 solarSystem: "bluesun"
 defaultCore: "core"
@@ -15,7 +15,7 @@ visible: true
 alwaysUnlocked: true
 radius: 1.24
 hasAtmosphere: true
-atmosphereColor: 8c8c70
+atmosphereColor: 842D6DFF
 atmosphereRadIn: 0.01
 atmosphereRadOut: 0.2
 mesh: [
@@ -23,8 +23,8 @@ mesh: [
     type: NoiseMesh
     divisions: 4
     radius: 1.105
-    color1: 6b5b4a
-    color2: ED7A4CEB
+    color1: C5F8FFFF
+    color2: 842D6DFF
     octaves: 6
     persistence: 0.7
     scale: 0.6
@@ -33,10 +33,10 @@ mesh: [
   }
   {
     type: HexSkyMesh
-    speed: 0.8
+    speed: 0.5
     divisions: 4
     radius: 0.14
-    color: 2E2A22AA
+    color: 842D6DFF
     octaves: 4
     persistence: 0.4
     scl: 1
@@ -45,10 +45,10 @@ mesh: [
    }
    {
     type: HexSkyMesh
-    speed: 2.0
+    speed: 0.7
     divisions: 4
     radius: 0.12
-    color: 5c5443aa
+    color: C5F8FFFF
     octaves: 1
     persistence: 0.4
     scl: 2
