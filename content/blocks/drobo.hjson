@@ -23,7 +23,7 @@ ammoTypes: {
   ochpoch-mob-cristal: {
     type: BasicBulletType
     speed: 4
-    damage: 18
+    damage: 28
     width: 7
     height: 12
     shrinkY: 0.3
