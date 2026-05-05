@@ -1,8 +1,8 @@
 localizedName: "Enemy Stronghold 204"
-description: "A heavily fortified enemy industrial complex. Destroy the enemy core to reclaim the aluminum processing facilities."
+description: "A heavily fortified enemy industrial complex. Destroy the enemy core to seize their obsidian production facilities and advanced crystal technologies."
 planet: hooligan
 sector: 204
-difficulty: 9
+difficulty: 6
 alwaysUnlocked: false
 research: {
   parent: "ochpoch-mob-45"
