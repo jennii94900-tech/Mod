@@ -8,6 +8,13 @@ reload: 80
 recoil: 3
 shake: 2
 shootSound: gun
+inaccuracy: 5
+
+shoot: {
+  type: ShootPattern
+  shots: 4
+  shotDelay: 5
+}
 
 consumes: {
   liquids: [
@@ -56,19 +63,6 @@ ammoTypes: {
       colorTo: 3a2a52
       strokeFrom: 4
       strokeTo: 0
-    }
-
-    fragBullets: 5
-    fragBullet: {
-      type: BasicBulletType
-      damage: 15
-      speed: 3
-      lifetime: 20
-      width: 6
-      height: 8
-      frontColor: 8aa3f4
-      backColor: 6b489e
-      status: freezing
     }
   }
 }
