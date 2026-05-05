@@ -1,0 +1,15 @@
+localizedName: "Enemy Stronghold 204"
+description: "A heavily fortified enemy industrial complex. Destroy the enemy core to reclaim the aluminum processing facilities."
+planet: hooligan
+sector: 204
+difficulty: 9
+alwaysUnlocked: false
+research: {
+  parent: "ochpoch-mob-45"
+  objectives: [
+    {
+      type: SectorComplete
+      preset: "ochpoch-mob-45"
+    }
+  ]
+}
