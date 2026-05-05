@@ -2,7 +2,7 @@ generator: PlanetGenerator
 parent: "hooligam"
 localizedName: "Norys"
 description: "A dying world, polluted and exhausted by industrial expansion."
-iconColor: 5c5443aa
+iconColor: 842D6DFF
 orbitRadius: 15
 rotateTime: 3000
 orbitSpacing: 2
