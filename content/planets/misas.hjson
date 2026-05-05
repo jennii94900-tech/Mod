@@ -1,5 +1,5 @@
 generator: PlanetGenerator
-parent: "hooligam"
+parent: "hooligan"
 localizedName: "Norys"
 description: "A dying world, polluted and exhausted by industrial expansion."
 iconColor: 842D6DFF
