@@ -27,5 +27,9 @@ drawer: {
       suffix: "-rotator"
       rotateSpeed: 10
     }
+    {
+      type: DrawRegion
+      suffix: "-top"
+    }
   ]
 }
