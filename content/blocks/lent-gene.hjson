@@ -6,7 +6,7 @@ health: 450
 category: power
 attribute: steam
 minEfficiency: 8
-powerProduction: 0.8
+powerProduction: 0.4
 squareSprite: false
 fogRadius: 2
 
