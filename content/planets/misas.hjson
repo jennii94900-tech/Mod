@@ -3,7 +3,7 @@ parent: "hooligan"
 localizedName: "Norys"
 description: "A dying world, polluted and exhausted by industrial expansion."
 iconColor: 842D6DFF
-orbitRadius: 15
+orbitRadius: 9
 rotateTime: 3000
 orbitSpacing: 2
 solarSystem: "bluesun"
