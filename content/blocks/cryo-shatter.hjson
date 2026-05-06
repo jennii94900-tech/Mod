@@ -8,7 +8,7 @@ reload: 80
 recoil: 3
 shake: 2
 shootSound: gun
-inaccuracy: 5
+inaccuracy: 3
 
 shoot: {
   type: ShootPattern
