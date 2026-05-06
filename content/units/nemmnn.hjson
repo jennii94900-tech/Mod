@@ -31,7 +31,7 @@ weapons: [
     rotate: true
     rotateSpeed: 1.8
     mirror: false
-    reload: 340
+    reload: 260
     shootSound: rokket
     shake: 5
 
