@@ -57,7 +57,7 @@ ammoTypes: {
   ochpoch-mob-methane-crystal: {
     type: BasicBulletType
     speed: 8
-    damage: 32
+    damage: 15
     lifetime: 40
     width: 10
     height: 11
@@ -76,8 +76,8 @@ ammoTypes: {
     fragBullet: {
       type: BasicBulletType
       speed: 8
-      damage: 10
-      lifetime: 15
+      damage: 15
+      lifetime: 9
       width: 5
       height: 5
       frontColor: 00f2ff
