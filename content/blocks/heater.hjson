@@ -33,12 +33,12 @@ consumes: {
 
 outputLiquids: [
   {
-    liquid: nitrogen/0.15
-    direction: 1
+    liquid: nitrogen
+    amount: 0.15
   }
   {
-    liquid: water/0.1
-    direction: 3
+    liquid: water
+    amount: 0.1
   }
 ]
 
