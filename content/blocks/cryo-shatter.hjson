@@ -13,7 +13,7 @@ inaccuracy: 5
 shoot: {
   type: ShootPattern
   shots: 4
-  shotDelay: 3
+  shotDelay: 6
 }
 
 consumes: {
