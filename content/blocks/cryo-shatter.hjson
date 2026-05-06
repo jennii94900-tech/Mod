@@ -39,7 +39,7 @@ ammoTypes: {
     shrinkY: 0.3
     frontColor: 3C3056FF
     backColor: 3C3056FF
-    trailColor: 493E63
+    trailColor: 493E63FF
     trailWidth: 3
     trailLength: 4
     status: freezing
