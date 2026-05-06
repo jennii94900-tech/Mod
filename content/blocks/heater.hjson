@@ -39,11 +39,11 @@ consumes: {
 outputLiquids: [
   {
     liquid: nitrogen
-    amount: 0.15
+    amount: 0.20
   }
   {
     liquid: oxygen
-    amount: 0.1
+    amount: 0.15
   }
 ]
 
