@@ -1,8 +1,8 @@
 type: tank
 name: "Aluminum Fortress"
-description: "A heavy siege fortress. Crushes or ignores buildings in its path while launching Rage missiles."
+description: "A heavy siege fortress. Launches powerful triple-shot Rage missiles. Crushes or ignores buildings in its path."
 speed: 0.28
-health: 4800
+health: 5000
 armor: 35
 hitSize: 32
 rotateSpeed: 1.5
@@ -44,7 +44,9 @@ weapons: [
     bullet: {
       type: ArtilleryBulletType
       speed: 4
-      damage: 0
+      damage: 400
+      splashDamage: 120
+      splashDamageRadius: 40
       lifetime: 80
       width: 18
       height: 24
@@ -54,20 +56,12 @@ weapons: [
       hitEffect: massiveExplosion
       despawnEffect: massiveExplosion
       collidesTiles: false
-
-      fragBullets: 3
-      fragBullet: {
-        type: BulletType
-        spawnUnit: "ochpoch-mob-rage-nickel-missle"
-        speed: 1
-        lifetime: 1
-      }
     }
   }
 ]
 
 research: {
-  parent: "ochpoch-mob-aluminum-bastion"
+  parent: "ochpoch-mob-payk"
   requirements: [
     ochpoch-mob-refined-aluminum/5000
     ochpoch-mob-obsidian/2000
