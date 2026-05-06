@@ -1,0 +1,32 @@
+type: Reconstructor
+name: "Abyssal Reconstructor"
+description: "t3 units."
+size: 5
+health: 3200
+constructTime: 2800
+
+consumes: {
+  power: 8.5
+  items: [
+    ochpoch-mob-refined-aluminum/270
+    ochpoch-mob-obsidian/270
+  ]
+  liquid: {
+    liquid: nitrogen
+    amount: 0.3
+  }
+}
+
+upgrades: [
+  [ochpoch-mob-payk, ochpoch-mob-nemmnn]
+]
+
+requirements: [
+  ochpoch-mob-aluminum/600
+  ochpoch-mob-refined-aluminum/300
+  ochpoch-mob-obsidian/250
+  ochpoch-mob-cristal/200
+]
+
+category: units
+research: ochpoch-mob-payk
