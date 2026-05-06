@@ -1,14 +1,11 @@
 type: GenericCrafter
 name: "Cryofluid Heater"
-description: "Heats cryofluid to separate it into liquid nitrogen and water."
+description: "Heats cryofluid using methane crystals to extract atmospheric gases like nitrogen."
 size: 2
 health: 450
 hasLiquids: true
-hasItems: false
+hasItems: true
 craftTime: 60
-rotate: true
-invertFlip: true
-
 drawer: {
   type: DrawMulti
   drawers: [
@@ -16,7 +13,9 @@ drawer: {
       type: DrawDefault
     }
     {
-      type: DrawLiquidOutputs
+      type: DrawLiquidRegion
+      drawLiquid: cryofluid
+      suffix: "-liquid"
     }
     {
       type: DrawRegion
@@ -24,29 +23,19 @@ drawer: {
     }
   ]
 }
-
 consumes: {
   power: 1.5
+  items: [
+    ochpoch-mob-methane-crystal/1
+  ]
   liquids: [
     cryofluid/0.2
   ]
 }
-
-outputLiquids: [
-  {
-    liquid: nitrogen
-    amount: 0.15
-  }
-  {
-    liquid: water
-    amount: 0.1
-  }
-]
-
+outputLiquid: nitrogen/0.15
 requirements: [
   ochpoch-mob-aluminum/50
   ochpoch-mob-cristal/30
 ]
-
 category: crafting
 research: mixer
