@@ -7,6 +7,7 @@ hasLiquids: true
 hasItems: false
 craftTime: 60
 rotate: true
+liquidOutputDirections: [1, 3]
 
 drawer: {
   type: DrawMulti
