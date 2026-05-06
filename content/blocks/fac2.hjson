@@ -1,7 +1,7 @@
 type: Reconstructor
 name: "Abyssal Reconstructor"
 description: "t3 units."
-size: 5
+size: 6
 health: 3200
 constructTime: 2800
 
