@@ -1,0 +1,8 @@
+type: liquid
+name: "Liquid Oxygen"
+description: "A highly reactive liquefied gas. Used in advanced chemical processes and as a powerful oxidizer."
+color: b6e1f4
+gas: true
+flammability: 0.1
+explosiveness: 0.5
+viscosity: 0.2
