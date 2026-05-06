@@ -3,7 +3,7 @@ name: "Cryo-Shatter"
 description: "Fires obsidian shards cooled with liquid nitrogen. Shatters on impact, slowing down and damaging multiple targets."
 size: 2
 health: 920
-range: 198
+range: 384
 reload: 80
 recoil: 3
 shake: 2
@@ -28,7 +28,8 @@ consumes: {
 ammoTypes: {
   ochpoch-mob-obsidian: {
     type: BasicBulletType
-    speed: 6
+    speed: 8
+    lifetime: 48
     damage: 85
     width: 14
     height: 16
