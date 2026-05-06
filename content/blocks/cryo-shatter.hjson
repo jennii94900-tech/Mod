@@ -37,9 +37,9 @@ ammoTypes: {
     width: 14
     height: 16
     shrinkY: 0.3
-    frontColor: 3C3056FF
-    backColor: 3C3056FF
-    trailColor: 493E63FF
+    frontColor: 322947FF
+    backColor: 322947FF
+    trailColor: 322947FF
     trailWidth: 3
     trailLength: 4
     status: freezing
@@ -51,8 +51,8 @@ ammoTypes: {
       sizeFrom: 0
       sizeTo: 40
       lifetime: 25
-      colorFrom: 3C3056FF
-      colorTo: 493E63FF
+      colorFrom: 322947FF
+      colorTo: 322947FF
       strokeFrom: 4
       strokeTo: 0
     }
@@ -63,7 +63,7 @@ ammoTypes: {
       sizeFrom: 0
       sizeTo: 40
       lifetime: 25
-      colorFrom: 3C3056FF
+      colorFrom: 322947FF
       colorTo: 
       strokeFrom: 4
       strokeTo: 0
