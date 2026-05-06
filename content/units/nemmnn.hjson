@@ -1,6 +1,6 @@
 type: tank
 name: "Aluminum Fortress"
-description: "A heavy siege fortress. Launches powerful triple-shot Rage missiles. Crushes or ignores buildings in its path."
+description: "A heavy siege fortress. Protected by a persistent energy shield. Crushes or ignores buildings in its path."
 speed: 0.28
 health: 6700
 armor: 40
@@ -12,6 +12,16 @@ crushDamage: 25
 targetAir: false
 targetGround: true
 targetUnderBlocks: true
+
+abilities: [
+  {
+    type: ForceFieldAbility
+    radius: 32
+    regen: 0.8
+    max: 1500
+    cooldown: 300
+  }
+]
 
 treadPullOffset: 4
 treadRects: [
