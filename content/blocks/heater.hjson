@@ -42,7 +42,7 @@ outputLiquids: [
     amount: 0.15
   }
   {
-    liquid: water
+    liquid: oxygen
     amount: 0.1
   }
 ]
