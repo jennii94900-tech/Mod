@@ -2,7 +2,7 @@ generator: PlanetGenerator
 parent: "hooligan"
 localizedName: "Norys"
 description: "A world consumed by fungal growth and toxic spores. Life here has been replaced by a violet haze."
-iconColor: 842D6DFF
+iconColor: 6d56bf
 orbitRadius: 9
 rotateTime: 3000
 orbitSpacing: 2
@@ -15,7 +15,7 @@ visible: true
 alwaysUnlocked: true
 radius: 1.0
 hasAtmosphere: true
-atmosphereColor: 842D6D
+atmosphereColor: 6d56bf
 atmosphereRadIn: 0.01
 atmosphereRadOut: 0.2
 mesh: [
@@ -24,7 +24,7 @@ mesh: [
     divisions: 4
     radius: 0.9
     color1: 6d56bf
-    color2: 842d6d
+    color2: 7DA4FF
     octaves: 6
     persistence: 0.7
     scale: 0.6
