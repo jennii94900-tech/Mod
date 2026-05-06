@@ -13,7 +13,7 @@ inaccuracy: 3
 shoot: {
   type: ShootPattern
   shots: 4
-  shotDelay: 6
+  shotDelay: 5
 }
 
 consumes: {
@@ -37,9 +37,9 @@ ammoTypes: {
     width: 14
     height: 16
     shrinkY: 0.3
-    frontColor: 322947FF
-    backColor: 322947FF
-    trailColor: 322947FF
+    frontColor: 6b489e
+    backColor: 3a2a52
+    trailColor: 3a2a52
     trailWidth: 3
     trailLength: 4
     status: freezing
@@ -51,8 +51,8 @@ ammoTypes: {
       sizeFrom: 0
       sizeTo: 40
       lifetime: 25
-      colorFrom: 322947FF
-      colorTo: 322947FF
+      colorFrom: 6b489e
+      colorTo: 3a2a52
       strokeFrom: 4
       strokeTo: 0
     }
@@ -63,8 +63,8 @@ ammoTypes: {
       sizeFrom: 0
       sizeTo: 40
       lifetime: 25
-      colorFrom: 322947FF
-      colorTo: 
+      colorFrom: 6b489e
+      colorTo: 3a2a52
       strokeFrom: 4
       strokeTo: 0
     }
