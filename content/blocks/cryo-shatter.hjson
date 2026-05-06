@@ -31,6 +31,9 @@ ammoTypes: {
     speed: 8
     lifetime: 48
     damage: 85
+    buildingDamageMultiplier: 0.01
+    pierce: true
+    pierceCap: 3
     width: 14
     height: 16
     shrinkY: 0.3
