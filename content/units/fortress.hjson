@@ -1,6 +1,6 @@
 type: tank
 name: "Aluminum Fortress"
-description: "A heavy siege fortress. Launches devastating cluster 'Rage' missiles that split into multiple warheads upon impact."
+description: "A heavy siege fortress. Crushes or ignores buildings in its path while launching Rage missiles."
 speed: 0.28
 health: 4800
 armor: 35
@@ -8,6 +8,10 @@ hitSize: 32
 rotateSpeed: 1.5
 faceTarget: false
 omniMovement: false
+crushDamage: 25
+targetAir: false
+targetGround: true
+targetUnderBlocks: true
 
 treadPullOffset: 4
 treadRects: [
@@ -30,7 +34,7 @@ weapons: [
     reload: 360
     shootSound: rokket
     shake: 5
-    
+
     shoot: {
       type: ShootSpread
       shots: 3
@@ -49,7 +53,8 @@ weapons: [
       backColor: eb874d
       hitEffect: massiveExplosion
       despawnEffect: massiveExplosion
-      
+      collidesTiles: false
+
       fragBullets: 3
       fragBullet: {
         type: BulletType
