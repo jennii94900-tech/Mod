@@ -47,6 +47,8 @@ weapons: [
       damage: 400
       splashDamage: 300
       splashDamageRadius: 50
+      collides: true 
+      collidesTiles: false
       lifetime: 80
       width: 18
       height: 24
@@ -55,7 +57,6 @@ weapons: [
       backColor: eb874d
       hitEffect: massiveExplosion
       despawnEffect: massiveExplosion
-      collidesTiles: false
     }
   }
 ]
