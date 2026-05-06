@@ -4,7 +4,7 @@ description: "Heats cryofluid to separate it into liquid nitrogen and water."
 size: 2
 health: 450
 hasLiquids: true
-hasItems: false
+hasItems: true
 craftTime: 60
 rotate: true
 liquidOutputDirections: [1, 3]
@@ -27,6 +27,10 @@ drawer: {
 
 consumes: {
   power: 1.5
+  items: [
+    ochpoch-mob-cristal/5
+    ochpoch-mob-methane-crystal/4
+  ]
   liquids: [
     cryofluid/0.2
   ]
@@ -44,8 +48,10 @@ outputLiquids: [
 ]
 
 requirements: [
-  ochpoch-mob-aluminum/50
-  ochpoch-mob-cristal/30
+  ochpoch-mob-aluminum/120
+  ochpoch-mob-refined-aluminum/60
+  ochpoch-mob-cristal/80
+  ochpoch-mob-obsidian/40
 ]
 
 category: crafting
