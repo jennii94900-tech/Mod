@@ -9,7 +9,7 @@ liquidCapacity: 20
 
 requirements: [
   ochpoch-mob-aluminum/15
-  ochpoch-mob-obsidian/5
+  ochpoch-mob-cristal/5
 ]
 
 category: liquid
