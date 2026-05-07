@@ -3,7 +3,7 @@ name: "Abyssal Reconstructor"
 description: "t3 units."
 size: 6
 health: 3200
-constructTime: 2800
+constructTime: 3500
 
 consumes: {
   power: 8.5
