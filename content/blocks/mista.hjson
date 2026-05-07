@@ -1,0 +1,18 @@
+type: BufferedItemBridge
+name: "Aluminum Bridge"
+description: "A durable bridge conveyor that allows transporting items over obstacles and other structures."
+size: 1
+health: 120
+range: 6
+fadeIn: false
+moveArrows: true
+arrowSpacing: 6
+bufferCapacity: 20
+
+requirements: [
+  ochpoch-mob-aluminum/15
+  ochpoch-mob-cristal/5
+]
+
+category: distribution
+research: ochpoch-mob-surge-alloy-conveyor
