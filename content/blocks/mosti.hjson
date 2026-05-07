@@ -1,0 +1,16 @@
+type: LiquidBridge
+name: "Aluminum Bridge Conduit"
+description: "Transports liquids over buildings and terrain."
+size: 1
+health: 120
+range: 6
+hasLiquids: true
+liquidCapacity: 20
+
+requirements: [
+  ochpoch-mob-aluminum/15
+  ochpoch-mob-obsidian/5
+]
+
+category: liquid
+research: ochpoch-mob-aluminum-pipe
