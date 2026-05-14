@@ -8,8 +8,8 @@ constructTime: 3500
 consumes: {
   power: 8.5
   items: [
-    ochpoch-mob-refined-aluminum/270
-    ochpoch-mob-obsidian/115
+    ochpoch-mob-refined-aluminum/250
+    ochpoch-mob-obsidian/120
   ]
   liquid: {
     liquid: nitrogen
