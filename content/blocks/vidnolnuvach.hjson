@@ -1,0 +1,20 @@
+type: BuildTower
+name: "Build Tower"
+description: "Automatically rebuilds broken structures and blueprints within its range."
+size: 3
+health: 800
+range: 200
+buildSpeed: 1.2
+
+consumes: {
+  power: 3.5
+}
+
+requirements: [
+  ochpoch-mob-aluminum/150
+  ochpoch-mob-refined-aluminum/90
+  ochpoch-mob-cristal/60
+]
+
+category: effect
+research: core
