@@ -2,10 +2,10 @@ type: GenericCrafter
 name: "Cryofluid Heater2"
 description: "Heats cryofluid to separate it into liquid nitrogen and water."
 size: 2
-health: 900
+health: 450
 hasLiquids: true
 hasItems: true
-craftTime: 55
+craftTime: 60
 rotate: true
 liquidOutputDirections: [1, 3]
 
@@ -19,9 +19,8 @@ drawer: {
       type: DrawLiquidOutputs
     }
     {
-      type: DrawRegion
+      type: DrawRotator
       suffix: "-top"
-      rotate: true
     }
   ]
 }
@@ -56,4 +55,4 @@ requirements: [
 ]
 
 category: crafting
-research: cryofluid-heater
+research: mixer
