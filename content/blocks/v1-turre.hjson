@@ -2,7 +2,7 @@ type: ItemTurret
 name: "Glint"
 description: "A precision starter turret. Fires high-velocity projectiles using aluminum or crystal-based ammo. Ideal for early-game perimeter defense."
 size: 1
-health: 360
+health: 450
 range: 312
 reload: 24 
 recoil: 1.7
@@ -57,7 +57,7 @@ ammoTypes: {
   ochpoch-mob-methane-crystal: {
     type: BasicBulletType
     speed: 8
-    damage: 15
+    damage: 2
     lifetime: 40
     width: 10
     height: 11
@@ -76,8 +76,8 @@ ammoTypes: {
     fragBullet: {
       type: BasicBulletType
       speed: 8
-      damage: 15
-      lifetime: 9
+      damage: 1
+      lifetime: 3
       width: 5
       height: 5
       frontColor: 00f2ff
