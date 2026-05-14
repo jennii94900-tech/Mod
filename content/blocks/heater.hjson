@@ -1,5 +1,5 @@
 type: GenericCrafter
-name: "Cryofluid Heater"
+name: "Cryofluid Heater2"
 description: "Heats cryofluid to separate it into liquid nitrogen and water."
 size: 2
 health: 450
