@@ -2,7 +2,7 @@ type: Conduit
 name: "Aluminum Pipe"
 description: "Durable pipeline for liquid transport. Resistant to corrosion and low temperatures."
 size: 1
-health: 65
+health: 150
 liquidCapacity: 10
 liquidPressure: 1.2
 requirements: [
