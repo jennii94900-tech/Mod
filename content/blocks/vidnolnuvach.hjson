@@ -1,14 +1,20 @@
-type: ConstructBlock
+type: Wall
 name: "Build Tower"
 description: "Automatically rebuilds broken structures and blueprints within its range."
 size: 3
 health: 800
-range: 200
-buildSpeed: 1.2
 
 consumes: {
   power: 3.5
 }
+
+abilities: [
+  {
+    type: StatusFieldAbility
+    duration: 60
+    range: 200
+  }
+]
 
 requirements: [
   ochpoch-mob-aluminum/150
