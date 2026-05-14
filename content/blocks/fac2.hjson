@@ -22,10 +22,10 @@ upgrades: [
 ]
 
 requirements: [
-  ochpoch-mob-aluminum/600
-  ochpoch-mob-refined-aluminum/300
-  ochpoch-mob-obsidian/250
-  ochpoch-mob-cristal/200
+  ochpoch-mob-aluminum/540
+  ochpoch-mob-refined-aluminum/310
+  ochpoch-mob-obsidian/120
+  ochpoch-mob-cristal/220
 ]
 
 category: units
