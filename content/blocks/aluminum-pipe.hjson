@@ -1,10 +1,11 @@
 type: Conduit
 name: "Aluminum Pipe"
-description: "Durable pipeline for liquid transport. Resistant to corrosion and low temperatures."
+description: "Durable pipeline for liquid transport. Resistant to corrosion and low temperatures. Automatically places bridges over obstacles."
 size: 1
 health: 150
 liquidCapacity: 10
 liquidPressure: 1.2
+bridgeReplacement: "ochpoch-mob-mosti"
 requirements: [
   ochpoch-mob-refined-aluminum/6
 ]
@@ -13,4 +14,3 @@ research: {
   parent: ochpoch-mob-core
   planet: hooligan
 }
-
