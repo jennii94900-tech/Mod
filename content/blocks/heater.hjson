@@ -2,10 +2,10 @@ type: GenericCrafter
 name: "Cryofluid Heater2"
 description: "Heats cryofluid to separate it into liquid nitrogen and water."
 size: 2
-health: 450
+health: 900
 hasLiquids: true
 hasItems: true
-craftTime: 60
+craftTime: 55
 rotate: true
 liquidOutputDirections: [1, 3]
 
@@ -21,6 +21,7 @@ drawer: {
     {
       type: DrawRegion
       suffix: "-top"
+      rotate: true
     }
   ]
 }
