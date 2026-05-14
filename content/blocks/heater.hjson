@@ -18,6 +18,10 @@ drawer: {
     {
       type: DrawLiquidOutputs
     }
+    {
+      type: DrawRegion
+      suffix: "-top"
+    }
   ]
 }
 
@@ -51,4 +55,4 @@ requirements: [
 ]
 
 category: crafting
-research: mixer
+research: cryofluid-heater
