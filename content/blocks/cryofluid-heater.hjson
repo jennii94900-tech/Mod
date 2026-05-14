@@ -1,5 +1,5 @@
 type: GenericCrafter
-name: "Cryofluid Heater"
+name: "Cryofluid Heater1"
 description: "Heats cryofluid using methane crystals to extract atmospheric gases like nitrogen."
 size: 2
 health: 450
