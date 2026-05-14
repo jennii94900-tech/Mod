@@ -1,4 +1,4 @@
-type: BuildTower
+type: ConstructBlock
 name: "Build Tower"
 description: "Automatically rebuilds broken structures and blueprints within its range."
 size: 3
@@ -17,4 +17,4 @@ requirements: [
 ]
 
 category: effect
-research: core
+research: repair-point
