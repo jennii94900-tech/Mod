@@ -36,7 +36,7 @@ mesh: [
     speed: 0.5
     divisions: 4
     radius: 0.13
-    color: 7457ce
+    color: 6d56bf
     octaves: 4
     persistence: 0.4
     scl: 1
@@ -48,7 +48,7 @@ mesh: [
     speed: 0.7
     divisions: 4
     radius: 0.15
-    color: 842d6d
+    color: 7DA4FF
     octaves: 1
     persistence: 0.4
     scl: 2
