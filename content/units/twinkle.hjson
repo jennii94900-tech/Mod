@@ -53,7 +53,7 @@ trailLength: 5
 trailScl: 1.2
 trailColor: 4A686DFF
 lowAltitude: true
-speed: 5.4
+speed: 6.0
 accel: 0.03
 drag: 0.05
 hitSize: 9
