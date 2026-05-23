@@ -62,7 +62,7 @@ weapons: [
       lifetime: 45
       width: 18
       height: 24
-      sprite: "bomb"
+      sprite: "large-bomb-back"
       frontColor: ffc099
       backColor: eb874d
       hitEffect: massiveExplosion
