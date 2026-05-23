@@ -42,7 +42,7 @@ weapons: [
     rotateSpeed: 1.8
     mirror: false
     reload: 260
-    shootSound: rokket
+    shootSound: shoot
     shake: 5
 
     shoot: {
@@ -62,7 +62,7 @@ weapons: [
       lifetime: 45
       width: 18
       height: 24
-      sprite: "missile-large"
+      sprite: "bomb"
       frontColor: ffc099
       backColor: eb874d
       hitEffect: massiveExplosion
