@@ -23,7 +23,7 @@ weapons: [
     shootSound: artireri 
     bullet: {
       type: MissileBulletType
-      damage: 43 
+      damage: 46 
       speed: 4.5
       lifetime: 60
       width: 9
