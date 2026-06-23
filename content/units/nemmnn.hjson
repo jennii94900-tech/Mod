@@ -1,14 +1,14 @@
 type: tank
 name: "Aluminum Fortress"
 description: "A heavy siege fortress. Protected by a persistent energy shield. Crushes or ignores buildings in its path."
-speed: 0.28
-health: 5200
-armor: 36
-hitSize: 30
+speed: 0.27
+health: 5210
+armor: 35
+hitSize: 27
 rotateSpeed: 1.5
 faceTarget: false
 omniMovement: false
-crushDamage: 25
+crushDamage: 16
 targetAir: false
 targetGround: true
 targetUnderBlocks: true
@@ -16,9 +16,9 @@ targetUnderBlocks: true
 abilities: [
   {
     type: ForceFieldAbility
-    radius: 32
+    radius: 35
     regen: 0.8
-    max: 1500
+    max: 1800
     cooldown: 300
   }
 ]
@@ -54,15 +54,15 @@ weapons: [
     bullet: {
       type: ArtilleryBulletType
       speed: 4
-      damage: 250
-      splashDamage: 55
-      splashDamageRadius: 50
+      damage: 240
+      splashDamage: 50
+      splashDamageRadius: 45
       collides: true 
       collidesTiles: false
       lifetime: 45
       width: 18
       height: 24
-      sprite: "large-bomb-back"
+      sprite: "large-bomb"
       frontColor: ffc099
       backColor: eb874d
       hitEffect: massiveExplosion
@@ -74,7 +74,7 @@ weapons: [
 research: {
   parent: "ochpoch-mob-payk"
   requirements: [
-    ochpoch-mob-refined-aluminum/5000
-    ochpoch-mob-obsidian/1350
+    ochpoch-mob-refined-aluminum/4500
+    ochpoch-mob-obsidian/1230
   ]
 }
