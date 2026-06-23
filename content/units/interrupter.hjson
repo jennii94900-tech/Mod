@@ -5,8 +5,8 @@ speed: 0.5
 drag: 0.4
 accel: 0.5
 rotateSpeed: 4
-health: 1190
-armor: 17
+health: 1250
+armor: 18
 canBoost: true
 boostMultiplier: 1.7
 engineSize: 3
@@ -20,11 +20,11 @@ weapons: [
     mirror: true      
     x: 5              
     y: 0
-    reload: 10
+    reload: 17
     shootSound: gun
     bullet: {
       type: LightningBulletType
-      damage: 25
+      damage: 28
       lightningLength: 25
       lightningDamage: 15
       lightningColor: 00f2ff
