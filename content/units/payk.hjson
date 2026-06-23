@@ -2,7 +2,7 @@ type: tank
 name: "Aluminum Bastion"
 description: "A specialized mobile launcher. Fires powerful 'Rage' missiles over long distances."
 speed: 0.36
-health: 1430
+health: 1500
 armor: 18
 hitSize: 20
 rotateSpeed: 2.3
